@@ -1,0 +1,5844 @@
+{
+  "key": "4",
+  "title": "Vattendragstemperatur: Välj station (sedan tidsutsnitt)",
+  "summary": "",
+  "unit": "°C",
+  "link": [
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4.json",
+      "rel": "parameter",
+      "type": "application/json"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4.xml",
+      "rel": "parameter",
+      "type": "application/xml"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4.atom",
+      "rel": "parameter",
+      "type": "application/atom+xml"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/metadata.json",
+      "rel": "metadata",
+      "type": "application/json"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/metadata.xml",
+      "rel": "metadata",
+      "type": "application/xml"
+    }
+  ],
+  "stationSet": [],
+  "station": [
+    {
+      "key": "80057",
+      "updated": 189122400000,
+      "title": "Vattendragstemperatur - ALBY KRV TEMP",
+      "summary": "Latitud: 62.4917 Longitud: 15.4780",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80057.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80057.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80057.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ALBY KRV TEMP",
+      "id": 80057,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 157932000000,
+      "to": 189122400000,
+      "latitude": 62.4917,
+      "longitude": 15.478,
+      "region": 1
+    },
+    {
+      "key": "80214",
+      "updated": 880840800000,
+      "title": "Vattendragstemperatur - ALFREDSHEMS PUMPSTN TEMP",
+      "summary": "Latitud: 63.2686 Longitud: 18.6926",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80214.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80214.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80214.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ALFREDSHEMS PUMPSTN TEMP",
+      "id": 80214,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205020000000,
+      "to": 880840800000,
+      "latitude": 63.2686,
+      "longitude": 18.6926,
+      "region": 1
+    },
+    {
+      "key": "80199",
+      "updated": 376351200000,
+      "title": "Vattendragstemperatur - ALLGUNNEN TEMP",
+      "summary": "Latitud: 57.2421 Longitud: 14.5854",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80199.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80199.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80199.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ALLGUNNEN TEMP",
+      "id": 80199,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 376351200000,
+      "latitude": 57.2421,
+      "longitude": 14.5854,
+      "region": 1
+    },
+    {
+      "key": "80149",
+      "updated": 538956000000,
+      "title": "Vattendragstemperatur - ANUNDSJÖ KRV TEMP",
+      "summary": "Latitud: 63.4244 Longitud: 18.3824",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80149.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80149.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80149.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ANUNDSJÖ KRV TEMP",
+      "id": 80149,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -465184800000,
+      "to": 538956000000,
+      "latitude": 63.4244,
+      "longitude": 18.3824,
+      "region": 1
+    },
+    {
+      "key": "80285",
+      "updated": 935100000000,
+      "title": "Vattendragstemperatur - ARÖDÅN TEMP",
+      "summary": "Latitud: 58.2444 Longitud: 11.9348",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80285.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80285.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80285.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ARÖDÅN TEMP",
+      "id": 80285,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 581810400000,
+      "to": 935100000000,
+      "latitude": 58.2444,
+      "longitude": 11.9348,
+      "region": 1
+    },
+    {
+      "key": "80287",
+      "updated": 698450400000,
+      "title": "Vattendragstemperatur - ASSMEBRO TEMP",
+      "summary": "Latitud: 57.4329 Longitud: 13.1325",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80287.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80287.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80287.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ASSMEBRO TEMP",
+      "id": 80287,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 624060000000,
+      "to": 698450400000,
+      "latitude": 57.4329,
+      "longitude": 13.1325,
+      "region": 1
+    },
+    {
+      "key": "80157",
+      "updated": 812325600000,
+      "title": "Vattendragstemperatur - BERGEFORSENS KRV TEMP",
+      "summary": "Latitud: 62.5197 Longitud: 17.3874",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80157.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80157.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80157.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BERGEFORSENS KRV TEMP",
+      "id": 80157,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 157759200000,
+      "to": 812325600000,
+      "latitude": 62.5197,
+      "longitude": 17.3874,
+      "region": 1
+    },
+    {
+      "key": "80270",
+      "updated": 723852000000,
+      "title": "Vattendragstemperatur - BERGSBRON-HAVETS KRV TEMP",
+      "summary": "Latitud: 58.5890 Longitud: 16.1833",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80270.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80270.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80270.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BERGSBRON-HAVETS KRV TEMP",
+      "id": 80270,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 281311200000,
+      "to": 723852000000,
+      "latitude": 58.589,
+      "longitude": 16.1833,
+      "region": 1
+    },
+    {
+      "key": "80230",
+      "updated": 559951200000,
+      "title": "Vattendragstemperatur - BERGVIKS KRV TEMP",
+      "summary": "Latitud: 61.2587 Longitud: 16.8335",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80230.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80230.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80230.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BERGVIKS KRV TEMP",
+      "id": 80230,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 157759200000,
+      "to": 559951200000,
+      "latitude": 61.2587,
+      "longitude": 16.8335,
+      "region": 1
+    },
+    {
+      "key": "80277",
+      "updated": 1037743200000,
+      "title": "Vattendragstemperatur - BIVARÖDSMÖLLA TEMP",
+      "summary": "Latitud: 56.1789 Longitud: 14.1616",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80277.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80277.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80277.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BIVARÖDSMÖLLA TEMP",
+      "id": 80277,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 580428000000,
+      "to": 1037743200000,
+      "latitude": 56.1789,
+      "longitude": 14.1616,
+      "region": 1
+    },
+    {
+      "key": "80232",
+      "updated": 544140000000,
+      "title": "Vattendragstemperatur - BJURFORS ÖVRE KRV TEMP",
+      "summary": "Latitud: 64.1562 Longitud: 19.5037",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80232.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80232.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80232.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BJURFORS ÖVRE KRV TEMP",
+      "id": 80232,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205020000000,
+      "to": 544140000000,
+      "latitude": 64.1562,
+      "longitude": 19.5037,
+      "region": 1
+    },
+    {
+      "key": "80080",
+      "updated": 6645600000,
+      "title": "Vattendragstemperatur - BLÅSJÖN  KRV TEMP",
+      "summary": "Latitud: 64.6983 Longitud: 14.2004",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80080.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80080.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80080.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BLÅSJÖN  KRV TEMP",
+      "id": 80080,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -557460000000,
+      "to": 6645600000,
+      "latitude": 64.6983,
+      "longitude": 14.2004,
+      "region": 1
+    },
+    {
+      "key": "80079",
+      "updated": -24112800000,
+      "title": "Vattendragstemperatur - BLÅSJÖNS KRV UTLOPP TEMP",
+      "summary": "Latitud: 64.6744 Longitud: 14.0850",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80079.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80079.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80079.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BLÅSJÖNS KRV UTLOPP TEMP",
+      "id": 80079,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -557460000000,
+      "to": -24112800000,
+      "latitude": 64.6744,
+      "longitude": 14.085,
+      "region": 1
+    },
+    {
+      "key": "80261",
+      "updated": 851896800000,
+      "title": "Vattendragstemperatur - BODENS KRV TEMP",
+      "summary": "Latitud: 65.8076 Longitud: 21.6705",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80261.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80261.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80261.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BODENS KRV TEMP",
+      "id": 80261,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 60040800000,
+      "to": 851896800000,
+      "latitude": 65.8076,
+      "longitude": 21.6705,
+      "region": 1
+    },
+    {
+      "key": "80247",
+      "updated": 131234400000,
+      "title": "Vattendragstemperatur - BODENS V-VERK INTAG TEMP",
+      "summary": "Latitud: 65.8330 Longitud: 21.6135",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80247.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80247.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80247.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BODENS V-VERK INTAG TEMP",
+      "id": 80247,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -218512800000,
+      "to": 131234400000,
+      "latitude": 65.833,
+      "longitude": 21.6135,
+      "region": 1
+    },
+    {
+      "key": "80246",
+      "updated": 538956000000,
+      "title": "Vattendragstemperatur - BORGFORSENS KRV TEMP",
+      "summary": "Latitud: 63.9552 Longitud: 16.3712",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80246.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80246.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80246.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BORGFORSENS KRV TEMP",
+      "id": 80246,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205020000000,
+      "to": 538956000000,
+      "latitude": 63.9552,
+      "longitude": 16.3712,
+      "region": 1
+    },
+    {
+      "key": "80115",
+      "updated": 454716000000,
+      "title": "Vattendragstemperatur - BOXHOLMS BRUK TEMP",
+      "summary": "Latitud: 58.1963 Longitud: 16.7347",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80115.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80115.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80115.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BOXHOLMS BRUK TEMP",
+      "id": 80115,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 454716000000,
+      "latitude": 58.1963,
+      "longitude": 16.7347,
+      "region": 1
+    },
+    {
+      "key": "80298",
+      "updated": 1035756000000,
+      "title": "Vattendragstemperatur - BRUSAFORS TEMP",
+      "summary": "Latitud: 57.6181 Longitud: 15.5730",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80298.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80298.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80298.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BRUSAFORS TEMP",
+      "id": 80298,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 616629600000,
+      "to": 1035756000000,
+      "latitude": 57.6181,
+      "longitude": 15.573,
+      "region": 1
+    },
+    {
+      "key": "80637",
+      "updated": 788738400000,
+      "title": "Vattendragstemperatur - BÅLFORSENS KRV TEMP",
+      "summary": "Latitud: 64.6543 Longitud: 18.4876",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80637.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80637.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80637.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BÅLFORSENS KRV TEMP",
+      "id": 80637,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -341632800000,
+      "to": 788738400000,
+      "latitude": 64.6543,
+      "longitude": 18.4876,
+      "region": 1
+    },
+    {
+      "key": "80194",
+      "updated": 328053600000,
+      "title": "Vattendragstemperatur - BÅVEN TEMP",
+      "summary": "Latitud: 58.9509 Longitud: 16.8827",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80194.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80194.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80194.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BÅVEN TEMP",
+      "id": 80194,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218584800000,
+      "to": 328053600000,
+      "latitude": 58.9509,
+      "longitude": 16.8827,
+      "region": 1
+    },
+    {
+      "key": "80292",
+      "updated": 867880800000,
+      "title": "Vattendragstemperatur - DALKARLSÅ TEMP",
+      "summary": "Latitud: 64.0372 Longitud: 20.8508",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80292.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80292.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80292.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "DALKARLSÅ TEMP",
+      "id": 80292,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 672098400000,
+      "to": 867880800000,
+      "latitude": 64.0372,
+      "longitude": 20.8508,
+      "region": 1
+    },
+    {
+      "key": "80131",
+      "updated": 1020117600000,
+      "title": "Vattendragstemperatur - DEJEFORS KRV TEMP",
+      "summary": "Latitud: 59.6075 Longitud: 13.4761",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80131.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80131.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80131.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "DEJEFORS KRV TEMP",
+      "id": 80131,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -480132000000,
+      "to": 1020117600000,
+      "latitude": 59.6075,
+      "longitude": 13.4761,
+      "region": 1
+    },
+    {
+      "key": "80093",
+      "updated": 539042400000,
+      "title": "Vattendragstemperatur - DÖNJE KRV TEMP",
+      "summary": "Latitud: 61.3971 Longitud: 16.4032",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80093.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80093.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80093.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "DÖNJE KRV TEMP",
+      "id": 80093,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 539042400000,
+      "latitude": 61.3971,
+      "longitude": 16.4032,
+      "region": 1
+    },
+    {
+      "key": "80027",
+      "updated": 539042400000,
+      "title": "Vattendragstemperatur - EDSELE KRV TEMP",
+      "summary": "Latitud: 63.4053 Longitud: 16.5555",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80027.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80027.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80027.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "EDSELE KRV TEMP",
+      "id": 80027,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -687751200000,
+      "to": 539042400000,
+      "latitude": 63.4053,
+      "longitude": 16.5555,
+      "region": 1
+    },
+    {
+      "key": "80084",
+      "updated": 862437600000,
+      "title": "Vattendragstemperatur - EDSFORSENS KRV TEMP",
+      "summary": "Latitud: 60.0651 Longitud: 13.5256",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80084.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80084.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80084.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "EDSFORSENS KRV TEMP",
+      "id": 80084,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -549597600000,
+      "to": 862437600000,
+      "latitude": 60.0651,
+      "longitude": 13.5256,
+      "region": 1
+    },
+    {
+      "key": "80279",
+      "updated": 1036620000000,
+      "title": "Vattendragstemperatur - ELLINGE TEMP",
+      "summary": "Latitud: 55.8096 Longitud: 13.2823",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80279.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80279.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80279.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ELLINGE TEMP",
+      "id": 80279,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 530834400000,
+      "to": 1036620000000,
+      "latitude": 55.8096,
+      "longitude": 13.2823,
+      "region": 1
+    },
+    {
+      "key": "80294",
+      "updated": 1052085600000,
+      "title": "Vattendragstemperatur - ERSBO TEMP",
+      "summary": "Latitud: 61.3095 Longitud: 13.0081",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80294.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80294.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80294.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ERSBO TEMP",
+      "id": 80294,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 622245600000,
+      "to": 1052085600000,
+      "latitude": 61.3095,
+      "longitude": 13.0081,
+      "region": 1
+    },
+    {
+      "key": "80126",
+      "updated": 844034400000,
+      "title": "Vattendragstemperatur - FALKENBERGS KRV TEMP",
+      "summary": "Latitud: 56.9008 Longitud: 12.5221",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80126.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80126.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80126.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "FALKENBERGS KRV TEMP",
+      "id": 80126,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -481341600000,
+      "to": 844034400000,
+      "latitude": 56.9008,
+      "longitude": 12.5221,
+      "region": 1
+    },
+    {
+      "key": "80081",
+      "updated": 541375200000,
+      "title": "Vattendragstemperatur - FINNFORS KRV TEMP",
+      "summary": "Latitud: 64.7912 Longitud: 20.3362",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80081.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80081.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80081.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "FINNFORS KRV TEMP",
+      "id": 80081,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -504928800000,
+      "to": 541375200000,
+      "latitude": 64.7912,
+      "longitude": 20.3362,
+      "region": 1
+    },
+    {
+      "key": "80263",
+      "updated": 533512800000,
+      "title": "Vattendragstemperatur - FLÅSJÖ KRV TEMP",
+      "summary": "Latitud: 62.7637 Longitud: 13.7238",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80263.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80263.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80263.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "FLÅSJÖ KRV TEMP",
+      "id": 80263,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 228693600000,
+      "to": 533512800000,
+      "latitude": 62.7637,
+      "longitude": 13.7238,
+      "region": 1
+    },
+    {
+      "key": "80151",
+      "updated": 536277600000,
+      "title": "Vattendragstemperatur - FORSHULTS KRV TEMP",
+      "summary": "Latitud: 59.9561 Longitud: 13.5251",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80151.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80151.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80151.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "FORSHULTS KRV TEMP",
+      "id": 80151,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 536277600000,
+      "latitude": 59.9561,
+      "longitude": 13.5251,
+      "region": 1
+    },
+    {
+      "key": "80049",
+      "updated": 536364000000,
+      "title": "Vattendragstemperatur - FORSHUVUDS KRV TEMP",
+      "summary": "Latitud: 60.5353 Longitud: 15.4204",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80049.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80049.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80049.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "FORSHUVUDS KRV TEMP",
+      "id": 80049,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 536364000000,
+      "latitude": 60.5353,
+      "longitude": 15.4204,
+      "region": 1
+    },
+    {
+      "key": "80044",
+      "updated": 546645600000,
+      "title": "Vattendragstemperatur - FORSMO KRV TEMP",
+      "summary": "Latitud: 63.2717 Longitud: 17.1995",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80044.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80044.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80044.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "FORSMO KRV TEMP",
+      "id": 80044,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -635133600000,
+      "to": 546645600000,
+      "latitude": 63.2717,
+      "longitude": 17.1995,
+      "region": 1
+    },
+    {
+      "key": "80034",
+      "updated": 536277600000,
+      "title": "Vattendragstemperatur - FORSSE KRV TEMP",
+      "summary": "Latitud: 63.1526 Longitud: 17.0211",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80034.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80034.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80034.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "FORSSE KRV TEMP",
+      "id": 80034,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -689479200000,
+      "to": 536277600000,
+      "latitude": 63.1526,
+      "longitude": 17.0211,
+      "region": 1
+    },
+    {
+      "key": "80120",
+      "updated": 544140000000,
+      "title": "Vattendragstemperatur - FRIDAFORS KRV TEMP",
+      "summary": "Latitud: 56.4060 Longitud: 14.6641",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80120.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80120.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80120.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "FRIDAFORS KRV TEMP",
+      "id": 80120,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 544140000000,
+      "latitude": 56.406,
+      "longitude": 14.6641,
+      "region": 1
+    },
+    {
+      "key": "80243",
+      "updated": 68076000000,
+      "title": "Vattendragstemperatur - GALLEJAURE KRV TEMP",
+      "summary": "Latitud: 65.1268 Longitud: 19.4692",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80243.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80243.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80243.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GALLEJAURE KRV TEMP",
+      "id": 80243,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -159588000000,
+      "to": 68076000000,
+      "latitude": 65.1268,
+      "longitude": 19.4692,
+      "region": 1
+    },
+    {
+      "key": "80242",
+      "updated": 233791200000,
+      "title": "Vattendragstemperatur - GARDIKFORS KRV TEMP",
+      "summary": "Latitud: 65.4761 Longitud: 15.8569",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80242.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80242.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80242.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GARDIKFORS KRV TEMP",
+      "id": 80242,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 215647200000,
+      "to": 233791200000,
+      "latitude": 65.4761,
+      "longitude": 15.8569,
+      "region": 1
+    },
+    {
+      "key": "80182",
+      "updated": 449272800000,
+      "title": "Vattendragstemperatur - GENNE KRV TEMP",
+      "summary": "Latitud: 58.9893 Longitud: 16.1421",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80182.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80182.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80182.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GENNE KRV TEMP",
+      "id": 80182,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 449272800000,
+      "latitude": 58.9893,
+      "longitude": 16.1421,
+      "region": 1
+    },
+    {
+      "key": "80217",
+      "updated": 536364000000,
+      "title": "Vattendragstemperatur - GIDEÅBACKA KRV TEMP",
+      "summary": "Latitud: 63.4726 Longitud: 18.9918",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80217.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80217.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80217.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GIDEÅBACKA KRV TEMP",
+      "id": 80217,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205020000000,
+      "to": 536364000000,
+      "latitude": 63.4726,
+      "longitude": 18.9918,
+      "region": 1
+    },
+    {
+      "key": "80284",
+      "updated": 1010440800000,
+      "title": "Vattendragstemperatur - GREA TEMP",
+      "summary": "Latitud: 60.3465 Longitud: 12.9887",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80284.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80284.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80284.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GREA TEMP",
+      "id": 80284,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 563666400000,
+      "to": 1010440800000,
+      "latitude": 60.3465,
+      "longitude": 12.9887,
+      "region": 1
+    },
+    {
+      "key": "80258",
+      "updated": 536277600000,
+      "title": "Vattendragstemperatur - GRYTFORS KRV TEMP",
+      "summary": "Latitud: 65.2847 Longitud: 19.1687",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80258.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80258.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80258.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GRYTFORS KRV TEMP",
+      "id": 80258,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205106400000,
+      "to": 536277600000,
+      "latitude": 65.2847,
+      "longitude": 19.1687,
+      "region": 1
+    },
+    {
+      "key": "80047",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - GRÅDA KRV TEMP",
+      "summary": "Latitud: 60.6035 Longitud: 15.0143",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80047.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80047.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80047.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GRÅDA KRV TEMP",
+      "id": 80047,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -284004000000,
+      "to": 880668000000,
+      "latitude": 60.6035,
+      "longitude": 15.0143,
+      "region": 1
+    },
+    {
+      "key": "80178",
+      "updated": 878162400000,
+      "title": "Vattendragstemperatur - GULLSPÅNGS KRV TEMP",
+      "summary": "Latitud: 58.9860 Longitud: 14.1111",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80178.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80178.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80178.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GULLSPÅNGS KRV TEMP",
+      "id": 80178,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -385351200000,
+      "to": 878162400000,
+      "latitude": 58.986,
+      "longitude": 14.1111,
+      "region": 1
+    },
+    {
+      "key": "80159",
+      "updated": 854661600000,
+      "title": "Vattendragstemperatur - GULSELE KRV TEMP",
+      "summary": "Latitud: 63.8150 Longitud: 17.1243",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80159.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80159.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80159.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GULSELE KRV TEMP",
+      "id": 80159,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 854661600000,
+      "latitude": 63.815,
+      "longitude": 17.1243,
+      "region": 1
+    },
+    {
+      "key": "80016",
+      "updated": 6645600000,
+      "title": "Vattendragstemperatur - GÄDDEDEFORSEN TEMP",
+      "summary": "Latitud: 64.5026 Longitud: 14.1541",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80016.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80016.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80016.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GÄDDEDEFORSEN TEMP",
+      "id": 80016,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -718077600000,
+      "to": 6645600000,
+      "latitude": 64.5026,
+      "longitude": 14.1541,
+      "region": 1
+    },
+    {
+      "key": "80141",
+      "updated": 425599200000,
+      "title": "Vattendragstemperatur - GÖTAFORS KRV TEMP",
+      "summary": "Latitud: 57.4960 Longitud: 14.1499",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80141.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80141.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80141.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "GÖTAFORS KRV TEMP",
+      "id": 80141,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 425599200000,
+      "latitude": 57.496,
+      "longitude": 14.1499,
+      "region": 1
+    },
+    {
+      "key": "80023",
+      "updated": 988063200000,
+      "title": "Vattendragstemperatur - HAMMARFORSENS KRV TEMP",
+      "summary": "Latitud: 63.1136 Longitud: 16.3574",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80023.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80023.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80023.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HAMMARFORSENS KRV TEMP",
+      "id": 80023,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 210376800000,
+      "to": 988063200000,
+      "latitude": 63.1136,
+      "longitude": 16.3574,
+      "region": 1
+    },
+    {
+      "key": "80019",
+      "updated": 546732000000,
+      "title": "Vattendragstemperatur - HARRSELE KRV TEMP",
+      "summary": "Latitud: 64.0173 Longitud: 19.5625",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80019.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80019.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80019.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HARRSELE KRV TEMP",
+      "id": 80019,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 546732000000,
+      "latitude": 64.0173,
+      "longitude": 19.5625,
+      "region": 1
+    },
+    {
+      "key": "80265",
+      "updated": 502149600000,
+      "title": "Vattendragstemperatur - HEMSJÖ KRV TEMP",
+      "summary": "Latitud: 56.3246 Longitud: 14.7124",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80265.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80265.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80265.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HEMSJÖ KRV TEMP",
+      "id": 80265,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 152316000000,
+      "to": 502149600000,
+      "latitude": 56.3246,
+      "longitude": 14.7124,
+      "region": 1
+    },
+    {
+      "key": "80008",
+      "updated": 817509600000,
+      "title": "Vattendragstemperatur - HISSMOFORS KRV TEMP",
+      "summary": "Latitud: 63.3317 Longitud: 14.4671",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80008.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80008.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80008.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HISSMOFORS KRV TEMP",
+      "id": 80008,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -284004000000,
+      "to": 817509600000,
+      "latitude": 63.3317,
+      "longitude": 14.4671,
+      "region": 1
+    },
+    {
+      "key": "80045",
+      "updated": 549237600000,
+      "title": "Vattendragstemperatur - HJÄLTA KRV TEMP",
+      "summary": "Latitud: 63.1835 Longitud: 17.0963",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80045.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80045.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80045.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HJÄLTA KRV TEMP",
+      "id": 80045,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -634701600000,
+      "to": 549237600000,
+      "latitude": 63.1835,
+      "longitude": 17.0963,
+      "region": 1
+    },
+    {
+      "key": "80233",
+      "updated": 630972000000,
+      "title": "Vattendragstemperatur - HORNAVANS UTLOPP TEMP",
+      "summary": "Latitud: 66.0593 Longitud: 17.8727",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80233.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80233.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80233.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HORNAVANS UTLOPP TEMP",
+      "id": 80233,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 210808800000,
+      "to": 630972000000,
+      "latitude": 66.0593,
+      "longitude": 17.8727,
+      "region": 1
+    },
+    {
+      "key": "80295",
+      "updated": 1034028000000,
+      "title": "Vattendragstemperatur - HYTTINGSHEDEN TEMP",
+      "summary": "Latitud: 60.4251 Longitud: 15.2741",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80295.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80295.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80295.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HYTTINGSHEDEN TEMP",
+      "id": 80295,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 546645600000,
+      "to": 1034028000000,
+      "latitude": 60.4251,
+      "longitude": 15.2741,
+      "region": 1
+    },
+    {
+      "key": "80259",
+      "updated": 536277600000,
+      "title": "Vattendragstemperatur - HÄLLBY KRV TEMP",
+      "summary": "Latitud: 63.8851 Longitud: 17.1948",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80259.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80259.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80259.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HÄLLBY KRV TEMP",
+      "id": 80259,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205020000000,
+      "to": 536277600000,
+      "latitude": 63.8851,
+      "longitude": 17.1948,
+      "region": 1
+    },
+    {
+      "key": "80300",
+      "updated": 1052085600000,
+      "title": "Vattendragstemperatur - HÄLLERED TEMP",
+      "summary": "Latitud: 57.7884 Longitud: 12.7324",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80300.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80300.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80300.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HÄLLERED TEMP",
+      "id": 80300,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 559173600000,
+      "to": 1052085600000,
+      "latitude": 57.7884,
+      "longitude": 12.7324,
+      "region": 1
+    },
+    {
+      "key": "80204",
+      "updated": 864943200000,
+      "title": "Vattendragstemperatur - HÖLJES KRV TEMP",
+      "summary": "Latitud: 60.9512 Longitud: 12.5438",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80204.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80204.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80204.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HÖLJES KRV TEMP",
+      "id": 80204,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -321415200000,
+      "to": 864943200000,
+      "latitude": 60.9512,
+      "longitude": 12.5438,
+      "region": 1
+    },
+    {
+      "key": "80291",
+      "updated": 873583200000,
+      "title": "Vattendragstemperatur - HÖRSNE TEMP",
+      "summary": "Latitud: 57.5586 Longitud: 18.5987",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80291.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80291.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80291.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HÖRSNE TEMP",
+      "id": 80291,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 643932000000,
+      "to": 873583200000,
+      "latitude": 57.5586,
+      "longitude": 18.5987,
+      "region": 1
+    },
+    {
+      "key": "80186",
+      "updated": 378079200000,
+      "title": "Vattendragstemperatur - IVÖSJÖN TEMP",
+      "summary": "Latitud: 56.0713 Longitud: 14.4611",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80186.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80186.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80186.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "IVÖSJÖN TEMP",
+      "id": 80186,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218325600000,
+      "to": 378079200000,
+      "latitude": 56.0713,
+      "longitude": 14.4611,
+      "region": 1
+    },
+    {
+      "key": "80025",
+      "updated": 6559200000,
+      "title": "Vattendragstemperatur - JUNSTERFORSEN TEMP",
+      "summary": "Latitud: 64.5618 Longitud: 14.1325",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80025.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80025.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80025.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "JUNSTERFORSEN TEMP",
+      "id": 80025,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -749613600000,
+      "to": 6559200000,
+      "latitude": 64.5618,
+      "longitude": 14.1325,
+      "region": 1
+    },
+    {
+      "key": "80203",
+      "updated": 533685600000,
+      "title": "Vattendragstemperatur - JÄRKVISSLE KRV TEMP",
+      "summary": "Latitud: 62.7977 Longitud: 16.6635",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80203.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80203.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80203.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "JÄRKVISSLE KRV TEMP",
+      "id": 80203,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205020000000,
+      "to": 533685600000,
+      "latitude": 62.7977,
+      "longitude": 16.6635,
+      "region": 1
+    },
+    {
+      "key": "80269",
+      "updated": 499557600000,
+      "title": "Vattendragstemperatur - JÄRNVÄGSFORSENS KRV TEMP",
+      "summary": "Latitud: 62.4900 Longitud: 15.4784",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80269.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80269.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80269.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "JÄRNVÄGSFORSENS KRV TEMP",
+      "id": 80269,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 215647200000,
+      "to": 499557600000,
+      "latitude": 62.49,
+      "longitude": 15.4784,
+      "region": 1
+    },
+    {
+      "key": "80066",
+      "updated": 538956000000,
+      "title": "Vattendragstemperatur - JÖSSEFORSENS KRV TEMP",
+      "summary": "Latitud: 59.6753 Longitud: 12.4741",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80066.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80066.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80066.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "JÖSSEFORSENS KRV TEMP",
+      "id": 80066,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -598932000000,
+      "to": 538956000000,
+      "latitude": 59.6753,
+      "longitude": 12.4741,
+      "region": 1
+    },
+    {
+      "key": "80256",
+      "updated": 449445600000,
+      "title": "Vattendragstemperatur - KALLINGE KRV TEMP",
+      "summary": "Latitud: 56.2128 Longitud: 15.2786",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80256.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80256.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80256.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KALLINGE KRV TEMP",
+      "id": 80256,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 139788000000,
+      "to": 449445600000,
+      "latitude": 56.2128,
+      "longitude": 15.2786,
+      "region": 1
+    },
+    {
+      "key": "80213",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - KARLSBORGS BRUK TEMP",
+      "summary": "Latitud: 65.8400 Longitud: 23.1733",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80213.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80213.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80213.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KARLSBORGS BRUK TEMP",
+      "id": 80213,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205365600000,
+      "to": 880668000000,
+      "latitude": 65.84,
+      "longitude": 23.1733,
+      "region": 1
+    },
+    {
+      "key": "80148",
+      "updated": 835653600000,
+      "title": "Vattendragstemperatur - KARSEFORS KRV TEMP",
+      "summary": "Latitud: 56.4994 Longitud: 13.1086",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80148.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80148.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80148.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KARSEFORS KRV TEMP",
+      "id": 80148,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -470023200000,
+      "to": 835653600000,
+      "latitude": 56.4994,
+      "longitude": 13.1086,
+      "region": 1
+    },
+    {
+      "key": "81604",
+      "updated": 1019858400000,
+      "title": "Vattendragstemperatur - KENGISBRUKS KRV TEMP",
+      "summary": "Latitud: 67.1926 Longitud: 23.5091",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/81604.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/81604.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/81604.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KENGISBRUKS KRV TEMP",
+      "id": 81604,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -339386400000,
+      "to": 1019858400000,
+      "latitude": 67.1926,
+      "longitude": 23.5091,
+      "region": 1
+    },
+    {
+      "key": "80166",
+      "updated": 538956000000,
+      "title": "Vattendragstemperatur - KILFORSENS KRV TEMP",
+      "summary": "Latitud: 63.4540 Longitud: 16.7548",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80166.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80166.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80166.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KILFORSENS KRV TEMP",
+      "id": 80166,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205106400000,
+      "to": 538956000000,
+      "latitude": 63.454,
+      "longitude": 16.7548,
+      "region": 1
+    },
+    {
+      "key": "80137",
+      "updated": 820188000000,
+      "title": "Vattendragstemperatur - KLIPPANS BRUK TEMP",
+      "summary": "Latitud: 56.1209 Longitud: 13.1423",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80137.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80137.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80137.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KLIPPANS BRUK TEMP",
+      "id": 80137,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 820188000000,
+      "latitude": 56.1209,
+      "longitude": 13.1423,
+      "region": 1
+    },
+    {
+      "key": "80224",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - KORSSELBRÄNNA KRV TEMP",
+      "summary": "Latitud: 64.4639 Longitud: 15.5150",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80224.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80224.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80224.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KORSSELBRÄNNA KRV TEMP",
+      "id": 80224,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 199749600000,
+      "to": 880668000000,
+      "latitude": 64.4639,
+      "longitude": 15.515,
+      "region": 1
+    },
+    {
+      "key": "80152",
+      "updated": 538956000000,
+      "title": "Vattendragstemperatur - KRAKERUDS KRV TEMP",
+      "summary": "Latitud: 59.9798 Longitud: 13.5655",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80152.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80152.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80152.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KRAKERUDS KRV TEMP",
+      "id": 80152,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 538956000000,
+      "latitude": 59.9798,
+      "longitude": 13.5655,
+      "region": 1
+    },
+    {
+      "key": "80290",
+      "updated": 1034546400000,
+      "title": "Vattendragstemperatur - KROKBRÄCKE TEMP",
+      "summary": "Latitud: 58.6258 Longitud: 11.3579",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80290.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80290.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80290.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KROKBRÄCKE TEMP",
+      "id": 80290,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 643845600000,
+      "to": 1034546400000,
+      "latitude": 58.6258,
+      "longitude": 11.3579,
+      "region": 1
+    },
+    {
+      "key": "80286",
+      "updated": 860104800000,
+      "title": "Vattendragstemperatur - KROKFORS KVARN TEMP",
+      "summary": "Latitud: 58.7811 Longitud: 11.8156",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80286.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80286.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80286.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KROKFORS KVARN TEMP",
+      "id": 80286,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 581724000000,
+      "to": 860104800000,
+      "latitude": 58.7811,
+      "longitude": 11.8156,
+      "region": 1
+    },
+    {
+      "key": "80020",
+      "updated": 533685600000,
+      "title": "Vattendragstemperatur - KRÅNGEDE KRV TEMP",
+      "summary": "Latitud: 63.1463 Longitud: 16.0712",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80020.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80020.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80020.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KRÅNGEDE KRV TEMP",
+      "id": 80020,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 533685600000,
+      "latitude": 63.1463,
+      "longitude": 16.0712,
+      "region": 1
+    },
+    {
+      "key": "81609",
+      "updated": 877903200000,
+      "title": "Vattendragstemperatur - KUKKOLAFORSEN TEMP",
+      "summary": "Latitud: 65.9615 Longitud: 24.0427",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/81609.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/81609.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/81609.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KUKKOLAFORSEN TEMP",
+      "id": 81609,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 210808800000,
+      "to": 877903200000,
+      "latitude": 65.9615,
+      "longitude": 24.0427,
+      "region": 1
+    },
+    {
+      "key": "80122",
+      "updated": 770248800000,
+      "title": "Vattendragstemperatur - KUNGSFORS KRV TEMP",
+      "summary": "Latitud: 57.4848 Longitud: 12.6737",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80122.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80122.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80122.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KUNGSFORS KRV TEMP",
+      "id": 80122,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218671200000,
+      "to": 770248800000,
+      "latitude": 57.4848,
+      "longitude": 12.6737,
+      "region": 1
+    },
+    {
+      "key": "80257",
+      "updated": 876866400000,
+      "title": "Vattendragstemperatur - KVARNFALLETS KRV TEMP",
+      "summary": "Latitud: 63.9613 Longitud: 14.0740",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80257.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80257.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80257.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KVARNFALLETS KRV TEMP",
+      "id": 80257,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 207784800000,
+      "to": 876866400000,
+      "latitude": 63.9613,
+      "longitude": 14.074,
+      "region": 1
+    },
+    {
+      "key": "80283",
+      "updated": 886802400000,
+      "title": "Vattendragstemperatur - KVARNTORP TEMP",
+      "summary": "Latitud: 59.5569 Longitud: 13.1353",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80283.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80283.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80283.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KVARNTORP TEMP",
+      "id": 80283,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 555112800000,
+      "to": 886802400000,
+      "latitude": 59.5569,
+      "longitude": 13.1353,
+      "region": 1
+    },
+    {
+      "key": "80234",
+      "updated": 880408800000,
+      "title": "Vattendragstemperatur - KVISTFORSENS KRV TEMP",
+      "summary": "Latitud: 64.7445 Longitud: 20.8633",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80234.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80234.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80234.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KVISTFORSENS KRV TEMP",
+      "id": 80234,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -244260000000,
+      "to": 880408800000,
+      "latitude": 64.7445,
+      "longitude": 20.8633,
+      "region": 1
+    },
+    {
+      "key": "80001",
+      "updated": 849045600000,
+      "title": "Vattendragstemperatur - KVITSLEBRON TEMP",
+      "summary": "Latitud: 63.2726 Longitud: 13.9018",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80001.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80001.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80001.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KVITSLEBRON TEMP",
+      "id": 80001,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 849045600000,
+      "latitude": 63.2726,
+      "longitude": 13.9018,
+      "region": 1
+    },
+    {
+      "key": "80299",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - KÄLLSTORP 2 TEMP",
+      "summary": "Latitud: 56.6963 Longitud: 16.1387",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80299.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80299.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80299.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "KÄLLSTORP 2 TEMP",
+      "id": 80299,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 616629600000,
+      "to": 880668000000,
+      "latitude": 56.6963,
+      "longitude": 16.1387,
+      "region": 1
+    },
+    {
+      "key": "80094",
+      "updated": 1000850400000,
+      "title": "Vattendragstemperatur - LAFORSENS KRV TEMP",
+      "summary": "Latitud: 61.9440 Longitud: 15.4974",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80094.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80094.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80094.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LAFORSENS KRV TEMP",
+      "id": 80094,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -520826400000,
+      "to": 1000850400000,
+      "latitude": 61.944,
+      "longitude": 15.4974,
+      "region": 1
+    },
+    {
+      "key": "80170",
+      "updated": 536277600000,
+      "title": "Vattendragstemperatur - LASELE KRV TEMP",
+      "summary": "Latitud: 63.5558 Longitud: 16.8252",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80170.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80170.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80170.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LASELE KRV TEMP",
+      "id": 80170,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 202514400000,
+      "to": 536277600000,
+      "latitude": 63.5558,
+      "longitude": 16.8252,
+      "region": 1
+    },
+    {
+      "key": "80235",
+      "updated": 880322400000,
+      "title": "Vattendragstemperatur - LAXEDE KRV TEMP",
+      "summary": "Latitud: 66.2238 Longitud: 20.8605",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80235.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80235.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80235.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LAXEDE KRV TEMP",
+      "id": 80235,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -223956000000,
+      "to": 880322400000,
+      "latitude": 66.2238,
+      "longitude": 20.8605,
+      "region": 1
+    },
+    {
+      "key": "80143",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - LENNARTSFORS KRV TEMP",
+      "summary": "Latitud: 59.3174 Longitud: 11.9018",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80143.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80143.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80143.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LENNARTSFORS KRV TEMP",
+      "id": 80143,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -476071200000,
+      "to": 880668000000,
+      "latitude": 59.3174,
+      "longitude": 11.9018,
+      "region": 1
+    },
+    {
+      "key": "80250",
+      "updated": 233877600000,
+      "title": "Vattendragstemperatur - LETSI KRV TEMP",
+      "summary": "Latitud: 66.5036 Longitud: 20.3806",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80250.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80250.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80250.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LETSI KRV TEMP",
+      "id": 80250,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 105141600000,
+      "to": 233877600000,
+      "latitude": 66.5036,
+      "longitude": 20.3806,
+      "region": 1
+    },
+    {
+      "key": "80125",
+      "updated": 488757600000,
+      "title": "Vattendragstemperatur - LILLA EDETS KRV TEMP",
+      "summary": "Latitud: 58.1366 Longitud: 12.1203",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80125.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80125.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80125.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LILLA EDETS KRV TEMP",
+      "id": 80125,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 488757600000,
+      "latitude": 58.1366,
+      "longitude": 12.1203,
+      "region": 1
+    },
+    {
+      "key": "80091",
+      "updated": 336348000000,
+      "title": "Vattendragstemperatur - LINVASSELVS KRV TEMP",
+      "summary": "Latitud: 64.6453 Longitud: 13.7584",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80091.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80091.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80091.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LINVASSELVS KRV TEMP",
+      "id": 80091,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 333928800000,
+      "to": 336348000000,
+      "latitude": 64.6453,
+      "longitude": 13.7584,
+      "region": 1
+    },
+    {
+      "key": "80289",
+      "updated": 805672800000,
+      "title": "Vattendragstemperatur - LISSBRO TEMP",
+      "summary": "Latitud: 56.8240 Longitud: 14.5295",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80289.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80289.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80289.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LISSBRO TEMP",
+      "id": 80289,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 642204000000,
+      "to": 805672800000,
+      "latitude": 56.824,
+      "longitude": 14.5295,
+      "region": 1
+    },
+    {
+      "key": "80058",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - LJUNGA KRV TEMP",
+      "summary": "Latitud: 62.5023 Longitud: 16.0197",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80058.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80058.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80058.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LJUNGA KRV TEMP",
+      "id": 80058,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 120175200000,
+      "to": 880668000000,
+      "latitude": 62.5023,
+      "longitude": 16.0197,
+      "region": 1
+    },
+    {
+      "key": "80096",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - LJUSNESTRÖMMARS KRV TEMP",
+      "summary": "Latitud: 61.2123 Longitud: 17.0804",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80096.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80096.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80096.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LJUSNESTRÖMMARS KRV TEMP",
+      "id": 80096,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -527565600000,
+      "to": 880668000000,
+      "latitude": 61.2123,
+      "longitude": 17.0804,
+      "region": 1
+    },
+    {
+      "key": "80177",
+      "updated": 662508000000,
+      "title": "Vattendragstemperatur - LUDVIKA KRV TEMP",
+      "summary": "Latitud: 60.1561 Longitud: 15.1933",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80177.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80177.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80177.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LUDVIKA KRV TEMP",
+      "id": 80177,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 662508000000,
+      "latitude": 60.1561,
+      "longitude": 15.1933,
+      "region": 1
+    },
+    {
+      "key": "80156",
+      "updated": 512604000000,
+      "title": "Vattendragstemperatur - LÄRJEHOLM TEMP",
+      "summary": "Latitud: 57.7605 Longitud: 12.0053",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80156.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80156.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80156.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LÄRJEHOLM TEMP",
+      "id": 80156,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 512604000000,
+      "latitude": 57.7605,
+      "longitude": 12.0053,
+      "region": 1
+    },
+    {
+      "key": "80085",
+      "updated": 420328800000,
+      "title": "Vattendragstemperatur - LÅNGFORS KRV TEMP",
+      "summary": "Latitud: 63.5475 Longitud: 14.2850",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80085.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80085.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80085.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LÅNGFORS KRV TEMP",
+      "id": 80085,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 420328800000,
+      "latitude": 63.5475,
+      "longitude": 14.285,
+      "region": 1
+    },
+    {
+      "key": "80051",
+      "updated": 833493600000,
+      "title": "Vattendragstemperatur - LÅNGHAGS KRV TEMP",
+      "summary": "Latitud: 60.3959 Longitud: 15.7132",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80051.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80051.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80051.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LÅNGHAGS KRV TEMP",
+      "id": 80051,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 833493600000,
+      "latitude": 60.3959,
+      "longitude": 15.7132,
+      "region": 1
+    },
+    {
+      "key": "80221",
+      "updated": 503272800000,
+      "title": "Vattendragstemperatur - LÅNGSTRÖMMENS KRV TEMP",
+      "summary": "Latitud: 62.0920 Longitud: 14.9842",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80221.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80221.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80221.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LÅNGSTRÖMMENS KRV TEMP",
+      "id": 80221,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 186616800000,
+      "to": 503272800000,
+      "latitude": 62.092,
+      "longitude": 14.9842,
+      "region": 1
+    },
+    {
+      "key": "80262",
+      "updated": 453160800000,
+      "title": "Vattendragstemperatur - LÅNGÅ KRV TEMP",
+      "summary": "Latitud: 62.5221 Longitud: 13.1050",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80262.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80262.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80262.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LÅNGÅ KRV TEMP",
+      "id": 80262,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 215647200000,
+      "to": 453160800000,
+      "latitude": 62.5221,
+      "longitude": 13.105,
+      "region": 1
+    },
+    {
+      "key": "80033",
+      "updated": 118188000000,
+      "title": "Vattendragstemperatur - LÖVÖNS KRV TEMP",
+      "summary": "Latitud: 63.7903 Longitud: 15.5898",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80033.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80033.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80033.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LÖVÖNS KRV TEMP",
+      "id": 80033,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -689565600000,
+      "to": 118188000000,
+      "latitude": 63.7903,
+      "longitude": 15.5898,
+      "region": 1
+    },
+    {
+      "key": "80264",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - LÖVÖNS NYA KRV TEMP",
+      "summary": "Latitud: 63.7880 Longitud: 15.5963",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80264.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80264.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80264.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "LÖVÖNS NYA KRV TEMP",
+      "id": 80264,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 128124000000,
+      "to": 880668000000,
+      "latitude": 63.788,
+      "longitude": 15.5963,
+      "region": 1
+    },
+    {
+      "key": "80114",
+      "updated": 442015200000,
+      "title": "Vattendragstemperatur - MALFORS KRV TEMP",
+      "summary": "Latitud: 58.5152 Longitud: 15.4987",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80114.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80114.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80114.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MALFORS KRV TEMP",
+      "id": 80114,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 442015200000,
+      "latitude": 58.5152,
+      "longitude": 15.4987,
+      "region": 1
+    },
+    {
+      "key": "80004",
+      "updated": 536191200000,
+      "title": "Vattendragstemperatur - MIDSKOGSFORSENS KRV TEMP",
+      "summary": "Latitud: 63.2395 Longitud: 15.2359",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80004.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80004.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80004.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MIDSKOGSFORSENS KRV TEMP",
+      "id": 80004,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 536191200000,
+      "latitude": 63.2395,
+      "longitude": 15.2359,
+      "region": 1
+    },
+    {
+      "key": "80052",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - MOCKFJÄRDS KRV TEMP",
+      "summary": "Latitud: 60.4834 Longitud: 14.8979",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80052.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80052.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80052.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MOCKFJÄRDS KRV TEMP",
+      "id": 80052,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 880668000000,
+      "latitude": 60.4834,
+      "longitude": 14.8979,
+      "region": 1
+    },
+    {
+      "key": "80134",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - MOTALA KRV TEMP",
+      "summary": "Latitud: 58.5470 Longitud: 15.0717",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80134.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80134.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80134.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MOTALA KRV TEMP",
+      "id": 80134,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 880668000000,
+      "latitude": 58.547,
+      "longitude": 15.0717,
+      "region": 1
+    },
+    {
+      "key": "80129",
+      "updated": 867621600000,
+      "title": "Vattendragstemperatur - MUNKEDALS BRUK TEMP",
+      "summary": "Latitud: 58.4808 Longitud: 11.6922",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80129.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80129.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80129.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MUNKEDALS BRUK TEMP",
+      "id": 80129,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -481341600000,
+      "to": 867621600000,
+      "latitude": 58.4808,
+      "longitude": 11.6922,
+      "region": 1
+    },
+    {
+      "key": "80119",
+      "updated": 539042400000,
+      "title": "Vattendragstemperatur - MUNKFORS KRV TEMP",
+      "summary": "Latitud: 59.8473 Longitud: 13.5388",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80119.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80119.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80119.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MUNKFORS KRV TEMP",
+      "id": 80119,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 539042400000,
+      "latitude": 59.8473,
+      "longitude": 13.5388,
+      "region": 1
+    },
+    {
+      "key": "80053",
+      "updated": 539042400000,
+      "title": "Vattendragstemperatur - MÅNSBO KRV TEMP",
+      "summary": "Latitud: 60.1510 Longitud: 16.1706",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80053.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80053.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80053.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MÅNSBO KRV TEMP",
+      "id": 80053,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 539042400000,
+      "latitude": 60.151,
+      "longitude": 16.1706,
+      "region": 1
+    },
+    {
+      "key": "80271",
+      "updated": 972943200000,
+      "title": "Vattendragstemperatur - MÖRRUMS LAXODLING TEMP",
+      "summary": "Latitud: 56.1928 Longitud: 14.7482",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80271.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80271.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80271.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MÖRRUMS LAXODLING TEMP",
+      "id": 80271,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 502668000000,
+      "to": 972943200000,
+      "latitude": 56.1928,
+      "longitude": 14.7482,
+      "region": 1
+    },
+    {
+      "key": "80054",
+      "updated": 877644000000,
+      "title": "Vattendragstemperatur - MÖRSILS KRV TEMP",
+      "summary": "Latitud: 63.2967 Longitud: 13.6868",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80054.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80054.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80054.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MÖRSILS KRV TEMP",
+      "id": 80054,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 877644000000,
+      "latitude": 63.2967,
+      "longitude": 13.6868,
+      "region": 1
+    },
+    {
+      "key": "80013",
+      "updated": 539042400000,
+      "title": "Vattendragstemperatur - NEDEREDE KRV TEMP",
+      "summary": "Latitud: 62.4178 Longitud: 16.4968",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80013.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80013.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80013.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "NEDEREDE KRV TEMP",
+      "id": 80013,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 157759200000,
+      "to": 539042400000,
+      "latitude": 62.4178,
+      "longitude": 16.4968,
+      "region": 1
+    },
+    {
+      "key": "80124",
+      "updated": 502063200000,
+      "title": "Vattendragstemperatur - NISSASTRÖMS KRV TEMP",
+      "summary": "Latitud: 56.8413 Longitud: 13.0070",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80124.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80124.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80124.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "NISSASTRÖMS KRV TEMP",
+      "id": 80124,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -482292000000,
+      "to": 502063200000,
+      "latitude": 56.8413,
+      "longitude": 13.007,
+      "region": 1
+    },
+    {
+      "key": "80297",
+      "updated": 1039644000000,
+      "title": "Vattendragstemperatur - NOLSJÖN NEDRE TEMP",
+      "summary": "Latitud: 58.7924 Longitud: 14.3050",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80297.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80297.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80297.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "NOLSJÖN NEDRE TEMP",
+      "id": 80297,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 525909600000,
+      "to": 1039644000000,
+      "latitude": 58.7924,
+      "longitude": 14.305,
+      "region": 1
+    },
+    {
+      "key": "80301",
+      "updated": 870040800000,
+      "title": "Vattendragstemperatur - NORDMARK 2 TEMP",
+      "summary": "Latitud: 59.8453 Longitud: 14.0744",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80301.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80301.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80301.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "NORDMARK 2 TEMP",
+      "id": 80301,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 616629600000,
+      "to": 870040800000,
+      "latitude": 59.8453,
+      "longitude": 14.0744,
+      "region": 1
+    },
+    {
+      "key": "80241",
+      "updated": 538956000000,
+      "title": "Vattendragstemperatur - NORRÄNGE KRV TEMP",
+      "summary": "Latitud: 61.4772 Longitud: 16.3901",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80241.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80241.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80241.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "NORRÄNGE KRV TEMP",
+      "id": 80241,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 538956000000,
+      "latitude": 61.4772,
+      "longitude": 16.3901,
+      "region": 1
+    },
+    {
+      "key": "80046",
+      "updated": 546472800000,
+      "title": "Vattendragstemperatur - NÄSAFORSENS KRV TEMP",
+      "summary": "Latitud: 63.6516 Longitud: 14.6762",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80046.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80046.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80046.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "NÄSAFORSENS KRV TEMP",
+      "id": 80046,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 210376800000,
+      "to": 546472800000,
+      "latitude": 63.6516,
+      "longitude": 14.6762,
+      "region": 1
+    },
+    {
+      "key": "80117",
+      "updated": 823039200000,
+      "title": "Vattendragstemperatur - ODENSFORS KRV TEMP",
+      "summary": "Latitud: 58.4440 Longitud: 15.4593",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80117.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80117.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80117.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ODENSFORS KRV TEMP",
+      "id": 80117,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -284004000000,
+      "to": 823039200000,
+      "latitude": 58.444,
+      "longitude": 15.4593,
+      "region": 1
+    },
+    {
+      "key": "80123",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - OHS KRV TEMP",
+      "summary": "Latitud: 56.8374 Longitud: 14.5817",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80123.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80123.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80123.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "OHS KRV TEMP",
+      "id": 80123,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -482292000000,
+      "to": 880668000000,
+      "latitude": 56.8374,
+      "longitude": 14.5817,
+      "region": 1
+    },
+    {
+      "key": "80219",
+      "updated": 539042400000,
+      "title": "Vattendragstemperatur - PARTEBODA KRV TEMP",
+      "summary": "Latitud: 62.5175 Longitud: 15.6913",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80219.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80219.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80219.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "PARTEBODA KRV TEMP",
+      "id": 80219,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 539042400000,
+      "latitude": 62.5175,
+      "longitude": 15.6913,
+      "region": 1
+    },
+    {
+      "key": "80281",
+      "updated": 1035324000000,
+      "title": "Vattendragstemperatur - PEPPARFORSEN TEMP",
+      "summary": "Latitud: 57.0967 Longitud: 12.6737",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80281.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80281.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80281.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "PEPPARFORSEN TEMP",
+      "id": 80281,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 550879200000,
+      "to": 1035324000000,
+      "latitude": 57.0967,
+      "longitude": 12.6737,
+      "region": 1
+    },
+    {
+      "key": "80003",
+      "updated": 880668000000,
+      "title": "Vattendragstemperatur - PORJUS KRV TEMP",
+      "summary": "Latitud: 66.9552 Longitud: 19.7908",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80003.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80003.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80003.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "PORJUS KRV TEMP",
+      "id": 80003,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 230853600000,
+      "to": 880668000000,
+      "latitude": 66.9552,
+      "longitude": 19.7908,
+      "region": 1
+    },
+    {
+      "key": "80202",
+      "updated": 538956000000,
+      "title": "Vattendragstemperatur - PORSI KRV TEMP",
+      "summary": "Latitud: 66.4294 Longitud: 20.6535",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80202.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80202.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80202.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "PORSI KRV TEMP",
+      "id": 80202,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -323575200000,
+      "to": 538956000000,
+      "latitude": 66.4294,
+      "longitude": 20.6535,
+      "region": 1
+    },
+    {
+      "key": "80189",
+      "updated": 5004000000,
+      "title": "Vattendragstemperatur - RAMSELE KRV TEMP",
+      "summary": "Latitud: 63.5828 Longitud: 16.3110",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80189.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80189.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80189.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "RAMSELE KRV TEMP",
+      "id": 80189,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -349149600000,
+      "to": 5004000000,
+      "latitude": 63.5828,
+      "longitude": 16.311,
+      "region": 1
+    },
+    {
+      "key": "80275",
+      "updated": 1046642400000,
+      "title": "Vattendragstemperatur - RANSTA TEMP",
+      "summary": "Latitud: 59.7579 Longitud: 17.3933",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80275.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80275.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80275.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "RANSTA TEMP",
+      "id": 80275,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 580946400000,
+      "to": 1046642400000,
+      "latitude": 59.7579,
+      "longitude": 17.3933,
+      "region": 1
+    },
+    {
+      "key": "80216",
+      "updated": 701906400000,
+      "title": "Vattendragstemperatur - ROBERTSFORS KRV TEMP",
+      "summary": "Latitud: 64.1934 Longitud: 20.8399",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80216.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80216.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80216.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ROBERTSFORS KRV TEMP",
+      "id": 80216,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 210376800000,
+      "to": 701906400000,
+      "latitude": 64.1934,
+      "longitude": 20.8399,
+      "region": 1
+    },
+    {
+      "key": "80215",
+      "updated": 1020117600000,
+      "title": "Vattendragstemperatur - RUNDVIKSVERKEN TEMP",
+      "summary": "Latitud: 63.5526 Longitud: 19.4158",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80215.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80215.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80215.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "RUNDVIKSVERKEN TEMP",
+      "id": 80215,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -223437600000,
+      "to": 1020117600000,
+      "latitude": 63.5526,
+      "longitude": 19.4158,
+      "region": 1
+    },
+    {
+      "key": "80272",
+      "updated": 879976800000,
+      "title": "Vattendragstemperatur - RYTTARBACKEN TEMP",
+      "summary": "Latitud: 58.4883 Longitud: 15.9951",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80272.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80272.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80272.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "RYTTARBACKEN TEMP",
+      "id": 80272,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 507333600000,
+      "to": 879976800000,
+      "latitude": 58.4883,
+      "longitude": 15.9951,
+      "region": 1
+    },
+    {
+      "key": "80255",
+      "updated": 801784800000,
+      "title": "Vattendragstemperatur - RÄTANS KRV TEMP",
+      "summary": "Latitud: 62.4864 Longitud: 14.6256",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80255.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80255.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80255.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "RÄTANS KRV TEMP",
+      "id": 80255,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 139269600000,
+      "to": 801784800000,
+      "latitude": 62.4864,
+      "longitude": 14.6256,
+      "region": 1
+    },
+    {
+      "key": "80507",
+      "updated": 1019599200000,
+      "title": "Vattendragstemperatur - SAGGATFORSEN TEMP",
+      "summary": "Latitud: 66.8744 Longitud: 18.2387",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80507.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80507.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80507.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SAGGATFORSEN TEMP",
+      "id": 80507,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 210376800000,
+      "to": 1019599200000,
+      "latitude": 66.8744,
+      "longitude": 18.2387,
+      "region": 1
+    },
+    {
+      "key": "80296",
+      "updated": 1037052000000,
+      "title": "Vattendragstemperatur - SAXBRO TEMP",
+      "summary": "Latitud: 59.1161 Longitud: 17.8055",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80296.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80296.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80296.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SAXBRO TEMP",
+      "id": 80296,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 672271200000,
+      "to": 1037052000000,
+      "latitude": 59.1161,
+      "longitude": 17.8055,
+      "region": 1
+    },
+    {
+      "key": "80587",
+      "updated": 859500000000,
+      "title": "Vattendragstemperatur - SIKFORS KRV TEMP",
+      "summary": "Latitud: 65.5328 Longitud: 21.2088",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80587.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80587.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80587.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SIKFORS KRV TEMP",
+      "id": 80587,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -299901600000,
+      "to": 859500000000,
+      "latitude": 65.5328,
+      "longitude": 21.2088,
+      "region": 1
+    },
+    {
+      "key": "80509",
+      "updated": 393890400000,
+      "title": "Vattendragstemperatur - SKALKAS UTLOPP TEMP",
+      "summary": "Latitud: 66.7980 Longitud: 19.0649",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80509.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80509.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80509.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SKALKAS UTLOPP TEMP",
+      "id": 80509,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 211240800000,
+      "to": 393890400000,
+      "latitude": 66.798,
+      "longitude": 19.0649,
+      "region": 1
+    },
+    {
+      "key": "80064",
+      "updated": 880322400000,
+      "title": "Vattendragstemperatur - SKALLBÖLE KRV TEMP",
+      "summary": "Latitud: 62.3636 Longitud: 16.9619",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80064.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80064.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80064.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SKALLBÖLE KRV TEMP",
+      "id": 80064,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -599623200000,
+      "to": 880322400000,
+      "latitude": 62.3636,
+      "longitude": 16.9619,
+      "region": 1
+    },
+    {
+      "key": "80147",
+      "updated": 252367200000,
+      "title": "Vattendragstemperatur - SKEENS KRV TEMP",
+      "summary": "Latitud: 56.7589 Longitud: 13.6754",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80147.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80147.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80147.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SKEENS KRV TEMP",
+      "id": 80147,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 139528800000,
+      "to": 252367200000,
+      "latitude": 56.7589,
+      "longitude": 13.6754,
+      "region": 1
+    },
+    {
+      "key": "80293",
+      "updated": 1037743200000,
+      "title": "Vattendragstemperatur - SKOGSLIDEN TEMP",
+      "summary": "Latitud: 61.3643 Longitud: 16.9138",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80293.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80293.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80293.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SKOGSLIDEN TEMP",
+      "id": 80293,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 621468000000,
+      "to": 1037743200000,
+      "latitude": 61.3643,
+      "longitude": 16.9138,
+      "region": 1
+    },
+    {
+      "key": "80268",
+      "updated": 860018400000,
+      "title": "Vattendragstemperatur - SKOGSTORPS KRV TEMP",
+      "summary": "Latitud: 59.3306 Longitud: 16.4759",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80268.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80268.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80268.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SKOGSTORPS KRV TEMP",
+      "id": 80268,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 860018400000,
+      "latitude": 59.3306,
+      "longitude": 16.4759,
+      "region": 1
+    },
+    {
+      "key": "80132",
+      "updated": 604620000000,
+      "title": "Vattendragstemperatur - SKÄRMEN VID ORMO TEMP",
+      "summary": "Latitud: 57.8651 Longitud: 11.9728",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80132.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80132.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80132.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SKÄRMEN VID ORMO TEMP",
+      "id": 80132,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -479181600000,
+      "to": 604620000000,
+      "latitude": 57.8651,
+      "longitude": 11.9728,
+      "region": 1
+    },
+    {
+      "key": "80249",
+      "updated": 1008021600000,
+      "title": "Vattendragstemperatur - SOLLEFTEÅ KRV TEMP",
+      "summary": "Latitud: 63.1719 Longitud: 17.2655",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80249.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80249.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80249.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SOLLEFTEÅ KRV TEMP",
+      "id": 80249,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -85802400000,
+      "to": 1008021600000,
+      "latitude": 63.1719,
+      "longitude": 17.2655,
+      "region": 1
+    },
+    {
+      "key": "80260",
+      "updated": 536277600000,
+      "title": "Vattendragstemperatur - SPJUTMO KRV TEMP",
+      "summary": "Latitud: 61.0837 Longitud: 14.3226",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80260.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80260.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80260.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SPJUTMO KRV TEMP",
+      "id": 80260,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 536277600000,
+      "latitude": 61.0837,
+      "longitude": 14.3226,
+      "region": 1
+    },
+    {
+      "key": "80006",
+      "updated": 538869600000,
+      "title": "Vattendragstemperatur - STADSFORSENS KRV TEMP",
+      "summary": "Latitud: 62.9784 Longitud: 16.6583",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80006.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80006.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80006.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STADSFORSENS KRV TEMP",
+      "id": 80006,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 538869600000,
+      "latitude": 62.9784,
+      "longitude": 16.6583,
+      "region": 1
+    },
+    {
+      "key": "80223",
+      "updated": 540597600000,
+      "title": "Vattendragstemperatur - STALONS KRV TEMP",
+      "summary": "Latitud: 64.9644 Longitud: 15.4347",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80223.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80223.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80223.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STALONS KRV TEMP",
+      "id": 80223,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205020000000,
+      "to": 540597600000,
+      "latitude": 64.9644,
+      "longitude": 15.4347,
+      "region": 1
+    },
+    {
+      "key": "80097",
+      "updated": 880322400000,
+      "title": "Vattendragstemperatur - STORAVANS UTLOPP TEMP",
+      "summary": "Latitud: 65.6740 Longitud: 18.1433",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80097.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80097.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80097.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STORAVANS UTLOPP TEMP",
+      "id": 80097,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218325600000,
+      "to": 880322400000,
+      "latitude": 65.674,
+      "longitude": 18.1433,
+      "region": 1
+    },
+    {
+      "key": "80099",
+      "updated": 533685600000,
+      "title": "Vattendragstemperatur - STORFINNFORSENS KRV TEMP",
+      "summary": "Latitud: 63.5991 Longitud: 16.1225",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80099.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80099.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80099.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STORFINNFORSENS KRV TEMP",
+      "id": 80099,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -634960800000,
+      "to": 533685600000,
+      "latitude": 63.5991,
+      "longitude": 16.1225,
+      "region": 1
+    },
+    {
+      "key": "80168",
+      "updated": 291247200000,
+      "title": "Vattendragstemperatur - STORJUKTANS UTLOPP TEMP",
+      "summary": "Latitud: 65.3210 Longitud: 17.3313",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80168.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80168.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80168.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STORJUKTANS UTLOPP TEMP",
+      "id": 80168,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 202514400000,
+      "to": 291247200000,
+      "latitude": 65.321,
+      "longitude": 17.3313,
+      "region": 1
+    },
+    {
+      "key": "80017",
+      "updated": 1020117600000,
+      "title": "Vattendragstemperatur - STORNORRFORS KRV TEMP",
+      "summary": "Latitud: 63.8535 Longitud: 20.0488",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80017.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80017.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80017.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STORNORRFORS KRV TEMP",
+      "id": 80017,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -699674400000,
+      "to": 1020117600000,
+      "latitude": 63.8535,
+      "longitude": 20.0488,
+      "region": 1
+    },
+    {
+      "key": "80063",
+      "updated": 932940000000,
+      "title": "Vattendragstemperatur - STORVINDELNS UTLOPP TEMP",
+      "summary": "Latitud: 65.6369 Longitud: 17.4506",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80063.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80063.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80063.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STORVINDELNS UTLOPP TEMP",
+      "id": 80063,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -283485600000,
+      "to": 932940000000,
+      "latitude": 65.6369,
+      "longitude": 17.4506,
+      "region": 1
+    },
+    {
+      "key": "80276",
+      "updated": 607989600000,
+      "title": "Vattendragstemperatur - STRÖMSBORG TEMP",
+      "summary": "Latitud: 57.0983 Longitud: 15.6599",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80276.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80276.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80276.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STRÖMSBORG TEMP",
+      "id": 80276,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 567900000000,
+      "to": 607989600000,
+      "latitude": 57.0983,
+      "longitude": 15.6599,
+      "region": 1
+    },
+    {
+      "key": "80282",
+      "updated": 1052085600000,
+      "title": "Vattendragstemperatur - SUNDSTORP TEMP",
+      "summary": "Latitud: 58.3219 Longitud: 13.0406",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80282.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80282.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80282.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SUNDSTORP TEMP",
+      "id": 80282,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 581724000000,
+      "to": 1052085600000,
+      "latitude": 58.3219,
+      "longitude": 13.0406,
+      "region": 1
+    },
+    {
+      "key": "80267",
+      "updated": 503877600000,
+      "title": "Vattendragstemperatur - SVEGS KRV TEMP",
+      "summary": "Latitud: 62.0270 Longitud: 14.2835",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80267.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80267.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80267.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SVEGS KRV TEMP",
+      "id": 80267,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205020000000,
+      "to": 503877600000,
+      "latitude": 62.027,
+      "longitude": 14.2835,
+      "region": 1
+    },
+    {
+      "key": "80248",
+      "updated": 536277600000,
+      "title": "Vattendragstemperatur - SÄLLSJÖNS KRV TEMP",
+      "summary": "Latitud: 63.2376 Longitud: 13.6939",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80248.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80248.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80248.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "SÄLLSJÖNS KRV TEMP",
+      "id": 80248,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 536277600000,
+      "latitude": 63.2376,
+      "longitude": 13.6939,
+      "region": 1
+    },
+    {
+      "key": "80011",
+      "updated": 565221600000,
+      "title": "Vattendragstemperatur - TORPSHAMMARS KRV TEMP",
+      "summary": "Latitud: 62.5094 Longitud: 16.3753",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80011.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80011.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80011.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TORPSHAMMARS KRV TEMP",
+      "id": 80011,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -577418400000,
+      "to": 565221600000,
+      "latitude": 62.5094,
+      "longitude": 16.3753,
+      "region": 1
+    },
+    {
+      "key": "80145",
+      "updated": 427500000000,
+      "title": "Vattendragstemperatur - TORSEBRO KRV TEMP",
+      "summary": "Latitud: 56.1030 Longitud: 14.1294",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80145.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80145.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80145.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TORSEBRO KRV TEMP",
+      "id": 80145,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 427500000000,
+      "latitude": 56.103,
+      "longitude": 14.1294,
+      "region": 1
+    },
+    {
+      "key": "80146",
+      "updated": 796255200000,
+      "title": "Vattendragstemperatur - TRARYDS KRV TEMP",
+      "summary": "Latitud: 56.5822 Longitud: 13.7413",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80146.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80146.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80146.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TRARYDS KRV TEMP",
+      "id": 80146,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -470541600000,
+      "to": 796255200000,
+      "latitude": 56.5822,
+      "longitude": 13.7413,
+      "region": 1
+    },
+    {
+      "key": "80130",
+      "updated": 769816800000,
+      "title": "Vattendragstemperatur - TROLLHÄTTE KRV TEMP",
+      "summary": "Latitud: 58.2840 Longitud: 12.2802",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80130.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80130.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80130.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TROLLHÄTTE KRV TEMP",
+      "id": 80130,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -480304800000,
+      "to": 769816800000,
+      "latitude": 58.284,
+      "longitude": 12.2802,
+      "region": 1
+    },
+    {
+      "key": "80172",
+      "updated": 844034400000,
+      "title": "Vattendragstemperatur - TRÄNGSLETS KRV TEMP",
+      "summary": "Latitud: 61.3814 Longitud: 13.7383",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80172.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80172.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80172.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TRÄNGSLETS KRV TEMP",
+      "id": 80172,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 844034400000,
+      "latitude": 61.3814,
+      "longitude": 13.7383,
+      "region": 1
+    },
+    {
+      "key": "80266",
+      "updated": 538956000000,
+      "title": "Vattendragstemperatur - TRÅNGFORS KRV TEMP",
+      "summary": "Latitud: 62.6722 Longitud: 14.1763",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80266.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80266.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80266.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TRÅNGFORS KRV TEMP",
+      "id": 80266,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 226015200000,
+      "to": 538956000000,
+      "latitude": 62.6722,
+      "longitude": 14.1763,
+      "region": 1
+    },
+    {
+      "key": "80153",
+      "updated": 239148000000,
+      "title": "Vattendragstemperatur - TÄNNFALLETS KRV TEMP",
+      "summary": "Latitud: 62.4939 Longitud: 12.4700",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80153.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80153.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80153.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TÄNNFALLETS KRV TEMP",
+      "id": 80153,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 239148000000,
+      "latitude": 62.4939,
+      "longitude": 12.47,
+      "region": 1
+    },
+    {
+      "key": "80042",
+      "updated": 69544800000,
+      "title": "Vattendragstemperatur - TÄXAN STAMSELEBRON TEMP",
+      "summary": "Latitud: 63.7199 Longitud: 15.8252",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80042.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80042.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80042.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TÄXAN STAMSELEBRON TEMP",
+      "id": 80042,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -633924000000,
+      "to": 69544800000,
+      "latitude": 63.7199,
+      "longitude": 15.8252,
+      "region": 1
+    },
+    {
+      "key": "80278",
+      "updated": 1022709600000,
+      "title": "Vattendragstemperatur - TÅNEMÖLLA TEMP",
+      "summary": "Latitud: 55.4497 Longitud: 13.5945",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80278.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80278.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80278.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "TÅNEMÖLLA TEMP",
+      "id": 80278,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 549496800000,
+      "to": 1022709600000,
+      "latitude": 55.4497,
+      "longitude": 13.5945,
+      "region": 1
+    },
+    {
+      "key": "80128",
+      "updated": 474069600000,
+      "title": "Vattendragstemperatur - UDDEVALLA ELVERK TEMP",
+      "summary": "Latitud: 58.3470 Longitud: 11.9424",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80128.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80128.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80128.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "UDDEVALLA ELVERK TEMP",
+      "id": 80128,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 474069600000,
+      "latitude": 58.347,
+      "longitude": 11.9424,
+      "region": 1
+    },
+    {
+      "key": "80179",
+      "updated": 820360800000,
+      "title": "Vattendragstemperatur - ULLEVADS KRV TEMP",
+      "summary": "Latitud: 58.6981 Longitud: 13.8291",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80179.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80179.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80179.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ULLEVADS KRV TEMP",
+      "id": 80179,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 817768800000,
+      "to": 820360800000,
+      "latitude": 58.6981,
+      "longitude": 13.8291,
+      "region": 1
+    },
+    {
+      "key": "80015",
+      "updated": 64015200000,
+      "title": "Vattendragstemperatur - ULRIKSFORS TEMP",
+      "summary": "Latitud: 63.8303 Longitud: 15.6104",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80015.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80015.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80015.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ULRIKSFORS TEMP",
+      "id": 80015,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -721533600000,
+      "to": 64015200000,
+      "latitude": 63.8303,
+      "longitude": 15.6104,
+      "region": 1
+    },
+    {
+      "key": "80183",
+      "updated": 825544800000,
+      "title": "Vattendragstemperatur - UMLUSPENS KRV TEMP",
+      "summary": "Latitud: 65.0955 Longitud: 17.1016",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80183.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80183.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80183.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "UMLUSPENS KRV TEMP",
+      "id": 80183,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -378698400000,
+      "to": 825544800000,
+      "latitude": 65.0955,
+      "longitude": 17.1016,
+      "region": 1
+    },
+    {
+      "key": "80070",
+      "updated": 277336800000,
+      "title": "Vattendragstemperatur - UMNÄSSJÖNS UTLOPP TEMP",
+      "summary": "Latitud: 65.4235 Longitud: 16.1715",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80070.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80070.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80070.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "UMNÄSSJÖNS UTLOPP TEMP",
+      "id": 80070,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205452000000,
+      "to": 277336800000,
+      "latitude": 65.4235,
+      "longitude": 16.1715,
+      "region": 1
+    },
+    {
+      "key": "80107",
+      "updated": 744069600000,
+      "title": "Vattendragstemperatur - UNTRA KRV TEMP",
+      "summary": "Latitud: 60.4359 Longitud: 17.3211",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80107.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80107.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80107.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "UNTRA KRV TEMP",
+      "id": 80107,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 743637600000,
+      "to": 744069600000,
+      "latitude": 60.4359,
+      "longitude": 17.3211,
+      "region": 1
+    },
+    {
+      "key": "80222",
+      "updated": 532908000000,
+      "title": "Vattendragstemperatur - VARGFORS KRV TEMP",
+      "summary": "Latitud: 65.0215 Longitud: 19.6848",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80222.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80222.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80222.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "VARGFORS KRV TEMP",
+      "id": 80222,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205106400000,
+      "to": 532908000000,
+      "latitude": 65.0215,
+      "longitude": 19.6848,
+      "region": 1
+    },
+    {
+      "key": "80133",
+      "updated": 428277600000,
+      "title": "Vattendragstemperatur - VARGÖNS KRV TEMP",
+      "summary": "Latitud: 58.3551 Longitud: 12.3749",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80133.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80133.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80133.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "VARGÖNS KRV TEMP",
+      "id": 80133,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 428277600000,
+      "latitude": 58.3551,
+      "longitude": 12.3749,
+      "region": 1
+    },
+    {
+      "key": "80012",
+      "updated": 536277600000,
+      "title": "Vattendragstemperatur - VIIFORSENS KRV TEMP",
+      "summary": "Latitud: 62.3113 Longitud: 17.1674",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80012.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80012.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80012.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "VIIFORSENS KRV TEMP",
+      "id": 80012,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 139528800000,
+      "to": 536277600000,
+      "latitude": 62.3113,
+      "longitude": 17.1674,
+      "region": 1
+    },
+    {
+      "key": "80060",
+      "updated": 406159200000,
+      "title": "Vattendragstemperatur - VINDELN TEMP",
+      "summary": "Latitud: 64.1649 Longitud: 19.6817",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80060.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80060.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80060.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "VINDELN TEMP",
+      "id": 80060,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -49860000000,
+      "to": 406159200000,
+      "latitude": 64.1649,
+      "longitude": 19.6817,
+      "region": 1
+    },
+    {
+      "key": "80150",
+      "updated": 520466400000,
+      "title": "Vattendragstemperatur - VISKAFORS KRV TEMP",
+      "summary": "Latitud: 57.6286 Longitud: 12.8434",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80150.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80150.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80150.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "VISKAFORS KRV TEMP",
+      "id": 80150,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 520466400000,
+      "latitude": 57.6286,
+      "longitude": 12.8434,
+      "region": 1
+    },
+    {
+      "key": "80176",
+      "updated": 880840800000,
+      "title": "Vattendragstemperatur - VÄSTERKVARNS KRV TEMP",
+      "summary": "Latitud: 59.5465 Longitud: 16.2544",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80176.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80176.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80176.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "VÄSTERKVARNS KRV TEMP",
+      "id": 80176,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -385437600000,
+      "to": 880840800000,
+      "latitude": 59.5465,
+      "longitude": 16.2544,
+      "region": 1
+    },
+    {
+      "key": "80109",
+      "updated": 1019167200000,
+      "title": "Vattendragstemperatur - ÄLVKARLEBY KRV TEMP",
+      "summary": "Latitud: 60.5609 Longitud: 17.4421",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80109.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80109.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80109.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ÄLVKARLEBY KRV TEMP",
+      "id": 80109,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": -500436000000,
+      "to": 1019167200000,
+      "latitude": 60.5609,
+      "longitude": 17.4421,
+      "region": 1
+    },
+    {
+      "key": "80190",
+      "updated": 538869600000,
+      "title": "Vattendragstemperatur - ÄNGABÄCKS KRV TEMP",
+      "summary": "Latitud: 56.4943 Longitud: 13.5085",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80190.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80190.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80190.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ÄNGABÄCKS KRV TEMP",
+      "id": 80190,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 538869600000,
+      "latitude": 56.4943,
+      "longitude": 13.5085,
+      "region": 1
+    },
+    {
+      "key": "80280",
+      "updated": 785023200000,
+      "title": "Vattendragstemperatur - ÄRRARP TEMP",
+      "summary": "Latitud: 56.2770 Longitud: 12.8569",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80280.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80280.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80280.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ÄRRARP TEMP",
+      "id": 80280,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 580428000000,
+      "to": 785023200000,
+      "latitude": 56.277,
+      "longitude": 12.8569,
+      "region": 1
+    },
+    {
+      "key": "80144",
+      "updated": 880495200000,
+      "title": "Vattendragstemperatur - ÅBY KRV TEMP",
+      "summary": "Latitud: 56.9139 Longitud: 14.0122",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80144.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80144.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80144.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ÅBY KRV TEMP",
+      "id": 80144,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218239200000,
+      "to": 880495200000,
+      "latitude": 56.9139,
+      "longitude": 14.0122,
+      "region": 1
+    },
+    {
+      "key": "80274",
+      "updated": 1024178400000,
+      "title": "Vattendragstemperatur - ÅKESTA KVARN TEMP",
+      "summary": "Latitud: 59.6732 Longitud: 16.4692",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80274.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80274.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80274.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ÅKESTA KVARN TEMP",
+      "id": 80274,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 555717600000,
+      "to": 1024178400000,
+      "latitude": 59.6732,
+      "longitude": 16.4692,
+      "region": 1
+    },
+    {
+      "key": "80196",
+      "updated": 880495200000,
+      "title": "Vattendragstemperatur - ÅSBRO TEMP",
+      "summary": "Latitud: 57.2394 Longitud: 12.3086",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80196.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80196.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80196.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ÅSBRO TEMP",
+      "id": 80196,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 218671200000,
+      "to": 880495200000,
+      "latitude": 57.2394,
+      "longitude": 12.3086,
+      "region": 1
+    },
+    {
+      "key": "80072",
+      "updated": 277423200000,
+      "title": "Vattendragstemperatur - ÖVERUMANS UTLOPP TEMP",
+      "summary": "Latitud: 65.9548 Longitud: 15.0211",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80072.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80072.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80072.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ÖVERUMANS UTLOPP TEMP",
+      "id": 80072,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 205452000000,
+      "to": 277423200000,
+      "latitude": 65.9548,
+      "longitude": 15.0211,
+      "region": 1
+    },
+    {
+      "key": "80288",
+      "updated": 649288800000,
+      "title": "Vattendragstemperatur - ÖVRE ABISKOJOKK TEMP",
+      "summary": "Latitud: 68.3617 Longitud: 18.7876",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80288.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80288.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/4/station/80288.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "ÖVRE ABISKOJOKK TEMP",
+      "id": 80288,
+      "owner": null,
+      "measuringStations": "ADDITIONAL",
+      "active": false,
+      "from": 643240800000,
+      "to": 649288800000,
+      "latitude": 68.3617,
+      "longitude": 18.7876,
+      "region": 1
+    }
+  ]
+}

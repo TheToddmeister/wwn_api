@@ -1,0 +1,175 @@
+{
+  "currentLink": "https://hydapi.nve.no/api/v1/observations?",
+  "apiVersion": "1.0",
+  "license": "https://data.norge.no/nlod/en",
+  "createdAt": "2023-10-11T07:36:55.6819033Z",
+  "queryTime": "00:00:00.0318966",
+  "itemCount": 3,
+  "data": [
+    {
+      "stationId": "12.209.0",
+      "stationName": "Urula",
+      "parameter": 1000,
+      "parameterName": "Vannstand",
+      "parameterNameEng": "Stage",
+      "serieVersionNo": 1,
+      "method": "Mean",
+      "unit": "m",
+      "observationCount": 7,
+      "observations": [
+        {
+          "time": "2000-01-01T11:00:00Z",
+          "value": 218.45,
+          "correction": 2,
+          "quality": 3
+        },
+        {
+          "time": "2000-01-02T11:00:00Z",
+          "value": 218.44,
+          "correction": 2,
+          "quality": 3
+        },
+        {
+          "time": "2000-01-03T11:00:00Z",
+          "value": 218.44,
+          "correction": 2,
+          "quality": 3
+        },
+        {
+          "time": "2000-01-04T11:00:00Z",
+          "value": 218.44,
+          "correction": 2,
+          "quality": 3
+        },
+        {
+          "time": "2000-01-05T11:00:00Z",
+          "value": 218.43,
+          "correction": 2,
+          "quality": 3
+        },
+        {
+          "time": "2000-01-06T11:00:00Z",
+          "value": 218.43,
+          "correction": 2,
+          "quality": 3
+        },
+        {
+          "time": "2000-01-07T11:00:00Z",
+          "value": 218.42,
+          "correction": 2,
+          "quality": 3
+        }
+      ]
+    },
+    {
+      "stationId": "12.209.0",
+      "stationName": "Urula",
+      "parameter": 1000,
+      "parameterName": "Vannstand",
+      "parameterNameEng": "Stage",
+      "serieVersionNo": 1,
+      "method": "Mean",
+      "unit": "m",
+      "observationCount": 7,
+      "observations": [
+        {
+          "time": "2001-01-01T11:00:00Z",
+          "value": 219.2367,
+          "correction": 1,
+          "quality": 3
+        },
+        {
+          "time": "2001-01-02T11:00:00Z",
+          "value": 219.23,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2001-01-03T11:00:00Z",
+          "value": 219.27,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2001-01-04T11:00:00Z",
+          "value": 219.26,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2001-01-05T11:00:00Z",
+          "value": 219.26,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2001-01-06T11:00:00Z",
+          "value": 219.23,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2001-01-07T11:00:00Z",
+          "value": 219.25,
+          "correction": 0,
+          "quality": 3
+        }
+      ]
+    },
+    {
+      "stationId": "12.209.0",
+      "stationName": "Urula",
+      "parameter": 1000,
+      "parameterName": "Vannstand",
+      "parameterNameEng": "Stage",
+      "serieVersionNo": 1,
+      "method": "Mean",
+      "unit": "m",
+      "observationCount": 7,
+      "observations": [
+        {
+          "time": "2002-01-01T11:00:00Z",
+          "value": 218.4549,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2002-01-02T11:00:00Z",
+          "value": 218.407,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2002-01-03T11:00:00Z",
+          "value": 218.3925,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2002-01-04T11:00:00Z",
+          "value": 218.5758,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2002-01-05T11:00:00Z",
+          "value": 218.4218,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2002-01-06T11:00:00Z",
+          "value": 218.1727,
+          "correction": 0,
+          "quality": 3
+        },
+        {
+          "time": "2002-01-07T11:00:00Z",
+          "value": 218.0627,
+          "correction": 0,
+          "quality": 3
+        }
+      ]
+    }
+  ]
+}

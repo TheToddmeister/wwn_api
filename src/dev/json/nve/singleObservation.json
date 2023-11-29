@@ -1,0 +1,29 @@
+{
+  "currentLink": "https://hydapi.nve.no/api/v1/Observations?StationId=6.10.0&Parameter=1000&ResolutionTime=0%20",
+  "apiVersion": "1.0",
+  "license": "https://data.norge.no/nlod/en",
+  "createdAt": "2023-02-11T18:29:02.6797432Z",
+  "queryTime": "00:00:00.0063035",
+  "itemCount": 1,
+  "data": [
+    {
+      "stationId": "6.10.0",
+      "stationName": "Gryta",
+      "parameter": 1000,
+      "parameterName": "Vannstand",
+      "parameterNameEng": "Stage",
+      "serieVersionNo": 1,
+      "method": "Instantaneous",
+      "unit": "m",
+      "observationCount": 1,
+      "observations": [
+        {
+          "time": "2023-02-11T18:00:00Z",
+          "value": 0.253,
+          "correction": 0,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

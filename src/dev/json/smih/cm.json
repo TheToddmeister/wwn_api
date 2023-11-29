@@ -1,0 +1,234 @@
+{
+  "key": "3",
+  "title": "Vattenstånd: Välj station (sedan tidsutsnitt)",
+  "summary": "",
+  "unit": "cm",
+  "link": [
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3.json",
+      "rel": "parameter",
+      "type": "application/json"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3.xml",
+      "rel": "parameter",
+      "type": "application/xml"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3.atom",
+      "rel": "parameter",
+      "type": "application/atom+xml"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/metadata.json",
+      "rel": "metadata",
+      "type": "application/json"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/metadata.xml",
+      "rel": "metadata",
+      "type": "application/xml"
+    }
+  ],
+  "stationSet": [],
+  "station": [
+    {
+      "key": "1906",
+      "updated": 1700416800000,
+      "title": "Vattenstånd - BYRVIKSBANKEN",
+      "summary": "Latitud: 60.7618 Longitud: 14.9378",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/1906.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/1906.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/1906.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "BYRVIKSBANKEN",
+      "id": 1906,
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "active": true,
+      "from": -94701600000,
+      "to": 1700431200000,
+      "latitude": 60.7618,
+      "longitude": 14.9378,
+      "region": 53
+    },
+    {
+      "key": "20380",
+      "updated": 1700258400000,
+      "title": "Vattenstånd - HJÄLMAREN W",
+      "summary": "Latitud: 59.2716 Longitud: 16.2936",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20380.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20380.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20380.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "HJÄLMAREN W",
+      "id": 20380,
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "active": true,
+      "from": 401148000000,
+      "to": 1700258400000,
+      "latitude": 59.2716,
+      "longitude": 16.2936,
+      "region": 61
+    },
+    {
+      "key": "154",
+      "updated": 1699826400000,
+      "title": "Vattenstånd - MOTALA",
+      "summary": "Latitud: 58.5345 Longitud: 15.0419",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/154.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/154.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/154.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MOTALA",
+      "id": 154,
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "active": true,
+      "from": -3534458400000,
+      "to": 1699826400000,
+      "latitude": 58.5345,
+      "longitude": 15.0419,
+      "region": 67
+    },
+    {
+      "key": "20389",
+      "updated": 1700416800000,
+      "title": "Vattenstånd - MÄLAREN W",
+      "summary": "Latitud: 59.3284 Longitud: 18.0664",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20389.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20389.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20389.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "MÄLAREN W",
+      "id": 20389,
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "active": false,
+      "from": 1262383200000,
+      "to": 1700431200000,
+      "latitude": 59.3284,
+      "longitude": 18.0664,
+      "region": null
+    },
+    {
+      "key": "20048",
+      "updated": 1700416800000,
+      "title": "Vattenstånd - STORSJÖN JÄMTLAND",
+      "summary": "Latitud: 63.2983 Longitud: 14.4601",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20048.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20048.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20048.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "STORSJÖN JÄMTLAND",
+      "id": 20048,
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "active": true,
+      "from": -946778400000,
+      "to": 1700431200000,
+      "latitude": 63.2983,
+      "longitude": 14.4601,
+      "region": 4
+    },
+    {
+      "key": "20059",
+      "updated": 1700416800000,
+      "title": "Vattenstånd - VÄNERN (VÄNERSBORG)",
+      "summary": "Latitud: 58.3846 Longitud: 12.3208",
+      "link": [
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20059.json",
+          "rel": "station",
+          "type": "application/json"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20059.xml",
+          "rel": "station",
+          "type": "application/xml"
+        },
+        {
+          "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/3/station/20059.atom",
+          "rel": "station",
+          "type": "application/atom+xml"
+        }
+      ],
+      "name": "VÄNERN (VÄNERSBORG)",
+      "id": 20059,
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "active": true,
+      "from": -999396000000,
+      "to": 1700517600000,
+      "latitude": 58.3846,
+      "longitude": 12.3208,
+      "region": 108
+    }
+  ]
+}
