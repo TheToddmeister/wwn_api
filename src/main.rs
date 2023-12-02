@@ -8,8 +8,7 @@ async fn main() -> surrealdb::Result<()>{
     // Connect to the server
     let db = Surreal::new::<Ws>("localhost:8000").await?;
     db.use_ns("test").use_db("test").await?;
-    let db_core = 
+    let db_core =
     // Select a specific namespace / database
     Ok(())
-
 }

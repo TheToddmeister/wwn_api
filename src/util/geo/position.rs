@@ -27,4 +27,9 @@ impl Coordinates {
 
         r * c
     }
+    pub fn gmaps(&self) -> Result<Url, url::ParseError> {
+        let latitude = &self.latitude;
+        let longitude = &self.longitude;
+        url::Url::from_str((&*format!("https://maps.google.com/?q={latitude},{longitude}")))
+    }
 }

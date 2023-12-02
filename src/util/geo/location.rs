@@ -3,7 +3,7 @@ use std::str::FromStr;
 use serde::{Deserialize, Serialize};
 use url::Url;
 use crate::api::nve::station;
-use crate::util::geo::position::Position;
+use crate::util::geo::position::{Coordinates, Position};
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Location {
@@ -22,16 +22,11 @@ impl Location {
             position: Position {
                 name: daum.station_name.to_string(),
                 description: "".to_string(),
-                coordinate: haversine::Location {
+                coordinate: Coordinates {
                     latitude: daum.latitude,
                     longitude: daum.longitude,
                 },
             },
         }
-    }
-    pub fn gmaps(&self) -> Result<Url, url::ParseError> {
-        let latitude = &self.latitude;
-        let longitude = &self.longitude;
-        url::Url::from_str((&*format!("https://maps.google.com/?q={latitude},{longitude}")))
     }
 }
