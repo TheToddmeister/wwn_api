@@ -45,11 +45,11 @@ impl HistoricObservations{
 mod tests{
     use super::*;
     use tokio;
-    use crate::utils;
+    use crate::devutils;
 
     #[tokio::test]
     pub async fn test_smih_historic_data_deserialization(){
-        let csv = utils::_read_file("src/dev/json/smih/historic_corrected_data.csv").await;
+        let csv = devutils::_read_file("src/dev/json/smih/historic_corrected_data.csv").await;
         let content = HistoricObservations::from_smih_historic(&csv).await;
         let a = "";
     }

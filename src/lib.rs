@@ -1,3 +1,6 @@
 mod api;
 mod dev;
-mod utils;
+mod devutils;
+mod persistence;
+mod static_metadata;
+mod  util;

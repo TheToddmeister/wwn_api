@@ -1,29 +1,30 @@
 use chrono::{DateTime, Duration, Utc};
 use serde::{Deserialize, Serialize};
-use crate::api::geo::Geolocation;
-use crate::api::static_metadata::{Source, Nation};
+
+use crate::static_metadata::{Origin, Nation};
+use crate::util::geo::location::Location;
 use crate::api::nve;
 use crate::api::smih;
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-struct Station {
-    location: Geolocation,
-    status: bool,
-    river: String,
-    drainage_basin: Option<String>,
-    parental_hierarchy: Vec<String>,
-    parameter: Vec<Parameter>,
-    last_update: DateTime<Utc>,
-    source: Source,
-    country: Nation
+pub struct Station {
+    pub location: Location,
+    pub status: bool,
+    pub river: String,
+    pub drainage_basin: Option<String>,
+    pub parental_hierarchy: Vec<String>,
+    pub parameter: Vec<Parameter>,
+    pub last_update: DateTime<Utc>,
+    pub Origin: Origin,
+    pub country: Nation
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-struct Parameter {
-    id: i64,
-    name: String,
-    latest_observations: Vec<Observation>,
-    last_update: DateTime<Utc>,
+pub struct Parameter {
+    pub id: i64,
+    pub name: String,
+    pub latest_observations: Vec<Observation>,
+    pub last_update: DateTime<Utc>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq,  Serialize, Deserialize)]
@@ -33,7 +34,7 @@ struct Observation {
 }
 
 #[derive(Default, Debug, Clone, PartialEq,  Serialize, Deserialize)]
-struct Change{
+pub struct Change{
     in24h: Option<f64>,
     in1h: Option<f64>,
 }
