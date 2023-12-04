@@ -10,45 +10,55 @@ use crate::api::smih;
 pub struct Station {
     pub location: Location,
     pub status: bool,
-    pub river: String,
-    pub drainage_basin: Option<String>,
     pub parental_hierarchy: Vec<String>,
-    pub parameter: Vec<Parameter>,
     pub last_update: DateTime<Utc>,
-    pub Origin: Origin,
-    pub country: Nation
+    pub origin: Origin,
+    pub country: Nation,
+    pub measuring_authority_id: String,
+    pub station_type: Option<String>,
+    pub station_description: Option<String>
+}
+
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+pub struct River{
+    pub name:String,
+    pub drainage_basin: Option<String>,
+    pub tributary_hierarchy: Option<Vec<String>>,
+    pub catchment_area: Option<String>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Parameter {
+    pub station_id: String,
     pub id: i64,
     pub name: String,
     pub latest_observations: Vec<Observation>,
     pub last_update: DateTime<Utc>,
 }
 
+
 #[derive(Default, Debug, Clone, PartialEq,  Serialize, Deserialize)]
-struct Observation {
-    date: DateTime<Utc>,
-    value: f64,
+pub struct Observation {
+    pub date: DateTime<Utc>,
+    pub value: f64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq,  Serialize, Deserialize)]
 pub struct Change{
-    in24h: Option<f64>,
-    in1h: Option<f64>,
+    pub in24h: Option<f64>,
+    pub in1h: Option<f64>,
 }
 
 impl Parameter {
     pub async fn get_newest_observation(&self) -> Option<&Observation> {
         self.latest_observations.first()    }
-    async fn  get_x_minutes_older_than_newest(&self, min:i64) -> Option<Observation> {
+    pub async fn  get_x_minutes_older_than_newest(&self, min:i64) -> Option<Observation> {
         let newest = self.get_newest_observation().await?.date;
         let diff = Duration::minutes(min);
         let max_date = newest-diff;
         self.latest_observations.iter()
             .find(|p| p.date <=max_date)
-            .map(|a| a.clone())
+            .map(|a| a.to_owned())
     }
     pub async fn get_current_change(&self) -> Option<Change>{
         let newest = &self.get_newest_observation().await?;
@@ -60,6 +70,7 @@ impl Parameter {
         };
         Some(change)
     }
+
     pub fn from_smih() -> Self {
         todo!()
     }
