@@ -1,119 +1,99 @@
 use serde::{Deserialize, Serialize};
+use serde_json::Value;
 
-#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Station {
-    pub id: Option<String>,
-    pub name: Option<String>,
-    pub catchment_area: Option<String>,
-    pub grid_reference: Option<String>,
-    pub easting: Option<String>,
-    pub northing: Option<String>,
-    pub lat_long: Option<String>,
-    pub latitude: Option<String>,
-    pub longitude: Option<String>,
-    pub river: Option<String>,
-    pub location: Option<String>,
-    pub station_level: Option<String>,
-    pub measuring_authority_id: Option<String>,
-    pub measuring_authority_station_id: Option<String>,
-    pub hydrometric_area: Option<String>,
-    pub opened: Option<String>,
-    pub closed: Option<String>,
-    pub station_type: Option<String>,
-    pub bankfull_flow: Option<String>,
-    pub structurefull_flow: Option<String>,
-    pub sensitivity: Option<String>,
-    pub nrfa_mean_flow: Option<String>,
-    pub nrfa_peak_flow: Option<String>,
-    pub feh_pooling: Option<String>,
-    pub feh_qmed: Option<String>,
-    pub feh_neither: Option<String>,
-    pub nhmp: Option<String>,
-    pub benchmark: Option<String>,
-    pub live_data: Option<String>,
-    pub eflag: Option<String>,
-    pub historic_droughts: Option<String>,
-    pub marius: Option<String>,
-    pub outlook_analogues: Option<String>,
-    pub outlook_esp: Option<String>,
-    pub factors_affecting_runoff: Option<String>,
-    pub gdf_start_date: Option<String>,
-    pub gdf_end_date: Option<String>,
-    pub gdf_mean_flow: Option<String>,
-    pub gdf_min_flow: Option<String>,
-    pub gdf_first_date_of_min: Option<String>,
-    pub gdf_last_date_of_min: Option<String>,
-    pub gdf_max_flow: Option<String>,
-    pub gdf_first_date_of_max: Option<String>,
-    pub gdf_last_date_of_max: Option<String>,
-    pub gdf_q95_flow: Option<String>,
-    pub gdf_q70_flow: Option<String>,
-    pub gdf_q50_flow: Option<String>,
-    pub gdf_q10_flow: Option<String>,
-    pub gdf_q05_flow: Option<String>,
-    pub gdf_base_flow_index: Option<String>,
-    pub gdf_day_count: Option<String>,
-    pub gdf_flow_count: Option<String>,
-    pub gdf_percent_complete: Option<String>,
-    pub peak_flow_start_date: Option<String>,
-    pub peak_flow_end_date: Option<String>,
-    pub qmed: Option<String>,
-    pub minimum_altitude: Option<String>,
-    pub percentile_altitude10: Option<String>,
-    pub percentile_altitude50: Option<String>,
-    pub percentile_altitude90: Option<String>,
-    pub maximum_altitude: Option<String>,
-    pub saar_1941_1970: Option<String>,
-    pub saar_1961_1990: Option<String>,
-    pub lcm2000_woodland: Option<String>,
-    pub lcm2000_arable_horticultural: Option<String>,
-    pub lcm2000_grassland: Option<String>,
-    pub lcm2000_mountain_heath_bog: Option<String>,
-    pub lcm2000_urban: Option<String>,
-    pub lcm2007_woodland: Option<String>,
-    pub lcm2007_arable_horticultural: Option<String>,
-    pub lcm2007_grassland: Option<String>,
-    pub lcm2007_mountain_heath_bog: Option<String>,
-    pub lcm2007_urban: Option<String>,
-    pub high_perm_bedrock: Option<String>,
-    pub moderate_perm_bedrock: Option<String>,
-    pub low_perm_bedrock: Option<String>,
-    pub mixed_perm_bedrock: Option<String>,
-    pub high_perm_superficial: Option<String>,
-    pub low_perm_superficial: Option<String>,
-    pub mixed_perm_superficial: Option<String>,
-    pub propwet: Option<String>,
-    pub bfihost: Option<String>,
-    pub farl: Option<String>,
-    pub dpsbar: Option<String>,
-    pub sprhost: Option<String>,
-    pub rmed_1d: Option<String>,
-    pub rmed_2d: Option<String>,
-    pub rmed_1h: Option<String>,
-    pub ldp: Option<String>,
-    pub dplbar: Option<String>,
-    pub altbar: Option<String>,
-    pub aspbar: Option<String>,
-    pub aspvar: Option<String>,
-    pub ihdtm_height: Option<String>,
-    pub ihdtm_catchment_area: Option<String>,
-    pub mean_flood_plain_depth: Option<String>,
-    pub mean_flood_plain_location: Option<String>,
-    pub mean_flood_plain_extent: Option<String>,
-    pub urbext_1990: Option<String>,
-    pub urbconc_1990: Option<String>,
-    pub urbloc_1990: Option<String>,
-    pub urbext_2000: Option<String>,
-    pub urbconc_2000: Option<String>,
-    pub urbloc_2000: Option<String>,
-    pub peak_flow_rejected_amax_years: Option<String>,
-    pub peak_flow_rejected_periods: Option<String>,
-    pub data_summary: Option<String>,
-    pub licence_url: Option<String>,
-    pub description_summary: Option<String>,
-    pub description_general: Option<String>,
-    pub description_station_hydrometry: Option<String>,
-    pub description_flow_record: Option<String>,
-    pub description_catchment: Option<String>,
-    pub description_flow_regime: Option<String>,
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Root {
+    pub meta: Meta,
+    pub items: Vec<Item>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Meta {
+    #[serde(rename = "@id")]
+    pub id: String,
+    pub publisher: String,
+    pub license: String,
+    pub license_name: String,
+    pub comment: String,
+    pub version: String,
+    pub has_format: Vec<String>,
+    pub limit: i64,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Item {
+    #[serde(rename = "@id")]
+    pub id: String,
+    pub label: Value,
+    pub notation: String,
+    pub easting: Value,
+    pub northing: Value,
+    pub lat: Value,
+    pub long: Value,
+    #[serde(rename = "type")]
+    pub type_field: Vec<Type>,
+    pub river_name: Value,
+    pub station_guid: Value,
+    #[serde(rename = "wiskiID")]
+    pub wiski_id: Value,
+    pub date_opened: Option<String>,
+    pub observed_property: Vec<ObservedProperty>,
+    pub status: Value,
+    pub measures: Vec<Measure>,
+    pub station_reference: Value,
+    #[serde(rename = "RLOIid")]
+    pub rloiid: Value,
+    pub rloi_station_link: Value,
+    pub catchment_area: Option<f64>,
+    #[serde(rename = "nrfaStationID")]
+    pub nrfa_station_id: Option<String>,
+    #[serde(rename = "nrfaStationURL")]
+    pub nrfa_station_url: Option<String>,
+    #[serde(default)]
+    pub colocated_station: Vec<ColocatedStation>,
+    pub datum: Option<f64>,
+    pub borehole_depth: Option<f64>,
+    pub aquifer: Option<String>,
+    pub status_reason: Option<String>,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Type {
+    #[serde(rename = "@id")]
+    pub id: String,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ObservedProperty {
+    #[serde(rename = "@id")]
+    pub id: String,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Measure {
+    #[serde(rename = "@id")]
+    pub id: String,
+    pub parameter: String,
+    pub period: Option<i64>,
+    pub value_statistic: ValueStatistic,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ValueStatistic {
+    #[serde(rename = "@id")]
+    pub id: String,
+}
+
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ColocatedStation {
+    #[serde(rename = "@id")]
+    pub id: String,
 }

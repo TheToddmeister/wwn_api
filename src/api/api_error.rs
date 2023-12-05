@@ -15,7 +15,7 @@ pub enum APIError {
     Undefined(#[from] anyhow::Error)
 }
 
-pub async fn handle_http_response_not_200(origin: Origin, response: reqwest::Response)->Result<(), anyhow::Error>{
+pub async fn handle_http_response_not_200(origin: Origin, response: &reqwest::Response)->Result<(), anyhow::Error>{
     let status = &response.status();
     if !status.is_success(){
         let query = response.url().to_string();

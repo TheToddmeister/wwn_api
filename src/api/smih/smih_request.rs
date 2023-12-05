@@ -12,14 +12,14 @@ async fn request_smih_historic_data(station_id: &str, parameter: u8) -> Result<r
     let url_string = format!("https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/{parameter}/station/{station_id}/period/corrected-archive/data.csv");
     let url = url::Url::parse(&url_string).expect("Failed to parse url to string");
     let response = reqwest::get(url).await?;
-    return Ok(response);
+    Ok(response)
 }
 
 async fn request_smih_latest_observation_data(parameter_id: u8) -> Result<reqwest::Response, reqwest::Error> {
     let url_string = format!("https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/{parameter_id}/station-set/all/period/latest-hour/data.csv");
     let url = url::Url::parse(&url_string).expect("Failed to parse url to string");
     let response = reqwest::get(url).await?;
-    return Ok(response);
+    Ok(response)
 }
 
 async fn deserialize_csv_from_smih(text: &str) -> Vec<Vec<String>>{

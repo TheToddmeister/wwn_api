@@ -1,6 +1,7 @@
 use std::collections::{HashMap, HashSet};
 use chrono::Datelike;
 use crate::api::shared_api_metadata_struct::{Observation};
+use crate::api::internal_structs::DailyParameterMetaData;
 use itertools;
 use itertools::Itertools;
 use ordered_float::OrderedFloat;
@@ -9,13 +10,6 @@ async fn ordinal_span(day: &i32, delta: &i32) -> Vec<i32> {
     (-delta..*delta).map(|a| (day + a) % 365).collect()
 }
 
-pub struct DailyParameterMetaData {
-    pub ordinal: u32,
-    pub count: u32,
-    pub mean: f64,
-    pub max: Option<f64>,
-    pub min: Option<f64>
-}
 
 pub async fn calculate_daily_metadata(observations: &[Observation]) ->Vec<DailyParameterMetaData> {
     let min = 1990;

@@ -1,42 +1,25 @@
 use std::io::Split;
 use chrono::{DateTime, Utc};
+use csv_async::AsyncReaderBuilder;
+use futures::StreamExt;
 use serde::{self, Deserialize, Serialize};
+use crate::api::shared_api_metadata_struct::{};
 
-pub struct HistoricObservations{
-    query_time: DateTime<Utc>,
-    station_id: String,
-    observations: Vec<HistoricObservation>
-
-}
-//Datum (svensk sommartid);Vattenföring (Dygn);Kvalitet;;
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct HistoricObservation{
     date_time: DateTime<Utc>,
     quality: String,
     value: String
 }
-impl HistoricObservations{
-    async fn from_smih_historic(csv_str: &str, station_id: &str) -> Self {
-        let rows: Vec<&str> = csv_str.split("\n").collect();
-        let data = &rows[8..];
-        let mut observations = vec![];
-        for row in data{
-            let row_values: &[&str] = &*row.split(";").collect::<Vec<_>>();
-            let obs = HistoricObservation{
-                date_time: row_values[0].parse().unwrap(),
-                value: row_values[1].to_string(),
-                quality: row_values[2].to_string(),
-            };
-            observations.push(obs);
-        }
-        let obs = HistoricObservations{
-            query_time: Utc::now(),
-            station_id: station_id.to_string(),
-            observations
-        };
-        obs
 
+async fn deserialize_smih_station_info_text(csv_text: &str) ->Result<Vec<HistoricObservation>, Box<dyn std::error::Error>>{
+    let mut stations: Vec<HistoricObservation> = vec![];
+    let mut rdr = AsyncReaderBuilder::new().create_deserializer(csv_text.as_bytes());
+    let mut records = rdr.into_deserialize::<HistoricObservation>();
+    while let Some(record) = records.next().await {
+        stations.push(record?)
     }
-
+    Ok(stations)
 }
 
 
@@ -49,8 +32,7 @@ mod tests{
     #[tokio::test]
     pub async fn test_smih_historic_data_deserialization(){
         let csv = dev::_read_file("src/dev/json/smih/historic_corrected_data.csv").await.unwrap();
-        let content = HistoricObservations::from_smih_historic(&csv, "1111").await;
-        let a = "";
+        let content = deserialize_smih_station_info_text(&csv).await.unwrap();
 
     }
 }
