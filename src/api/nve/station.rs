@@ -1,7 +1,12 @@
 use chrono::{DateTime, Utc};
 use serde::{self, Serialize, Deserialize};
 use serde_json::{Value};
-use crate::api::serde::deserializor::{convert_slash_string_to_list, convert_aktiv_to_bool, convert_zulutime_string_to_UTC};
+use crate::api::serde::deserializor::{
+    convert_slash_string_to_list,
+    convert_aktiv_to_bool,
+    convert_zulutime_string_to_UTC,
+    convert_regulation_status};
+use crate::static_metadata::Regulation;
 
 
 pub static URL: &str = "https://hydapi.nve.no/api/v1/";
@@ -39,7 +44,7 @@ pub struct Root {
     pub data :  Vec<Daum>,
 }
 
-#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Daum {
     pub station_id :String,
@@ -118,7 +123,8 @@ pub struct Daum {
     pub remaining_area: Option<f64>,
     pub number_reservoirs: Option<i64>,
     pub first_year_regulation: Option<i64>,
-    pub catchment_reg_type_name :String,
+    #[serde(deserialize_with="convert_regulation_status")]
+    pub catchment_reg_type_name:Regulation,
     pub owner :String,
     pub q_number_of_years: Option<i64>,
     pub q_start_year: Option<i64>,
@@ -177,20 +183,15 @@ mod tests {
     use super::*;
     use serde::{self, Serialize, Deserialize};
     use tokio;
-
-    fn read_test_station(filename: &str)->String{
-        let path: String = format!("dev/json/nve/{filename}.json");
-        let json: String = std::fs::read_to_string(path).unwrap();
-        return json;
-    }
+    use crate::dev;
 
     #[tokio::test]
     async fn test_station_deserializsation(){
-        let json = read_test_station("singleStation");
+        let json = dev::_read_file("src/dev/json/nve/singleStation.json").await.unwrap();
         let root = deserialize_stations(&json).unwrap();
         let daum = &root.data[0];
         let hierarchy = &daum.hierarchy;
-        assert_eq!(hierarchy, &["Röjdan-Løvhaugsåa".to_string(), "Norsälven".to_string()].to_vec());
+        assert_eq!(hierarchy, &["röjdan-løvhaugsåa".to_string(), "norsälven".to_string()].to_vec());
         assert_eq!(daum.station_status_name, true);
     }
 }

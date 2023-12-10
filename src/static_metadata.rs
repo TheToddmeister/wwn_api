@@ -64,4 +64,22 @@ pub enum LocationType{
     TAKE_OUT,
     CAMP,
     SPOT,
+    WARNING
 }
+
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+pub enum Regulation{
+    REGULATED,
+    UNKNOWN,
+    UNREGULATED,
+
+}
+
+pub static EXTERNAL_TO_INTERNAL_REGULATION: phf::Map<&'static str, Regulation> = phf_map! {
+    "regulert m/magasinregulering" => Regulation::REGULATED,
+    "Regulert m/magasinregulering og overføringer" => Regulation::REGULATED,
+    "regulert m/magasin og uregulert restfelt" => Regulation::REGULATED,
+    "" => Regulation::UNKNOWN,
+    "Uregulert" => Regulation::UNREGULATED,
+
+};

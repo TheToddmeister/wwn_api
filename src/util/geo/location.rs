@@ -1,12 +1,12 @@
-use std::collections::HashMap;
 use std::str::FromStr;
+
 use serde::{Deserialize, Serialize};
-use url::Url;
+
 use crate::api::nve::station;
 use crate::api::uk;
 use crate::static_metadata::LocationType;
-use crate::util::geo::position::{Coordinates, Position};
 use crate::static_metadata::LocationType::*;
+use crate::util::geo::position::{Coordinates, Position};
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Location {

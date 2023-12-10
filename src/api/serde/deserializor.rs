@@ -1,6 +1,8 @@
 use chrono::{DateTime, Utc};
 use serde_json;
-use serde::{de::Error, Deserialize, Deserializer}; // 1.0.94use serde::de::{
+use serde::{de::Error, Deserialize, Deserializer};
+use crate::static_metadata;
+use crate::static_metadata::Regulation;
 
 pub  fn convert_slash_string_to_list<'de, D>(deserializer: D) -> Result<Vec<String>, D::Error>
         where
@@ -49,3 +51,16 @@ pub  fn convert_active_to_bool<'de, D>(deserializer: D) -> Result<bool, D::Error
         Ok(false)
     }
 }
+pub  fn convert_regulation_status<'de, D>(deserializer: D) -> Result<Regulation,D::Error>
+    where
+        D: Deserializer<'de>,
+{
+    let s: &str = Deserialize::deserialize(deserializer).unwrap();
+    let status = static_metadata::EXTERNAL_TO_INTERNAL_REGULATION.get(s);
+    let reg= match status {
+        Some(val)=> val,
+        None=>&static_metadata::Regulation::UNKNOWN,
+    };
+    Ok(reg.clone())
+}
+
