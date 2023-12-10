@@ -1,7 +1,7 @@
 use chrono::{DateTime, Utc};
 use serde::{self, Serialize, Deserialize};
 use serde_json::{Value};
-use crate::api::serde::deserializor::{convert_slash_string_to_list,convert_active_to_bool, convert_zulutime_string_to_UTC};
+use crate::api::serde::deserializor::{convert_slash_string_to_list, convert_aktiv_to_bool, convert_zulutime_string_to_UTC};
 
 
 pub static URL: &str = "https://hydapi.nve.no/api/v1/";
@@ -65,7 +65,7 @@ pub struct Daum {
     pub reservoir_no :String,
     pub reservoir_name :String,
     pub station_type_name :String,
-    #[serde(deserialize_with="convert_active_to_bool")]
+    #[serde(deserialize_with="convert_aktiv_to_bool")]
     pub station_status_name: bool,
     pub drainage_basin_area: Option<f64>,
     pub drainage_basin_area_norway: Option<f64>,

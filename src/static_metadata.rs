@@ -1,32 +1,40 @@
+use phf::{phf_map, PhfHash};
 use serde::{Deserialize, Serialize};
 
-pub struct ParameterMapper {
-    flow: Option<&'static str>,
-    waterlevel: Option<&'static str>,
-    temperature:  Option<&'static str>,
-    rainfall:  Option<&'static str>,
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+pub enum Parameter {
+    FLOW,
+    WATERLEVEL,
+    TEMPERATURE,
+    RAINFALL,
 }
-const UKGOV: &'static ParameterMapper = &ParameterMapper {
-    flow: Some("waterFlow"),
-    waterlevel: Some("waterLevel"),
-    temperature: Some("temperature"),
-    rainfall: Some("rainfall"),
-};
+pub struct ParameterMapper {
+    pub flow: Option<&'static str>,
+    pub waterlevel: Option<&'static str>,
+    pub temperature:  Option<&'static str>,
+    pub rainfall:  Option<&'static str>,
+}
 
-const SMIH: &'static ParameterMapper = &ParameterMapper {
+pub const SMIH: &'static ParameterMapper = &ParameterMapper {
     flow: Some("Vattenföring (15 min)"),
     waterlevel: Some("Vattenstånd"),
     temperature: Some("Vattendragstemperatur"),
     rainfall: None,
 };
 
-const NVE: &'static ParameterMapper = &ParameterMapper {
+pub const NVE: &'static ParameterMapper = &ParameterMapper {
     flow: Some("1001"),
     waterlevel: Some("1000"),
     temperature: Some("1003"),
     rainfall: Some("0"),
 };
 
+pub const UKGOV: &'static ParameterMapper = &ParameterMapper {
+    flow: Some("waterFlow"),
+    waterlevel: Some("rainWater"),
+    temperature: Some("temperature"),
+    rainfall: Some("waterLevel"),
+};
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub enum Nation{
@@ -50,6 +58,7 @@ pub enum Origin {
 }
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub enum LocationType{
+    STATION,
     PARKING,
     PUT_IN,
     TAKE_OUT,

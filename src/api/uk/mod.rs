@@ -1,4 +1,4 @@
 //https://nrfaapps.ceh.ac.uk/nrfa/nrfa-api.html#time-series-json
 pub mod station;
-mod requests;
+pub mod requests;
 pub mod observation;

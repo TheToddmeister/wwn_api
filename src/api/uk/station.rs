@@ -1,5 +1,7 @@
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
+use serde_with::{serde_as, OneOrMany, formats::PreferMany};
+use crate::api::serde::deserializor::{convert_active_to_bool};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -21,7 +23,7 @@ pub struct Meta {
     pub has_format: Vec<String>,
     pub limit: i64,
 }
-
+#[serde_as]
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Item {
@@ -31,22 +33,23 @@ pub struct Item {
     pub notation: String,
     pub easting: Value,
     pub northing: Value,
-    pub lat: Value,
-    pub long: Value,
+    pub lat: f64,
+    pub long: f64,
     #[serde(rename = "type")]
     pub type_field: Vec<Type>,
-    pub river_name: Value,
-    pub station_guid: Value,
+    #[serde_as(deserialize_as = "OneOrMany<_, PreferMany>")]
+    pub river_name: Vec<String>,
+    pub station_guid: Option<Value>,
     #[serde(rename = "wiskiID")]
-    pub wiski_id: Value,
+    pub wiski_id: Option<Value>,
     pub date_opened: Option<String>,
     pub observed_property: Vec<ObservedProperty>,
-    pub status: Value,
+    pub status: Option<Status>,
     pub measures: Vec<Measure>,
-    pub station_reference: Value,
+    pub station_reference: Option<Value>,
     #[serde(rename = "RLOIid")]
-    pub rloiid: Value,
-    pub rloi_station_link: Value,
+    pub rloiid: Option<Value>,
+    pub rloi_station_link: Option<Value>,
     pub catchment_area: Option<f64>,
     #[serde(rename = "nrfaStationID")]
     pub nrfa_station_id: Option<String>,
@@ -55,9 +58,18 @@ pub struct Item {
     #[serde(default)]
     pub colocated_station: Vec<ColocatedStation>,
     pub datum: Option<f64>,
+    #[serde(skip_serializing)]
     pub borehole_depth: Option<f64>,
     pub aquifer: Option<String>,
     pub status_reason: Option<String>,
+}
+#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Status {
+    #[serde(rename = "@id")]
+    pub id: String,
+    #[serde(deserialize_with="convert_active_to_bool")]
+    pub label: bool,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
