@@ -1,4 +1,4 @@
-use chrono::{DateTime, Utc};
+use chrono::{DateTime, NaiveDateTime, Utc};
 use serde::{Deserialize, Serialize};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -27,7 +27,7 @@ pub struct Meta {
 pub struct Item {
     pub measure: Measure,
     pub date: String,
-    pub time: DateTime<Utc>,
+    pub date_time: NaiveDateTime,
     pub value: Option<f64>,
     pub quality: String,
     pub valid: Option<String>,

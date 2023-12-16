@@ -1,15 +1,12 @@
-use reqwest::{self};
-use serde::{Serialize, Deserialize};
-use chrono::{NaiveDate, DateTime, Utc, Duration};
 use std;
-use std::cmp::max;
-use std::collections::{HashMap};
-use std::io::{Error, ErrorKind};
 
-use crate::api::nve::station;
-use crate::api::nve::observation;
+use chrono::{DateTime, Duration, Utc};
+use reqwest::{self};
+use serde::{Deserialize, Serialize};
+
 use crate::api::nve::nve_connect;
-use crate::api::nve::nve_requests::RequestToServiceError::HTTPError;
+use crate::api::nve::observation;
+use crate::api::nve::station;
 
 enum RequestToServiceError {
     HTTPError,
@@ -139,7 +136,7 @@ async fn find_highest_resolution_or_reject(station_id: &str,
     return available;
 }
 
-pub async fn reqwest_observations_using_PostToNVE_body(body: Vec<PostToNve>
+pub async fn reqwest_observations_using_post_to_nve_body(body: Vec<PostToNve>
 ) -> Result<reqwest::Response, reqwest::Error> {
     let build = nve_connect::build_nve_httpclient();
     let endpoint = "Observations?";
@@ -157,11 +154,11 @@ pub async fn reqwest_observations_using_PostToNVE_body(body: Vec<PostToNve>
 
 #[cfg(test)]
 mod Tests {
-    use std::error::Error;
-    use super::*;
     use tokio;
-    use crate::api::nve::nve_requests;
+
+    use crate::api::{internal, nve};
     use crate::api::nve::observation::deserialize_observations;
+    use crate::dev::_read_file;
 
     static YEAR: i32 = 2010;
     static MONTH: u32 = 01;
@@ -172,35 +169,39 @@ mod Tests {
     static RESOLUTION_TIME: i32 = 0;
 
 
-    fn read_test_json(filename: &str) -> String {
-        let path: String = "dev/json/nve/".to_string() + filename;
-        let json: String = std::fs::read_to_string(path).unwrap();
-        return json;
-    }
-
     #[tokio::test]
-    async fn test_deserialize_single_observations() {
-        let test = read_test_json("singleObservation.json");
-        let root = deserialize_observations(&test).unwrap();
+    async fn test_deserialize_single_stations() {
+        let test = _read_file("src/dev/json/nve/singleStation.json").await.unwrap();
+        let root = serde_json::from_str::<nve::station::Root>(&test).unwrap();
         assert_eq!(root.data.len(), 1);
-        let observation_date = root.data.get(0).unwrap().observations.get(0).unwrap().time;
+        let river_name = &root.data.get(0).unwrap().river_name;
+        let rootDate = root.query_time;
+    }
+    #[tokio::test]
+    async fn test_deserialize_all_stations() {
+        let test = _read_file("src/dev/json/nve/allStations.json").await.unwrap();
+        let root = serde_json::from_str::<nve::station::Root>(&test).unwrap();
+        let river_name = &root.data.get(0).unwrap().river_name;
         let rootDate = root.query_time;
     }
 
     #[tokio::test]
+    async fn test_deserialize_all_stations_to_internal() {
+        let test = _read_file("src/dev/json/nve/allStations.json").await.unwrap();
+        let nve_root = serde_json::from_str::<nve::station::Root>(&test).unwrap();
+        let mut internal_stations: Vec<internal::station::Station> = vec![];
+        for daum in &nve_root.data{
+            let internal = internal::station::Station::from_nve(&daum).await;
+            internal_stations.push(internal);
+        }
+
+    }
+
+    #[tokio::test]
     async fn ut_deserialize_observations() {
-        let test = read_test_json("allObservations.json");
+        let test = _read_file("src/dev/json/nve/allObservations.json").await.unwrap();
         let root = deserialize_observations(&test).unwrap();
         let data = assert_eq!(root.data.len(), 3);
     }
 
-    #[tokio::test]
-    async fn xtt_request_24H_from_observations() {
-        let response = request_nve_last_24h_observations(nve_requests::GAUGES.to_vec(), nve_requests::PARAMETER.to_vec());
-        let result = response.await.unwrap();
-        let status = &result.status();
-        let root = &result.json::<observation::Root>().await.unwrap();
-        assert_eq!(status.is_success(), true);
-        let data0 = &root.data.get(0);
-    }
 }

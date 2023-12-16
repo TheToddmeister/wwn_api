@@ -1,3 +1,4 @@
-pub mod db;
-pub mod db_structure;
-pub mod init_db;
+pub mod connection;
+pub mod tables;
+pub mod init_static_data_db;
+mod error;
