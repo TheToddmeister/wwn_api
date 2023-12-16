@@ -70,8 +70,7 @@ pub struct Daum {
     pub reservoir_no :String,
     pub reservoir_name :String,
     pub station_type_name :String,
-    #[serde(deserialize_with="convert_aktiv_to_bool")]
-    pub station_status_name: bool,
+    pub station_status_name: String,
     pub drainage_basin_area: Option<f64>,
     pub drainage_basin_area_norway: Option<f64>,
     pub gradient1085: Option<f64>,
@@ -192,6 +191,6 @@ mod tests {
         let daum = &root.data[0];
         let hierarchy = &daum.hierarchy;
         assert_eq!(hierarchy, &["röjdan-løvhaugsåa".to_string(), "norsälven".to_string()].to_vec());
-        assert_eq!(daum.station_status_name, true);
+        assert_eq!(daum.station_status_name, "Active");
     }
 }

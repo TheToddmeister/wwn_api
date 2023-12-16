@@ -1,6 +1,7 @@
 use serde::{Deserialize, Serialize};
+
 use serde_json::Value;
-use serde_with::{serde_as, OneOrMany, formats::PreferMany};
+use serde_with:: {serde_as, OneOrMany, formats::PreferMany,formats::PreferOne};
 use crate::api::serde::deserializor::{convert_active_to_bool};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -31,34 +32,50 @@ pub struct Item {
     pub id: String,
     pub label: Value,
     pub notation: String,
+    #[serde(skip)]
     pub easting: Value,
+    #[serde(skip)]
     pub northing: Value,
-    pub lat: f64,
-    pub long: f64,
+    #[serde_as(deserialize_as = "OneOrMany<_, PreferMany>")]
+    pub lat: Vec<f64>,
+    #[serde_as(deserialize_as = "OneOrMany<_, PreferMany>")]
+    pub long: Vec<f64>,
     #[serde(rename = "type")]
     pub type_field: Vec<Type>,
     #[serde_as(deserialize_as = "OneOrMany<_, PreferMany>")]
+    #[serde(default)]
     pub river_name: Vec<String>,
     pub station_guid: Option<Value>,
     #[serde(rename = "wiskiID")]
+    #[serde(skip)]
     pub wiski_id: Option<Value>,
     pub date_opened: Option<String>,
+    #[serde(skip)]
     pub observed_property: Vec<ObservedProperty>,
-    pub status: Option<Status>,
+    #[serde_as(deserialize_as = "OneOrMany<_, PreferMany>")]
+    #[serde(default)]
+    pub status: Vec<Status>,
     pub measures: Vec<Measure>,
+    #[serde(skip)]
     pub station_reference: Option<Value>,
     #[serde(rename = "RLOIid")]
+    #[serde(skip)]
     pub rloiid: Option<Value>,
+    #[serde(skip)]
     pub rloi_station_link: Option<Value>,
+    #[serde(skip)]
     pub catchment_area: Option<f64>,
     #[serde(rename = "nrfaStationID")]
+    #[serde(skip)]
     pub nrfa_station_id: Option<String>,
     #[serde(rename = "nrfaStationURL")]
+    #[serde(skip)]
     pub nrfa_station_url: Option<String>,
-    #[serde(default)]
+    #[serde(skip)]
     pub colocated_station: Vec<ColocatedStation>,
+    #[serde(skip)]
     pub datum: Option<f64>,
-    #[serde(skip_serializing)]
+    #[serde(skip)]
     pub borehole_depth: Option<f64>,
     pub aquifer: Option<String>,
     pub status_reason: Option<String>,
@@ -68,8 +85,7 @@ pub struct Item {
 pub struct Status {
     #[serde(rename = "@id")]
     pub id: String,
-    #[serde(deserialize_with="convert_active_to_bool")]
-    pub label: bool,
+    pub label: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

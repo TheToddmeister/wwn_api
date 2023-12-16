@@ -1,21 +1,16 @@
 use std::error::Error;
-use std::fmt::format;
-use anyhow::anyhow;
-use chrono::{DateTime, NaiveDate, NaiveDateTime, Utc};
-use csv_async::{AsyncReaderBuilder, StringRecord};
+
+use chrono::NaiveDate;
 use futures::StreamExt;
 use reqwest;
+
 use crate::api::api_error::{APIError, handle_http_response_not_200};
 use crate::api::uk::{observation, station};
-use crate::static_metadata::UKGOV;
 use crate::static_metadata::Origin;
-
+use crate::static_metadata::UKGOV;
 
 pub async fn request_station_info() ->Result<reqwest::Response, reqwest::Error>{
-
-    let from_string = "1993-10-19";
-    let end_string = Utc::now().naive_utc().date().to_string();
-    let url_string = "http://environment.data.gov.uk/hydrology/id/stations?status.label=Active&_limit=200000&from=".to_string()+from_string+"&to="+&*end_string;
+    let url_string = "http://environment.data.gov.uk/hydrology/id/stations?status.label=Active&_limit=200000";
     let url = url::Url::parse(&url_string).expect("Failed to parse url to string");
     let response = reqwest::get(url).await?;
     Ok(response)
@@ -42,25 +37,32 @@ pub async fn get_station_observations(station_id: &str, parameter: &'static str,
 
 #[cfg(test)]
 mod tests {
-    use chrono::serde::ts_microseconds::deserialize;
-    use super::*;
-    use crate::dev::_read_file;
-    use serde::{self, Serialize, Deserialize};
+    use serde::{self, Deserialize};
     use tokio;
 
+    use crate::api::{internal, uk};
+    use crate::dev::_read_file;
+
+    use super::*;
+
     #[tokio::test]
-    async fn test_deserialize_station_information(){
+    async fn test_deserialize_all_station_information(){
         let csv = _read_file("src/dev/json/ukgov/stationInformation.json").await.unwrap();
         let data = serde_json::from_str::<station::Root>(&csv).unwrap();
-        assert_eq!(data.items.get(0).clone().unwrap().status.clone().unwrap().label, true);
+        assert_eq!(data.items.get(0).clone().unwrap().notation, "052d0819-2a32-47df-9b99-c243c9c8235b");
     }
-
     #[tokio::test]
-    async fn test_get_station_information(){
-        let root = get_station_info().await.unwrap();
-        assert_eq!(root.items.get(0).clone().unwrap().status.clone().unwrap().label, true);
-    }
+    async fn test_deserialize_all_stations_to_internal() {
+        let test = _read_file("src/dev/json/ukgov/stationInformation.json").await.unwrap();
+        let uk_root = serde_json::from_str::<uk::station::Root>(&test).unwrap();
+        let mut internal_stations: Vec<Option<internal::station::Station>> = vec![];
+        for daum in &uk_root.items{
+            let internal = internal::station::Station::from_ukgov(&daum).await;
+            internal_stations.push(internal);
+        }
+        assert_eq!(internal_stations.len(), uk_root.items.len());
 
+    }
     #[tokio::test]
     async fn test_deserialize_station_observation(){
         let csv = _read_file("src/dev/json/ukgov/stationObservation.json").await.unwrap();

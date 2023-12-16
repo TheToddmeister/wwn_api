@@ -108,10 +108,10 @@ impl Parameter {
     ) -> Self {
         let o = station.items;
         let obs = o.iter().rev()
-            .skip_while(|d| d.time >= end_date)
-            .take_while(|p| p.time >= start_date)
+            .skip_while(|d| d.date_time >= end_date.naive_utc())
+            .take_while(|p| p.date_time >= start_date.naive_utc())
             .map(|v| Observation {
-                datetime: v.time,
+                datetime: v.date_time.and_utc(),
                 value: v.value,
                 quality: v.quality.to_string(),
             }).collect::<Vec<Observation>>();
