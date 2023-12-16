@@ -17,23 +17,31 @@ pub struct Location {
 }
 
 impl Location {
-    pub async fn location_from_uk(station: &uk::station::Item) -> Self {
+    pub async fn location_from_uk(station: &uk::station::Item) -> Option<Self> {
         let s = station;
-        Location {
-            id: s.notation.to_string(),
-            label: STATION,
-            name: s.label.to_string(),
-            position: Vec::from(
-                [
-                    Position {
-                        name: s.label.to_string(),
-                        description: "".to_string(),
-                        coordinate: Coordinates {
-                            latitude: s.lat,
-                            longitude: s.long,
-                        },
-                    }]),
+        let latlong =  [s.lat.first(), s.long.first()];
+        match latlong {
+            [Some(x), Some(y)] =>{
+                let loc = Location {
+                    id: s.notation.to_string().replace('-', "_"),
+                    label: STATION,
+                    name: s.label.to_string(),
+                    position: Vec::from(
+                        [
+                            Position {
+                                name: s.label.to_string(),
+                                description: "".to_string(),
+                                coordinate: Coordinates {
+                                    latitude: *x,
+                                    longitude: *y,
+                                },
+                            }]),
+                };
+                Some(loc)
+            },
+            _ => None
         }
+        
     }
     pub async fn location_from_nve(daum: &station::Daum) -> Self {
         Location {

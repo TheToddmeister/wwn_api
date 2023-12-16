@@ -5,7 +5,7 @@ use reqwest::Response;
 use serde::Serialize;
 use serde_json::json;
 use serde_json::value::Serializer;
-use crate::api::nve::nve_requests::{PostToNve, reqwest_observations_using_PostToNVE_body, PARAMETER};
+use crate::api::nve::nve_requests::{PostToNve, reqwest_observations_using_post_to_nve_body, PARAMETER};
 use crate::api::nve::station::{Daum, ResolutionList, SeriesList};
 use tokio;
 
@@ -25,7 +25,7 @@ pub async fn observation_data_request_scheduler(station_metadata: &station::Root
             //if !parameters.contains(&p.parameter) { continue; };
             for r in &p.resolution_list {
                 let reqwest_body = build_observation_request(s, p, r).await;
-                let response = reqwest_observations_using_PostToNVE_body(vec![reqwest_body]).await?;
+                let response = reqwest_observations_using_post_to_nve_body(vec![reqwest_body]).await?;
                 let content = response.json::<observation::Root>().await?;
                 save_observation_response(&s.station_id, &p.parameter, &r.res_time, content).await?;
             }
