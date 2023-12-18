@@ -22,7 +22,7 @@ async fn main() -> surrealdb::Result<()>{
     Ok(())
 }
 async fn static_controller(db: &Surreal<Client>)->surrealdb::Result<()>{
-    init_static_data_db::build_static_station_info_table(db).await.unwrap();
+    init_static_data_db::build_static_station_info_tables(db).await.unwrap();
     let mut stations = db.query("select * from Locations where").await?;
     
     Ok(())

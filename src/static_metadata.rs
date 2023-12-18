@@ -1,8 +1,9 @@
 use phf::{phf_map, PhfHash};
 use serde::{Deserialize, Serialize};
 
-pub const static_stations_nve: [&str; 11] =  ["2.13.0", "2.39.0", "2.39.0", "2.595.0", "2.661.0", "109.20.0", "109.20.0", "12.209.0", "122.14.0", "7.29.0", "7.30.0"];
-pub const static_stations_ukgov: [&str; 5] = ["fcb795f4-07bc-4ae0-8372-041644e7f275", "b9933a62-f326-4d77-9206-ebb335161831", "9ad5d28c-7cfe-46db-b39d-58701689cd59", "17f5b1f6-9779-4cbe-a0a3-978d3326bc33", "24066dfc-316c-4093-b236-57b9d675150f"]
+pub const static_stations_nve: [&str; 11] = ["2.13.0", "2.39.0", "2.39.0", "2.595.0", "2.661.0", "109.20.0", "109.20.0", "12.209.0", "122.14.0", "7.29.0", "7.30.0"];
+pub const static_stations_ukgov: [&str; 5] = ["fcb795f4-07bc-4ae0-8372-041644e7f275", "b9933a62-f326-4d77-9206-ebb335161831", "9ad5d28c-7cfe-46db-b39d-58701689cd59", "17f5b1f6-9779-4cbe-a0a3-978d3326bc33", "24066dfc-316c-4093-b236-57b9d675150f"];
+
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub enum Parameter {
     FLOW,
@@ -10,46 +11,74 @@ pub enum Parameter {
     TEMPERATURE,
     RAINFALL,
 }
-pub struct ParameterMapper {
-    pub flow: Option<&'static str>,
-    pub waterlevel: Option<&'static str>,
-    pub temperature:  Option<&'static str>,
-    pub rainfall:  Option<&'static str>,
+
+impl Parameter {
+    pub fn from_nve(s: i64) -> Option<Self> {
+        match s {
+            1001 => Some(Self::FLOW),
+            1000 => Some(Self::WATERLEVEL),
+            1003 => Some(Self::TEMPERATURE),
+            0 => Some(Self::RAINFALL),
+            _ => None,
+        }
+    }
+    pub fn to_nve(self) -> &'static str {
+        match self {
+            Self::FLOW => "1001",
+            Self::WATERLEVEL => "1000",
+            Self::TEMPERATURE => "1003",
+            Self::RAINFALL => "0",
+        }
+    }
+    pub fn from_uk(s: &str) -> Option<Self> {
+        match s {
+            "waterFlow" => Some(Self::FLOW),
+            "waterLevel" => Some(Self::WATERLEVEL),
+            "temperature" => Some(Self::TEMPERATURE),
+            "rainFall" => Some(Self::RAINFALL),
+            _ => None,
+        }
+    }
+    pub fn to_uk(self) -> &'static str {
+        match self {
+            Self::FLOW => "waterLevel",
+            Self::WATERLEVEL => "waterLevel",
+            Self::TEMPERATURE => "temperature",
+            Self::RAINFALL => "rainfall",
+        }
+    }
+    pub fn from_smih(s: &str) -> Option<Self> {
+        match s {
+            "Vattenföring (15 min)" => Some(Self::FLOW),
+            "Vattenstånd" => Some(Self::WATERLEVEL),
+            "Vattendragstemperatur" => Some(Self::TEMPERATURE),
+            _ => None,
+        }
+    }
+    pub fn to_smih(self) -> Option<&'static str> {
+       let s= match self {
+            Self::FLOW => "Vattenföring (15 min)",
+            Self::WATERLEVEL => "Vattenstånd",
+            Self::TEMPERATURE => "Vattendragstemperatur",
+            Self::RAINFALL => return None,
+        };
+        Some(s)
+    }
 }
 
-pub const SMIH: &ParameterMapper = &ParameterMapper {
-    flow: Some("Vattenföring (15 min)"),
-    waterlevel: Some("Vattenstånd"),
-    temperature: Some("Vattendragstemperatur"),
-    rainfall: None,
-};
-
-pub const NVE: &'static ParameterMapper = &ParameterMapper {
-    flow: Some("1001"),
-    waterlevel: Some("1000"),
-    temperature: Some("1003"),
-    rainfall: Some("0"),
-};
-
-pub const UKGOV: &'static ParameterMapper = &ParameterMapper {
-    flow: Some("waterFlow"),
-    waterlevel: Some("rainWater"),
-    temperature: Some("temperature"),
-    rainfall: Some("waterLevel"),
-};
-
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
-pub enum Nation{
+pub enum Nation {
     Norway,
     Sweden,
     Uk,
 }
+
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub enum Datatype {
     River,
     Station,
     Location,
-    User
+    User,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Hash)]
@@ -58,19 +87,20 @@ pub enum Origin {
     SMIH,
     UKGOV,
 }
+
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
-pub enum LocationType{
+pub enum LocationType {
     STATION,
     PARKING,
     PUT_IN,
     TAKE_OUT,
     CAMP,
     SPOT,
-    WARNING
+    WARNING,
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub enum Regulation{
+pub enum Regulation {
     REGULATED,
     UNKNOWN,
     UNREGULATED,

@@ -2,7 +2,7 @@ use chrono::{DateTime, Duration, Utc};
 use itertools::Itertools;
 use serde::{Deserialize, Serialize};
 
-use crate::static_metadata::{Origin, Nation, Regulation};
+use crate::static_metadata::{Origin, Nation, Regulation, Parameter, ParameterMapper};
 use crate::util::geo::location::Location;
 use crate::data::nve;
 use crate::data::smih;
@@ -20,12 +20,16 @@ pub struct Station {
     pub measuring_authority_id: Option<String>,
     pub station_type: Option<String>,
     pub regulation_status: Regulation,
+    pub station_parameters: Vec<Parameter>
 }
 
 impl Station{
     pub async fn from_nve(daum: &nve::station::Daum) -> Self{
         let d = daum;
         let location = Location::location_from_nve(d).await;
+        let parameters = d.series_list.iter()
+            .map(|q| Parameter::from_nve( q.parameter)).flatten()
+            .collect();
         Self {
             location,
             parental_hierarchy: d.hierarchy.clone(),
@@ -37,6 +41,7 @@ impl Station{
             measuring_authority_id: Some(d.owner.to_string()),
             station_type: Some(d.station_type_name.to_string()),
             regulation_status: d.catchment_reg_type_name.clone(),
+            station_parameters: parameters
         }
 
     }
@@ -44,6 +49,9 @@ impl Station{
         let s = item;
         let id = s.notation.to_string().replace('-', "_");
         let loc = Location::location_from_uk(item, &id).await;
+        let station_parameters: Vec<Parameter> = s.measures.iter()
+            .map(|l| Parameter::from_uk(&l.parameter))
+            .flatten().collect();
         match loc {
             Some(location) => {
                 let status = [s.status.is_empty(), s.status.iter().any(|v|v.label == "Active")].iter()
@@ -60,6 +68,7 @@ impl Station{
                     measuring_authority_id: Some("".to_string()),
                     station_type: None,
                     regulation_status: Regulation::UNKNOWN,
+                    station_parameters,
                 };
                 Some(station)
             },

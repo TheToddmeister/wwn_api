@@ -14,7 +14,7 @@ use crate::persistence::tables::Tables::{StaticRiver, StaticStation};
 use crate::util::geo::location::Location;
 
 #[tracing::instrument]
-pub async fn build_static_station_info_table(db: &Surreal<Client>) -> Result<(), APIPersistenceError> {
+pub async fn build_static_station_info_tables(db: &Surreal<Client>) -> Result<(), APIPersistenceError> {
     let drop_table_staticrivers: Vec<String> = db.delete(StaticRiver.to_string()).await?;
     let drop_table_staticstations: Vec<String> = db.delete(StaticStation.to_string()).await?;
     let future_nve = nve::nve_requests::get_all_stations(true);
@@ -26,6 +26,7 @@ pub async fn build_static_station_info_table(db: &Surreal<Client>) -> Result<(),
         let id = &daum.station_id;
         let loc = Location::location_from_nve(daum).await;
         let dbloc: Vec<Location> = db.create("Location").content(loc).await?;
+        
         let internal_station = Station::from_nve(daum).await;
         let dbstation: Option<Station> = db
             .create((StaticStation.to_string(), id.to_string()))
