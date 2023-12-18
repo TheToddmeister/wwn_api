@@ -2,9 +2,8 @@ use anyhow;
 use thiserror::Error;
 use reqwest;
 use http;
-use crate::static_metadata::Origin;
 use surrealdb;
-use crate::api::api_error::APIError;
+use crate::data::api_error::APIError;
 
 
 #[derive(Error, Debug)]

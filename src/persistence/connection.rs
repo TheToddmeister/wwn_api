@@ -16,9 +16,8 @@ pub struct Db{
 }
 
 
-pub async fn init_db() -> surrealdb::Result<Surreal<Client>> {
+pub async fn connect_db() -> surrealdb::Result<Surreal<Client>> {
     let db = Surreal::new::<Ws>("localhost:8000").await?;
-
     // Signin as a namespace, database, or root user
     db.signin(Root {
         username: "root",

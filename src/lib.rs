@@ -1,5 +1,6 @@
-pub mod api;
 mod dev;
+pub mod data;
+pub mod static_metadata;
+pub mod util;
+pub mod api;
 pub mod persistence;
-mod static_metadata;
-mod  util;

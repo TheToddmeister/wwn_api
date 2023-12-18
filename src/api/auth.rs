@@ -1,0 +1,11 @@
+pub enum UserStates{
+    ANONYMOUS,
+    AUTHENTICATED,
+    AUTHENTICATED_SESSION,
+}
+pub enum Privilege {
+    READ_REFRESH,
+    READ_STATIC,
+    REQUEST_REFRESH,
+    REQUEST_STATIC_REFRESH,
+}

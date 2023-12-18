@@ -1,10 +1,2 @@
-pub mod nve;
-pub mod request;
-pub mod api_error;
-pub mod smih;
-pub mod serde;
-pub mod internal_structs;
-pub mod uk;
-pub mod internal;
-pub mod utils;
-
+pub mod controller;
+mod auth;

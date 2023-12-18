@@ -50,7 +50,7 @@ pub enum Datatype {
     User
 }
 
-#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, Hash)]
 pub enum Origin {
     NVE,
     SMIH,
