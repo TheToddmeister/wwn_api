@@ -27,19 +27,22 @@ impl Parameter {
             .map(|q| ValidatedObservation::from_observation(q))
             .flatten()
     }
-    pub async fn get_x_minutes_older_than_newest(&self, min: i64) -> Option<ValidatedObservation> {
+    pub async fn find_min_x_minutes_older_than_newest_max_2x(&self, minutes_diff: i64) -> Option<ValidatedObservation> {
         let newest = self.get_newest_observation().await?.datetime;
-        let diff = Duration::minutes(min);
-        let max_date = newest - diff;
+        let diff = Duration::minutes(minutes_diff);
+        let min_date = newest - diff;
+        let max_date = newest - diff*2;
         self.latest_observations.iter()
+            .skip_while(|q| q.datetime>=min_date)
+            .take_while(|w| w.datetime<=max_date)
             .find(|p| p.datetime <= max_date && p.value.is_some())
             .map(|o| ValidatedObservation::from_observation(o))
             .flatten()
     }
     pub async fn get_current_change(&self) -> Option<Change> {
         let newest = self.get_newest_observation().await;
-        let min24h = self.get_x_minutes_older_than_newest(24 * 60).await;
-        let min1h = self.get_x_minutes_older_than_newest(60).await;
+        let min24h = self.find_min_x_minutes_older_than_newest_max_2x(24 * 60).await;
+        let min1h = self.find_min_x_minutes_older_than_newest_max_2x(60).await;
         match (newest, min1h, min24h) {
             (Some(n), Some(m1h), Some(m24h)) => {
                 return Some(Change {
