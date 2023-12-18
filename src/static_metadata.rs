@@ -17,7 +17,7 @@ pub struct ParameterMapper {
     pub rainfall:  Option<&'static str>,
 }
 
-pub const SMIH: ParameterMapper = &ParameterMapper {
+pub const SMIH: &ParameterMapper = &ParameterMapper {
     flow: Some("Vattenföring (15 min)"),
     waterlevel: Some("Vattenstånd"),
     temperature: Some("Vattendragstemperatur"),
