@@ -7,7 +7,6 @@ use reqwest;
 use crate::data::api_error::{APIError, handle_http_response_not_200};
 use crate::data::uk::{observation, station};
 use crate::static_metadata::Origin;
-use crate::static_metadata::UKGOV;
 
 pub async fn request_station_info() -> Result<reqwest::Response, reqwest::Error> {
     let url_string = "http://environment.data.gov.uk/hydrology/id/stations?status.label=Active&_limit=200000";

@@ -2,7 +2,7 @@ use chrono::{DateTime, Duration, Utc};
 use itertools::Itertools;
 use serde::{Deserialize, Serialize};
 
-use crate::static_metadata::{Origin, Nation, Regulation, Parameter, ParameterMapper};
+use crate::static_metadata::{Origin, Nation, Regulation, Parameter};
 use crate::util::geo::location::Location;
 use crate::data::nve;
 use crate::data::smih;

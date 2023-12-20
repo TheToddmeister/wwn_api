@@ -32,12 +32,12 @@ pub struct ParameterMetaData{
 
 impl ParameterMetaData{
     pub async fn from_internal_parameter(internal_parameter: internal::parameter::Parameter) ->Self{
-        let p = internal_parameter;
+        let p = &internal_parameter;
         let calculation_date = Utc::now();
         let max_date = p.latest_observations.iter().map(|q| q.datetime).into_iter().max();
         let min_date =  p.latest_observations.iter().map(|q| q.datetime).into_iter().min();
 
-        let calculations = util::analytics::historic_statistics::calculate_daily_metadata(&internal_parameter.latest_observations).await;
+        let calculations = util::analytics::historic_statistics::calculate_daily_metadata(&p.latest_observations).await;
         Self {
             min_date,
             max_date,

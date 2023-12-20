@@ -1,4 +1,5 @@
 use futures::future::Lazy;
+use serde::{Deserialize, Serialize};
 use surrealdb;
 use surrealdb::dbs::Session;
 use surrealdb::engine::remote::ws::{Client, Ws, Wss};
@@ -15,16 +16,33 @@ pub struct Db{
     datastore: Datastore,
 }
 
+pub struct DbConnect{
+   pub address: &'static str,
+   pub port: &'static str,
+   pub default_namespace: &'static str,
+   pub default_db: &'static str,
+}
+#[derive(Serialize, Deserialize)]
+pub struct Login{
+    DBPASSWORD: String,
+    DBUSER: String,
+}
 
-pub async fn connect_db() -> surrealdb::Result<Surreal<Client>> {
-    let db = Surreal::new::<Ws>("localhost:8000").await?;
+
+pub async fn connect_db(db_parameters: DbConnect) -> surrealdb::Result<Surreal<Client>> {
+    let address = db_parameters.address;
+    let port = db_parameters.port;
+    let namespace = db_parameters.default_namespace;
+    let db_name = db_parameters.default_db;
+    let db = Surreal::new::<Ws>(format!("{address}:{port}")).await?;
     // Signin as a namespace, database, or root user
+    let root = envy::from_env::<Login>();
     db.signin(Root {
         username: "root",
         password: "toot",
     }).await?;
 
     // Select a specific namespace / database
-    db.use_ns("namespace").use_db("database").await?;
+    db.use_ns(namespace).use_db(db_name).await?;
     Ok(db)
 }

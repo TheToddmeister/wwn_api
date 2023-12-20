@@ -33,31 +33,21 @@ pub struct PostToNve {
 }
 
 
-pub async fn get_all_nve_stations(exclude_inactive: bool) -> Result<reqwest::Response, reqwest::Error> {
-    let endpoint = "Stations?";
-
+pub async fn reqwest_all_stations() -> Result<reqwest::Response, reqwest::Error> {
+    let url = "https://hydapi.nve.no/api/v1/Stations?";
     let build = nve_connect::build_nve_httpclient();
-    let mut url = build.url.join(endpoint).unwrap();
-    if exclude_inactive == true {
-        url.join("Active=OnlyActive").unwrap();
-    }
-
     let response = build.client.get(url)
         .headers(build.header)
         .send().await?;
     Ok(response)
 }
 
-pub async fn reqwest_all_stations(exclude_inactive: bool) -> Result<reqwest::Response, reqwest::Error> {
-    let response = get_all_nve_stations(exclude_inactive).await?;
-    return Ok(response);
-}
-
-pub async fn get_all_stations(exclude_inactive: bool) -> Result<station::Root, reqwest::Error> {
-    let response = reqwest_all_stations(exclude_inactive).await?;
+pub async fn get_all_stations() -> Result<station::Root, reqwest::Error> {
+    let response = reqwest_all_stations().await?;
     let data = response.json::<station::Root>().await?;
     return Ok(data);
 }
+
 
 
 pub async fn request_latest_nve_observations() -> Result<reqwest::Response, reqwest::Error> {
