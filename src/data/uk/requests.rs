@@ -39,7 +39,7 @@ pub async fn get_station_observations(station_id: &str, parameter: &'static str,
 
 #[cfg(test)]
 mod tests {
-    use chrono::DateTime;
+    use chrono::{DateTime, Utc};
     use serde::{self, Deserialize};
     use tokio;
 
@@ -81,21 +81,19 @@ mod tests {
     async fn test_deserialize_station_observation_to_internal() {
         let csv = _read_file("src/dev/json/ukgov/stationObservation.json").await.unwrap();
         let data = serde_json::from_str::<observation::Root>(&csv).unwrap();
-        for item in data.items {
-            let station_id = "052d0819-2a32-47df-9b99-c243c9c8235b";
-            let parameter_id = static_metadata::Parameter::FLOW;
-            let start_date = DateTime::parse_from_str("2022-10-11T00:00:00", "%Y %m %dT%H:%M:%S");
-            let end_date = DateTime::parse_from_str("2023-11-11T00:00:00", "%Y %m %dT%H:%M:%S");
 
-            let inter = internal::parameter::Parameter::from_ukgov(data, station_id, parameter_id, start_date, end_date);
-            assert_eq!(data.items.get(0).unwrap().value, Some(0.433));
-        }
+        let station_id = "052d0819-2a32-47df-9b99-c243c9c8235b";
+        let parameter_id = static_metadata::Parameter::FLOW;
+        let start_date = DateTime::parse_from_str("2022-10-11T00:00:00", "%Y %m %dT%H:%M:%S").unwrap().with_timezone(&Utc);
+        let end_date = DateTime::parse_from_str("2023-11-11T00:00:00", "%Y %m %dT%H:%M:%S").unwrap().with_timezone(&Utc);
+
+        let inter = Parameter::from_ukgov(&data, station_id, parameter_id, &start_date, &end_date);
     }
 
     #[tokio::test]
     async fn test_get_station_observation() {
         let min_date = NaiveDate::parse_from_str("2015-09-05", "%Y-%m-%d").unwrap();
-        let root = get_station_observations("052d0819-2a32-47df-9b99-c243c9c8235b", UKGOV.flow.unwrap(), min_date).await.unwrap();
+        let root = get_station_observations("052d0819-2a32-47df-9b99-c243c9c8235b","waterFlow", min_date).await.unwrap();
         assert_eq!(root.items.get(0).unwrap().value, Some(0.433));
     }
 }

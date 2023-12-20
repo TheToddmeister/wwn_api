@@ -16,7 +16,7 @@ pub struct Db{
     datastore: Datastore,
 }
 
-pub struct DbConnect{
+pub struct DbConnectionConfig {
    pub address: &'static str,
    pub port: &'static str,
    pub default_namespace: &'static str,
@@ -29,7 +29,7 @@ pub struct Login{
 }
 
 
-pub async fn connect_db(db_parameters: DbConnect) -> surrealdb::Result<Surreal<Client>> {
+pub async fn connect_db(db_parameters: DbConnectionConfig) -> surrealdb::Result<Surreal<Client>> {
     let address = db_parameters.address;
     let port = db_parameters.port;
     let namespace = db_parameters.default_namespace;

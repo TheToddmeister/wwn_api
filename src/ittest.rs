@@ -38,18 +38,18 @@ mod data_storage_with_db {
     ///             default_db: "test_db",
     ///
     pub async fn connect_with_test_db_client()->Surreal<Client>{
-        let db_connect_info = persistence::connection::DbConnect{
+        let db_connect_config = persistence::connection::DbConnectionConfig {
             address: "127.0.0.1",
             port: "8000",
             default_namespace: "test",
             default_db: "test_db",
         };
-        persistence::connection::connect_db(db_connect_info).await.unwrap()
+        persistence::connection::connect_db(db_connect_config).await.unwrap()
     }
-
-    pub async fn test_itt_static_stations(){
+    #[tokio::test]
+    pub async fn test_itt_static_stations_does_not_throw(){
         let db = connect_with_test_db_client().await;
         create_mockito_server_with_allStations_and_allObservations().await;
-        build_static_station_info_tables()
+        build_static_station_info_tables(&db).await.unwrap();
     }
 }

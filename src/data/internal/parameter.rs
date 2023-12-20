@@ -96,21 +96,21 @@ impl Parameter {
         }
     }
 
-    pub fn from_ukgov48h(station: uk::observation::Root,
+    pub fn from_ukgov48h(station: &uk::observation::Root,
                          station_id: &str,
                          parameter_id: static_metadata::Parameter) -> Self {
         let end_date = Utc::now();
         let start_date = end_date - chrono::Duration::days(2);
-        Self::from_ukgov(station, station_id, parameter_id, start_date, end_date)
+        Self::from_ukgov(station, station_id, parameter_id, &start_date, &end_date)
     }
 
-    pub fn from_ukgov(station: uk::observation::Root,
+    pub fn from_ukgov(station: &uk::observation::Root,
                       station_id: &str,
                       parameter_id: static_metadata::Parameter,
-                      start_date: DateTime<Utc>,
-                      end_date: DateTime<Utc>,
+                      start_date: &DateTime<Utc>,
+                      end_date: &DateTime<Utc>,
     ) -> Self {
-        let o = station.items;
+        let o = &station.items;
         let obs = o.iter().rev()
             .skip_while(|d| d.date_time >= end_date.naive_utc())
             .take_while(|p| p.date_time >= start_date.naive_utc())

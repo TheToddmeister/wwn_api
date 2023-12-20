@@ -56,7 +56,7 @@ mod tests {
     use serde::{self};
     use tokio;
 
-    use crate::api::nve::observation::{Daum, deserialize_observations, Observation, Root};
+    use crate::data::nve::observation::{Daum, deserialize_observations, Observation, Root};
 
     use super::*;
 
