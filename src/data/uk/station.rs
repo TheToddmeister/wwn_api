@@ -16,13 +16,18 @@ pub struct Root {
 pub struct Meta {
     #[serde(rename = "@id")]
     pub id: String,
+    #[serde(skip)]
     pub publisher: String,
+    #[serde(skip)]
     pub license: String,
+    #[serde(skip)]
     pub license_name: String,
+    #[serde(skip)]
     pub comment: String,
     pub version: String,
     pub has_format: Vec<String>,
-    pub limit: i64,
+    #[serde(skip)]
+    pub limit: Option<i64>,
 }
 #[serde_as]
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

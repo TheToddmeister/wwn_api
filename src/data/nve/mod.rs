@@ -1,6 +1,5 @@
 
-pub mod nve_connect;
-pub mod nve_requests;
+pub mod connect;
+pub mod requests;
 pub mod observation;
 pub mod station;
-

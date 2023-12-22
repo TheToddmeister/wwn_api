@@ -37,9 +37,10 @@ pub async fn connect_db(db_parameters: DbConnectionConfig) -> surrealdb::Result<
     let db = Surreal::new::<Ws>(format!("{address}:{port}")).await?;
     // Signin as a namespace, database, or root user
     let root = envy::from_env::<Login>();
+    // todo() Read from env
     db.signin(Root {
-        username: "root",
-        password: "toot",
+        username: "test",
+        password: "test",
     }).await?;
 
     // Select a specific namespace / database

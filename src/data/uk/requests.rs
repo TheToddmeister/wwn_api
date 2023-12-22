@@ -44,8 +44,8 @@ mod tests {
     use tokio;
 
     use crate::data::{internal, uk};
-    use crate::data::internal::parameter::Parameter;
-    use crate::data::nve::nve_requests::PARAMETER;
+    use crate::data::internal::timeseries::TimeSeries;
+    use crate::data::nve::requests::PARAMETER;
     use crate::dev::_read_file;
     use crate::static_metadata;
 
@@ -83,11 +83,11 @@ mod tests {
         let data = serde_json::from_str::<observation::Root>(&csv).unwrap();
 
         let station_id = "052d0819-2a32-47df-9b99-c243c9c8235b";
-        let parameter_id = static_metadata::Parameter::FLOW;
+        let parameter_id = static_metadata::ParameterDefinitions::FLOW;
         let start_date = DateTime::parse_from_str("2022-10-11T00:00:00", "%Y %m %dT%H:%M:%S").unwrap().with_timezone(&Utc);
         let end_date = DateTime::parse_from_str("2023-11-11T00:00:00", "%Y %m %dT%H:%M:%S").unwrap().with_timezone(&Utc);
 
-        let inter = Parameter::from_ukgov(&data, station_id, parameter_id, &start_date, &end_date);
+        let inter = TimeSeries::from_ukgov(&data, station_id, parameter_id, &start_date, &end_date);
     }
 
     #[tokio::test]

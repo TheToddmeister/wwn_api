@@ -1,0 +1,310 @@
+{
+    "meta": {
+        "@id": "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b",
+        "publisher": "Environment Agency",
+        "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "licenseName": "OGL 3",
+        "comment": "Hydrology API for sub-daily data",
+        "version": "2.0.0",
+        "hasFormat": [
+            "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b.ttl",
+            "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b.html",
+            "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b.csv",
+            "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b.geojson",
+            "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b.rdf",
+            "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b.json"
+        ]
+    },
+    "items": [
+        {
+            "@id": "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b",
+            "easting": 581271,
+            "type": [
+                {
+                    "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Station"
+                },
+                {
+                    "@id": "http://environment.data.gov.uk/reference/def/core/SamplingLocation"
+                }
+            ],
+            "stationGuid": "052d0819-2a32-47df-9b99-c243c9c8235b",
+            "notation": "052d0819-2a32-47df-9b99-c243c9c8235b",
+            "status": {
+                "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+                "inScheme": {
+                    "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/StatusScheme"
+                },
+                "label": "Active",
+                "comment": "Indicates that a station is active. All is functioning as expected with the station and data is being provided on the GOV.UK service",
+                "type": [
+                    {
+                        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                    }
+                ]
+            },
+            "measures": [
+                {
+                    "@id": "http://environment.data.gov.uk/hydrology/id/measures/052d0819-2a32-47df-9b99-c243c9c8235b-flow-i-900-m3s-qualified",
+                    "valueStatistic": {
+                        "@id": "http://environment.data.gov.uk/reference/def/core/instantaneous",
+                        "label": "instantaneous",
+                        "comment": "Measurements which just represent the value at the instance they are taken.",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "parameter": "flow",
+                    "unit": {
+                        "@id": "http://qudt.org/1.1/vocab/unit#CubicMeterPerSecond"
+                    },
+                    "parameterName": "Flow",
+                    "valueType": "instantaneous",
+                    "type": [
+                        {
+                            "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Flow"
+                        },
+                        {
+                            "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Measure"
+                        },
+                        {
+                            "@id": "http://environment.data.gov.uk/reference/def/core/TimeSeries"
+                        }
+                    ],
+                    "observationType": {
+                        "@id": "http://environment.data.gov.uk/reference/def/core/Qualified",
+                        "label": "Qualified",
+                        "comment": "Indicates that the values in a series or dataset are qualified and quality checked versions of direct measurements",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "unitName": "m3/s",
+                    "inDataset": {
+                        "@id": "http://environment.data.gov.uk/reference/set/HydrologyDataset"
+                    },
+                    "period": 900,
+                    "notation": "052d0819-2a32-47df-9b99-c243c9c8235b-flow-i-900-m3s-qualified",
+                    "observedProperty": {
+                        "@id": "http://environment.data.gov.uk/reference/def/op/waterFlow",
+                        "label": "Water Flow",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "station": {
+                        "@id": "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b"
+                    },
+                    "label": "15min Flow (m3/s) time series for Ulting Sarasota",
+                    "periodName": "15min"
+                },
+                {
+                    "@id": "http://environment.data.gov.uk/hydrology/id/measures/052d0819-2a32-47df-9b99-c243c9c8235b-flow-max-86400-m3s-qualified",
+                    "type": [
+                        {
+                            "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Flow"
+                        },
+                        {
+                            "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Measure"
+                        },
+                        {
+                            "@id": "http://environment.data.gov.uk/reference/def/core/TimeSeries"
+                        }
+                    ],
+                    "observationType": {
+                        "@id": "http://environment.data.gov.uk/reference/def/core/Qualified",
+                        "label": "Qualified",
+                        "comment": "Indicates that the values in a series or dataset are qualified and quality checked versions of direct measurements",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "parameterName": "Flow",
+                    "period": 86400,
+                    "station": {
+                        "@id": "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b"
+                    },
+                    "observedProperty": {
+                        "@id": "http://environment.data.gov.uk/reference/def/op/waterFlow",
+                        "label": "Water Flow",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "unitName": "m3/s",
+                    "valueType": "max",
+                    "parameter": "flow",
+                    "valueStatistic": {
+                        "@id": "http://environment.data.gov.uk/reference/def/core/maximum",
+                        "label": "maximum",
+                        "comment": "Measurements which represent the maximum over the measurement period.",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "periodName": "daily",
+                    "label": "Daily max Flow (m3/s) time series for Ulting Sarasota",
+                    "unit": {
+                        "@id": "http://qudt.org/1.1/vocab/unit#CubicMeterPerSecond"
+                    },
+                    "notation": "052d0819-2a32-47df-9b99-c243c9c8235b-flow-max-86400-m3s-qualified",
+                    "inDataset": {
+                        "@id": "http://environment.data.gov.uk/reference/set/HydrologyDataset"
+                    }
+                },
+                {
+                    "@id": "http://environment.data.gov.uk/hydrology/id/measures/052d0819-2a32-47df-9b99-c243c9c8235b-flow-min-86400-m3s-qualified",
+                    "valueStatistic": {
+                        "@id": "http://environment.data.gov.uk/reference/def/core/minimum",
+                        "label": "minimum",
+                        "comment": "Measurements which represent the minimum over the measurement period.",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "inDataset": {
+                        "@id": "http://environment.data.gov.uk/reference/set/HydrologyDataset"
+                    },
+                    "type": [
+                        {
+                            "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Measure"
+                        },
+                        {
+                            "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Flow"
+                        },
+                        {
+                            "@id": "http://environment.data.gov.uk/reference/def/core/TimeSeries"
+                        }
+                    ],
+                    "unit": {
+                        "@id": "http://qudt.org/1.1/vocab/unit#CubicMeterPerSecond"
+                    },
+                    "notation": "052d0819-2a32-47df-9b99-c243c9c8235b-flow-min-86400-m3s-qualified",
+                    "periodName": "daily",
+                    "observedProperty": {
+                        "@id": "http://environment.data.gov.uk/reference/def/op/waterFlow",
+                        "label": "Water Flow",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "parameter": "flow",
+                    "label": "Daily min Flow (m3/s) time series for Ulting Sarasota",
+                    "period": 86400,
+                    "parameterName": "Flow",
+                    "unitName": "m3/s",
+                    "observationType": {
+                        "@id": "http://environment.data.gov.uk/reference/def/core/Qualified",
+                        "label": "Qualified",
+                        "comment": "Indicates that the values in a series or dataset are qualified and quality checked versions of direct measurements",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "valueType": "min",
+                    "station": {
+                        "@id": "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b"
+                    }
+                },
+                {
+                    "@id": "http://environment.data.gov.uk/hydrology/id/measures/052d0819-2a32-47df-9b99-c243c9c8235b-flow-m-86400-m3s-qualified",
+                    "unitName": "m3/s",
+                    "observedProperty": {
+                        "@id": "http://environment.data.gov.uk/reference/def/op/waterFlow",
+                        "label": "Water Flow",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "label": "Daily mean Flow (m3/s) time series for Ulting Sarasota",
+                    "valueStatistic": {
+                        "@id": "http://environment.data.gov.uk/reference/def/core/mean",
+                        "label": "mean",
+                        "comment": "Measurements which represent the mean value over the measurement period.",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "notation": "052d0819-2a32-47df-9b99-c243c9c8235b-flow-m-86400-m3s-qualified",
+                    "periodName": "daily",
+                    "type": [
+                        {
+                            "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Flow"
+                        },
+                        {
+                            "@id": "http://environment.data.gov.uk/reference/def/core/TimeSeries"
+                        },
+                        {
+                            "@id": "http://environment.data.gov.uk/flood-monitoring/def/core/Measure"
+                        }
+                    ],
+                    "observationType": {
+                        "@id": "http://environment.data.gov.uk/reference/def/core/Qualified",
+                        "label": "Qualified",
+                        "comment": "Indicates that the values in a series or dataset are qualified and quality checked versions of direct measurements",
+                        "type": [
+                            {
+                                "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                            }
+                        ]
+                    },
+                    "inDataset": {
+                        "@id": "http://environment.data.gov.uk/reference/set/HydrologyDataset"
+                    },
+                    "station": {
+                        "@id": "http://environment.data.gov.uk/hydrology/id/stations/052d0819-2a32-47df-9b99-c243c9c8235b"
+                    },
+                    "unit": {
+                        "@id": "http://qudt.org/1.1/vocab/unit#CubicMeterPerSecond"
+                    },
+                    "valueType": "mean",
+                    "period": 86400,
+                    "parameter": "flow",
+                    "parameterName": "Flow"
+                }
+            ],
+            "observedProperty": {
+                "@id": "http://environment.data.gov.uk/reference/def/op/waterFlow",
+                "label": "Water Flow",
+                "type": [
+                    {
+                        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+                    }
+                ]
+            },
+            "dateOpened": "2008-10-31",
+            "inSet": {
+                "@id": "http://environment.data.gov.uk/reference/set/HydroMonitoringStation"
+            },
+            "lat": 51.746683,
+            "long": 0.624437,
+            "wiskiID": "037048U",
+            "label": "Ulting Sarasota",
+            "gridReference": "TL8127108591",
+            "searchText": "Ulting Sarasota River Chelmer 037048U",
+            "riverName": "River Chelmer",
+            "northing": 208591
+        }
+    ]
+}

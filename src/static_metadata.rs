@@ -1,18 +1,21 @@
+use chrono::{Date, DateTime, NaiveDate, NaiveDateTime, NaiveTime, Utc};
 use phf::{phf_map, PhfHash};
 use serde::{Deserialize, Serialize};
+use tokio::sync::OnceCell;
 
-pub const static_stations_nve: [&str; 11] = ["2.13.0", "2.39.0", "2.39.0", "2.595.0", "2.661.0", "109.20.0", "109.20.0", "12.209.0", "122.14.0", "7.29.0", "7.30.0"];
+//These are not intended to stay permanently todo!
+pub const static_stations_nve: [&str; 11] = ["2.13.0", "2.39.0", "1.15.0", "2.595.0", "2.661.0", "109.20.0", "109.20.0", "12.209.0", "122.14.0", "7.29.0", "7.30.0"];
 pub const static_stations_ukgov: [&str; 5] = ["fcb795f4-07bc-4ae0-8372-041644e7f275", "b9933a62-f326-4d77-9206-ebb335161831", "9ad5d28c-7cfe-46db-b39d-58701689cd59", "17f5b1f6-9779-4cbe-a0a3-978d3326bc33", "24066dfc-316c-4093-b236-57b9d675150f"];
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub enum Parameter {
+pub enum ParameterDefinitions {
     FLOW,
     WATERLEVEL,
     TEMPERATURE,
     RAINFALL,
 }
 
-impl Parameter {
+impl ParameterDefinitions {
     pub fn from_nve(s: i64) -> Option<Self> {
         match s {
             1001 => Some(Self::FLOW),
@@ -104,7 +107,6 @@ pub enum Regulation {
     REGULATED,
     UNKNOWN,
     UNREGULATED,
-
 }
 
 pub static EXTERNAL_TO_INTERNAL_REGULATION: phf::Map<&'static str, Regulation> = phf_map! {
@@ -115,3 +117,17 @@ pub static EXTERNAL_TO_INTERNAL_REGULATION: phf::Map<&'static str, Regulation> =
     "Uregulert" => Regulation::UNREGULATED,
 
 };
+
+static MINIMUM_DATE_FOR_CURRENT:OnceCell<DateTime<Utc>> = OnceCell::const_new();
+pub async fn get_minimum_current_date()-> &'static DateTime<Utc>{
+    MINIMUM_DATE_FOR_CURRENT.get_or_init(|| async {
+        NaiveDate::from_yo_opt(2020, 1).expect("Failed to create minimum datetime").and_time(NaiveTime::MIN).and_utc()
+    }).await
+}
+
+static MINIMUM_HISTORIC_DATA_DATE: OnceCell<DateTime<Utc>> = OnceCell::const_new();
+pub async fn get_minimum_historic_data_date()-> &'static DateTime<Utc>{
+    MINIMUM_HISTORIC_DATA_DATE.get_or_init(|| async {
+        NaiveDate::from_yo_opt(2020, 1).expect("Failed to create minimum datetime").and_time(NaiveTime::MIN).and_utc()
+    }).await
+}

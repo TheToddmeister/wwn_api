@@ -1,6 +1,7 @@
 pub mod observation;
 pub mod station;
-pub mod parameter;
-pub mod parameter_metadata;
+pub mod timeseries;
+pub mod timeseries_metadata;
 pub mod river;
-mod service_metadata;
+pub mod service_metadata;
+pub mod parameter;

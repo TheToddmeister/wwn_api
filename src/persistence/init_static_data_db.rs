@@ -18,7 +18,7 @@ pub async fn build_static_station_info_tables(db: &Surreal<Client>) -> Result<()
     let drop_table_staticrivers: Vec<String> = db.delete(StaticRiver.to_string()).await?;
     let drop_table_staticstations: Vec<String> = db.delete(StaticStation.to_string()).await?;
 
-    let future_nve = nve::nve_requests::get_all_stations();
+    let future_nve = nve::requests::get_all_stations();
     let future_ukgov = uk::requests::get_station_info();
     let mut rivers = HashSet::new();
     let nve_stations = &future_nve.await?.data;
