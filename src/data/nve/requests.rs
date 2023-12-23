@@ -84,24 +84,24 @@ async fn request_nve_last_24h_observations(station_id_list: Vec<&str>, parameter
                                                  parameters,
                                                  start_date,
                                                  end_date).await?;
-    return Ok(response);
+    Ok(response)
 }
 
 pub async fn get_last_24h_observations(station_id_list: Vec<&str>, parameters: Vec<i64>) -> Result<observation::Root, reqwest::Error> {
     let response = request_nve_last_24h_observations(station_id_list, parameters).await?;
     let root = response.json::<observation::Root>().await?;
-    return Ok(root);
+    Ok(root)
 }
 
 pub async fn get_specific_nve_observations(station_id_list: Vec<&str>,
                                            parameters: Vec<i64>,
-                                           startDate: DateTime<Utc>,
-                                           endDate: DateTime<Utc>, ) -> Result<reqwest::Response, reqwest::Error> {
+                                           start_date: DateTime<Utc>,
+                                           end_date: DateTime<Utc>, ) -> Result<reqwest::Response, reqwest::Error> {
     let stations_query_parameter = station_id_list.join(",");
     let parameters: Vec<String> = parameters.iter().map(|a| a.to_string()).collect();
     let parameters_query_parameter = parameters.join(",");
-    let iso_8601_start = &startDate.to_rfc3339()[0..16];
-    let iso_8601_end = &endDate.to_rfc3339()[0..16];
+    let iso_8601_start = &start_date.to_rfc3339()[0..16];
+    let iso_8601_end = &end_date.to_rfc3339()[0..16];
     let reference_time = format!("{iso_8601_start}/{iso_8601_end}");
 
     let query = format!("Observations?Parameter={parameters_query_parameter}&StationId={stations_query_parameter}&ReferenceTime={reference_time}&ResolutionTime=0");
@@ -111,19 +111,6 @@ pub async fn get_specific_nve_observations(station_id_list: Vec<&str>,
         .headers(build.header)
         .send().await?;
     Ok(response)
-}
-
-async fn find_highest_resolution_or_reject(station_id: &str,
-                                           parameter: i64,
-                                           station_metadata: &station::Root, ) -> Option<i64> {
-    let available = station_metadata.data.iter()
-        .find(|daum| daum.station_id == station_id).map(|a| a.series_list.iter()
-        .find(|s| s.parameter == parameter)
-        .map(|r| r.resolution_list.iter()
-            .map(|v| v.res_time).max()))
-        .flatten()
-        .flatten();
-    return available;
 }
 
 pub async fn reqwest_observations_using_post_to_nve_body(body: Vec<PostToNve>
@@ -139,7 +126,7 @@ pub async fn reqwest_observations_using_post_to_nve_body(body: Vec<PostToNve>
         .headers(build.header)
         .send()
         .await?;
-    return Ok(response);
+    Ok(response)
 }
 
 #[cfg(test)]
@@ -149,15 +136,6 @@ mod Tests {
     use crate::data::{internal, nve};
     use crate::data::nve::observation::deserialize_observations;
     use crate::dev::_read_file;
-
-    static YEAR: i32 = 2010;
-    static MONTH: u32 = 01;
-    static DAY: u32 = 01;
-
-    static STATION_ID_LIST: [&str; 2] = ["1.200.0", "1.15.0"];
-    static PARAMETERS: [i32; 2] = [1000, 1001];
-    static RESOLUTION_TIME: i32 = 0;
-
 
     #[tokio::test]
     async fn test_deserialize_single_stations() {

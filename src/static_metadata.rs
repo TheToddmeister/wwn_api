@@ -25,7 +25,7 @@ impl ParameterDefinitions {
             _ => None,
         }
     }
-    pub fn to_nve(self) -> &'static str {
+    pub fn to_nve(&self) -> &'static str {
         match self {
             Self::FLOW => "1001",
             Self::WATERLEVEL => "1000",
@@ -42,7 +42,7 @@ impl ParameterDefinitions {
             _ => None,
         }
     }
-    pub fn to_uk(self) -> &'static str {
+    pub fn to_uk(&self) -> &'static str {
         match self {
             Self::FLOW => "waterLevel",
             Self::WATERLEVEL => "waterLevel",
@@ -117,13 +117,6 @@ pub static EXTERNAL_TO_INTERNAL_REGULATION: phf::Map<&'static str, Regulation> =
     "Uregulert" => Regulation::UNREGULATED,
 
 };
-
-static MINIMUM_DATE_FOR_CURRENT:OnceCell<DateTime<Utc>> = OnceCell::const_new();
-pub async fn get_minimum_current_date()-> &'static DateTime<Utc>{
-    MINIMUM_DATE_FOR_CURRENT.get_or_init(|| async {
-        NaiveDate::from_yo_opt(2020, 1).expect("Failed to create minimum datetime").and_time(NaiveTime::MIN).and_utc()
-    }).await
-}
 
 static MINIMUM_HISTORIC_DATA_DATE: OnceCell<DateTime<Utc>> = OnceCell::const_new();
 pub async fn get_minimum_historic_data_date()-> &'static DateTime<Utc>{

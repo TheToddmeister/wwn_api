@@ -25,9 +25,6 @@ pub async fn build_static_station_info_tables(db: &Surreal<Client>) -> Result<()
     for daum in nve_stations {
         //Todo: Collect as create as result and log errors instead of panic
         let id = &daum.station_id;
-        let loc = Location::location_from_nve(daum).await;
-        let dbloc: Vec<Location> = db.create("Location").content(loc).await?;
-
         let internal_station = Station::from_nve(daum).await;
         let dbstation: Option<Station> = db
             .create((StaticStation.to_string(), id.to_string()))
@@ -40,9 +37,6 @@ pub async fn build_static_station_info_tables(db: &Surreal<Client>) -> Result<()
     info!("Successfully persisted NVE");
     for item in &future_ukgov.await?.items {
         let id = item.notation.to_string().replace('-', "_");
-        let loc = Location::location_from_uk(item, &id).await;
-        let dbloc: Vec<Location> = db.create("Location").content(loc).await?;
-
         let internal_station = Station::from_ukgov(item).await;
 
         if let Some(i) = internal_station.as_ref().map(|a| &a.location) {

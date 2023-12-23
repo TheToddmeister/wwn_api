@@ -2,6 +2,7 @@
 mod data_storage_with_db {
     use surrealdb::engine::remote::ws::Client;
     use surrealdb::Surreal;
+    use crate::static_controller;
     use crate::dev::_read_file;
     use crate::{dev, persistence};
     use crate::persistence::init_static_data_db::build_static_station_info_tables;
@@ -34,7 +35,7 @@ mod data_storage_with_db {
     pub async fn test_itt_build_static_stations_and_store_does_not_throw(){
         let db = connect_with_test_db_client().await;
         dev::create_mocked_allStation_endpoints().await;
-
+        static_controller::static_controller(&db).await.unwrap();
 
     }
 }
