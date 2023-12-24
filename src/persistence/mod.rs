@@ -4,3 +4,4 @@ pub mod init_static_data_db;
 pub mod error;
 pub mod observation_data;
 pub mod queries;
+pub mod init_historic_data_calulations;

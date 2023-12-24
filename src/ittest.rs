@@ -28,6 +28,7 @@ mod data_storage_with_db {
     pub async fn endToEnd_controller_init_does_not_throw(){
         let db = connect_with_test_db_client().await;
         dev::create_mocked_allStation_endpoints().await;
+        
     }
 
 

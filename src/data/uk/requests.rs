@@ -6,7 +6,7 @@ use reqwest;
 
 use crate::data::api_error::{APIError, handle_http_response_not_200};
 use crate::data::uk::{observation, station};
-use crate::static_metadata::Origin;
+use crate::static_metadata::{Origin, ParameterDefinitions};
 
 pub async fn request_station_info() -> Result<reqwest::Response, reqwest::Error> {
     let url_string = "http://environment.data.gov.uk/hydrology/id/stations?status.label=Active&_limit=200000";
@@ -22,15 +22,16 @@ pub async fn get_station_info() -> Result<station::Root, APIError> {
     Ok(root)
 }
 
-pub async fn request_station_observations(station_id: &str, parameter: &'static str, min_date: NaiveDate) -> Result<reqwest::Response, reqwest::Error> {
+pub async fn request_station_observations(station_id: &str, parameter: ParameterDefinitions, min_date: NaiveDate) -> Result<reqwest::Response, reqwest::Error> {
     let min_date_string = min_date.format("%Y-%m-%d");
+    let uk_parameter = ParameterDefinitions::to_uk(parameter);
     let url_string = format!("https://environment.data.gov.uk/hydrology/data/readings.json?measure={parameter}&min-date={min_date_string}&station={station_id}");
     let url = url::Url::parse(&url_string).expect("Failed to parse url to string");
     let response = reqwest::get(url).await?;
     Ok(response)
 }
 
-pub async fn get_station_observations(station_id: &str, parameter: &'static str, min_date: NaiveDate) -> Result<observation::Root, APIError> {
+pub async fn get_station_observations(station_id: &str, parameter: ParameterDefinitions, min_date: NaiveDate) -> Result<observation::Root, APIError> {
     let response = request_station_observations(station_id, parameter, min_date).await?;
     handle_http_response_not_200(Origin::UKGOV, &response).await?;
     let root = response.json::<observation::Root>().await?;

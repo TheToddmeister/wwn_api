@@ -1,21 +1,8 @@
-use futures::StreamExt;
-use itertools::Itertools;
-use serde::Deserialize;
-use surrealdb::engine::remote::ws::Client;
-use surrealdb::Surreal;
 use warp;
 use warp::Filter;
-use wwn_api::data::internal::parameter;
-use wwn_api::data::internal::parameter::Resolution::{Nve, UkGov};
-use wwn_api::data::internal::parameter::StationParameter;
-use wwn_api::data::nve;
-use wwn_api::data::nve::requests::PostToNve;
-use wwn_api::static_metadata::{get_minimum_historic_data_date};
 
-use wwn_api::{persistence, static_metadata};
+use wwn_api::persistence;
 use wwn_api::persistence::connection::DbConnectionConfig;
-use wwn_api::persistence::init_static_data_db;
-use wwn_api::static_metadata::Origin;
 use wwn_api::static_controller::static_controller;
 
 #[tokio::main]

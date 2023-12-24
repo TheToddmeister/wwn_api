@@ -3,10 +3,13 @@ use std;
 use chrono::{DateTime, Duration, Utc};
 use reqwest::{self};
 use serde::{Deserialize, Serialize};
+use crate::data::internal::parameter::NveParameterResolution;
 
 use crate::data::nve::connect;
 use crate::data::nve::observation;
 use crate::data::nve::station;
+use crate::static_metadata;
+use crate::static_metadata::ParameterDefinitions;
 
 enum RequestToServiceError {
     HTTPError,
@@ -32,6 +35,23 @@ pub struct PostToNve {
     pub referenceTime: String,
 }
 
+impl PostToNve {
+    pub async fn build_nve_observation_postquery_body(min_historic_date: &DateTime<Utc>,
+                                                      max_historic_data: &DateTime<Utc>,
+                                                      station_id: &str,
+                                                      parameter: &ParameterDefinitions,
+                                                      par: &NveParameterResolution) -> PostToNve {
+        let parameter_min_date = &par.start_date.max(*min_historic_date).to_rfc3339();
+        let parameter_max_date = &max_historic_data.to_rfc3339();
+        let reference_time = format!("{parameter_min_date}/{parameter_max_date}");
+        PostToNve {
+            stationId: station_id.to_string(),
+            parameter: ParameterDefinitions::to_nve(&parameter).to_string(),
+            resolutionTime: par.resolution.to_string(),
+            referenceTime: reference_time.to_string(),
+        }
+    }
+}
 
 pub async fn reqwest_all_stations() -> Result<reqwest::Response, reqwest::Error> {
     let url = "https://hydapi.nve.no/api/v1/Stations?";
@@ -47,7 +67,6 @@ pub async fn get_all_stations() -> Result<station::Root, reqwest::Error> {
     let data = response.json::<station::Root>().await?;
     return Ok(data);
 }
-
 
 
 pub async fn request_latest_nve_observations() -> Result<reqwest::Response, reqwest::Error> {
@@ -145,6 +164,7 @@ mod Tests {
         let river_name = &root.data.get(0).unwrap().river_name;
         let rootDate = root.query_time;
     }
+
     #[tokio::test]
     async fn test_deserialize_all_stations() {
         let test = _read_file("src/dev/json/nve/allStations.json").await.unwrap();
@@ -158,11 +178,10 @@ mod Tests {
         let test = _read_file("src/dev/json/nve/allStations.json").await.unwrap();
         let nve_root = serde_json::from_str::<nve::station::Root>(&test).unwrap();
         let mut internal_stations: Vec<internal::station::Station> = vec![];
-        for daum in &nve_root.data{
+        for daum in &nve_root.data {
             let internal = internal::station::Station::from_nve(&daum).await;
             internal_stations.push(internal);
         }
-
     }
 
     #[tokio::test]
