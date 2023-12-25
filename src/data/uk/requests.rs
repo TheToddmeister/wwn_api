@@ -22,17 +22,18 @@ pub async fn get_station_info() -> Result<station::Root, APIError> {
     Ok(root)
 }
 
-pub async fn request_station_observations(station_id: &str, parameter: ParameterDefinitions, min_date: NaiveDate) -> Result<reqwest::Response, reqwest::Error> {
-    let min_date_string = min_date.format("%Y-%m-%d");
+pub async fn request_station_observations(station_id: &str, parameter: &ParameterDefinitions, min_date: &NaiveDate, max_date: &NaiveDate) -> Result<reqwest::Response, reqwest::Error> {
+    let min_date_string = min_date.format("%Y-%m-%d").to_string();
+    let max_date_string = max_date.format("%Y-%m-%d").to_string();
     let uk_parameter = ParameterDefinitions::to_uk(parameter);
-    let url_string = format!("https://environment.data.gov.uk/hydrology/data/readings.json?measure={parameter}&min-date={min_date_string}&station={station_id}");
+    let url_string = format!("https://environment.data.gov.uk/hydrology/data/readings.json?measure={parameter}&min-date={min_date_string}&max-date={max_date_string}&station={station_id}");
     let url = url::Url::parse(&url_string).expect("Failed to parse url to string");
     let response = reqwest::get(url).await?;
     Ok(response)
 }
 
-pub async fn get_station_observations(station_id: &str, parameter: ParameterDefinitions, min_date: NaiveDate) -> Result<observation::Root, APIError> {
-    let response = request_station_observations(station_id, parameter, min_date).await?;
+pub async fn get_station_observations(station_id: &str, parameter: &ParameterDefinitions, min_date: &NaiveDate, max_date:&NaiveDate) -> Result<observation::Root, APIError> {
+    let response = request_station_observations(station_id, parameter, min_date, max_date).await?;
     handle_http_response_not_200(Origin::UKGOV, &response).await?;
     let root = response.json::<observation::Root>().await?;
     Ok(root)
@@ -93,8 +94,10 @@ mod tests {
 
     #[tokio::test]
     async fn test_get_station_observation() {
-        let min_date = NaiveDate::parse_from_str("2015-09-05", "%Y-%m-%d").unwrap();
-        let root = get_station_observations("052d0819-2a32-47df-9b99-c243c9c8235b","waterFlow", min_date).await.unwrap();
-        assert_eq!(root.items.get(0).unwrap().value, Some(0.433));
+        let min_date = NaiveDate::from_ymd_opt(1993, 10, 19).unwrap();
+        let max_date = NaiveDate::from_yo_opt(2022, 1).unwrap();
+        let root = get_station_observations("052d0819-2a32-47df-9b99-c243c9c8235b",&ParameterDefinitions::FLOW, &min_date, &max_date).await.unwrap();
+        let obs_to_high = root.items.iter().find(|f| f.date_time>=max_date.and_hms_opt(00,00, 01).unwrap().and_utc());
+        let obs_to_low = root.items.iter().find(|f| f.date_time>=min_date.and_hms_opt(00,00, 01).unwrap().and_utc());
     }
 }

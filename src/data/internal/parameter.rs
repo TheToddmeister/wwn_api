@@ -10,23 +10,23 @@ use crate::util;
 pub struct StationParameter {
     pub unit: Option<String>,
     pub internal_parameter_id: ParameterDefinitions,
-    pub current_resolution_in_minutes: Resolution,
-    pub historic_stable_resolution_in_minutes: Resolution,
+    pub current_resolution_in_minutes: ObservationResolution,
+    pub historic_stable_resolution_in_minutes: ObservationResolution,
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub enum Resolution {
-    Nve(Option<NveParameterResolution>),
-    UkGov(UkGovParameterResolution),
+pub enum ObservationResolution {
+    Nve(Option<NveObservationResolution>),
+    UkGov(UkGovObservationResolution),
 }
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct  UkGovParameterResolution{
+pub struct UkGovObservationResolution {
     pub internal_resolution: i64,
     pub external_period: i64
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct NveParameterResolution {
+pub struct NveObservationResolution {
     pub start_date: DateTime<Utc>,
     pub end_date: DateTime<Utc>,
     pub resolution: i64,
@@ -36,12 +36,12 @@ async fn measures_per_24_hours_to_every_nth_minutes(measure_count_per_24_hours: 
     measure_count_per_24_hours / (24 * 60)
 }
 
-async fn nve_select_highest_observationresolution_for_historic_data_that_is_greater_than_or_equal_to_1hr(min_date_for_historic: DateTime<Utc>, par: &SeriesList) -> Option<NveParameterResolution> {
+async fn nve_select_highest_observationresolution_for_historic_data_that_is_greater_than_or_equal_to_1hr(min_date_for_historic: DateTime<Utc>, par: &SeriesList) -> Option<NveObservationResolution> {
     let max_historic_resolution = par.resolution_list.iter()
         .filter(|s| s.res_time >= 60)
         .filter(|q| q.data_from_time <= min_date_for_historic)
         .max_by(|x, y| x.res_time.cmp(&y.res_time))
-        .map(|r| NveParameterResolution {
+        .map(|r| NveObservationResolution {
             start_date: r.data_from_time,
             end_date: r.data_to_time,
             resolution: r.res_time,
@@ -49,11 +49,11 @@ async fn nve_select_highest_observationresolution_for_historic_data_that_is_grea
     max_historic_resolution
 }
 
-async fn max_resolution_available_for_the_current_year(min_date_for_current: &DateTime<Utc>, par: &SeriesList, min_delta_for_current: DateTime<Utc>) -> Option<NveParameterResolution> {
+async fn max_resolution_available_for_the_current_year(min_date_for_current: &DateTime<Utc>, par: &SeriesList, min_delta_for_current: DateTime<Utc>) -> Option<NveObservationResolution> {
     let max_current_resolution = par.resolution_list.iter()
         .filter(|q| &q.data_from_time <= &min_date_for_current && q.data_to_time <= min_delta_for_current)
         .max_by(|x, y| x.res_time.cmp(&y.res_time)).map(|r|
-        NveParameterResolution {
+        NveObservationResolution {
             start_date: r.data_from_time,
             end_date: r.data_to_time,
             resolution: r.res_time,
@@ -76,8 +76,8 @@ impl StationParameter {
                 let sp = StationParameter {
                     unit: Some(par.unit.to_string()),
                     internal_parameter_id: id,
-                    current_resolution_in_minutes: Resolution::Nve(max_current_resolution),
-                    historic_stable_resolution_in_minutes: Resolution::Nve(max_historic_resolution),
+                    current_resolution_in_minutes: ObservationResolution::Nve(max_current_resolution),
+                    historic_stable_resolution_in_minutes: ObservationResolution::Nve(max_historic_resolution),
                 };
                 internal_params.push(sp);
             }
@@ -94,15 +94,15 @@ impl StationParameter {
                     .max_by(|x, y| x.period.cmp(&y.period));
                 if let Some(period) = max_resolution.map(|m| m.period).flatten(){
                     let measurements_delta_in_minutes = measures_per_24_hours_to_every_nth_minutes(period).await;
-                    let uk_resolution = UkGovParameterResolution{
+                    let uk_resolution = UkGovObservationResolution {
                         internal_resolution: measurements_delta_in_minutes,
                         external_period: period,
                     };
                     let sp = StationParameter {
                         unit: None,
                         internal_parameter_id: id,
-                        current_resolution_in_minutes: Resolution::UkGov(uk_resolution.clone()),
-                        historic_stable_resolution_in_minutes: Resolution::UkGov(uk_resolution),
+                        current_resolution_in_minutes: ObservationResolution::UkGov(uk_resolution.clone()),
+                        historic_stable_resolution_in_minutes: ObservationResolution::UkGov(uk_resolution),
                     };
                     internal_params.push(sp);
                 }

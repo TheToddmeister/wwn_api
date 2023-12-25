@@ -27,7 +27,7 @@ pub struct Meta {
 pub struct Item {
     pub measure: Measure,
     pub date: String,
-    pub date_time: NaiveDateTime,
+    pub date_time: DateTime<Utc>,
     pub value: Option<f64>,
     pub quality: String,
     pub valid: Option<String>,

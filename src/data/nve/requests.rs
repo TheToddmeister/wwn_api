@@ -3,10 +3,11 @@ use std;
 use chrono::{DateTime, Duration, Utc};
 use reqwest::{self};
 use serde::{Deserialize, Serialize};
-use crate::data::internal::parameter::NveParameterResolution;
+use crate::data::internal::parameter::NveObservationResolution;
 
 use crate::data::nve::connect;
 use crate::data::nve::observation;
+use crate::data::nve::observation::Root;
 use crate::data::nve::station;
 use crate::static_metadata;
 use crate::static_metadata::ParameterDefinitions;
@@ -40,7 +41,7 @@ impl PostToNve {
                                                       max_historic_data: &DateTime<Utc>,
                                                       station_id: &str,
                                                       parameter: &ParameterDefinitions,
-                                                      par: &NveParameterResolution) -> PostToNve {
+                                                      par: &NveObservationResolution) -> PostToNve {
         let parameter_min_date = &par.start_date.max(*min_historic_date).to_rfc3339();
         let parameter_max_date = &max_historic_data.to_rfc3339();
         let reference_time = format!("{parameter_min_date}/{parameter_max_date}");
@@ -132,8 +133,7 @@ pub async fn get_specific_nve_observations(station_id_list: Vec<&str>,
     Ok(response)
 }
 
-pub async fn reqwest_observations_using_post_to_nve_body(body: Vec<PostToNve>
-) -> Result<reqwest::Response, reqwest::Error> {
+pub async fn reqwest_observations_using_post_to_nve_body(body: Vec<PostToNve>) -> Result<reqwest::Response, reqwest::Error> {
     let build = connect::build_nve_httpclient();
     let endpoint = "Observations?";
     let query_url = build.url
@@ -147,6 +147,13 @@ pub async fn reqwest_observations_using_post_to_nve_body(body: Vec<PostToNve>
         .await?;
     Ok(response)
 }
+pub async fn get_observations_using_post_to_nve_body(body: &Vec<PostToNve>) -> Result<observation::Root, reqwest::Error>{
+    let response = reqwest_observations_using_post_to_nve_body(body).await?;
+    let root = response.json::<observation::Root>().await?;
+    Ok(root)
+}
+
+
 
 #[cfg(test)]
 mod Tests {

@@ -8,8 +8,8 @@ use warp;
 use warp::Filter;
 
 use crate::{persistence, static_metadata, util};
-use crate::data::internal::parameter::Resolution::{Nve, UkGov};
-use crate::data::internal::parameter::{NveParameterResolution, StationParameter};
+use crate::data::internal::parameter::ObservationResolution::{Nve, UkGov};
+use crate::data::internal::parameter::{NveObservationResolution, StationParameter};
 use crate::data::nve::requests::PostToNve;
 use crate::persistence::{init_static_data_db, init_historic_data_calulations};
 use crate::static_metadata::get_minimum_historic_data_date;
