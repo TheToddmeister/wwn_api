@@ -33,7 +33,7 @@ impl Observation {
         Self{
             value: o.value,
             quality: o.quality.to_string(),
-            datetime: o.date_time.and_utc()
+            datetime: o.date_time
         }
     }
     pub fn from_nve(observation: nve::observation::Observation)->Self{

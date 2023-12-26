@@ -41,14 +41,14 @@ impl PostToNve {
                                                       max_historic_data: &DateTime<Utc>,
                                                       station_id: &str,
                                                       parameter: &ParameterDefinitions,
-                                                      par: &NveObservationResolution) -> PostToNve {
-        let parameter_min_date = &par.start_date.max(*min_historic_date).to_rfc3339();
+                                                      resolution: &NveObservationResolution) -> PostToNve {
+        let parameter_min_date = &resolution.start_date.max(*min_historic_date).to_rfc3339();
         let parameter_max_date = &max_historic_data.to_rfc3339();
         let reference_time = format!("{parameter_min_date}/{parameter_max_date}");
         PostToNve {
             stationId: station_id.to_string(),
             parameter: ParameterDefinitions::to_nve(&parameter).to_string(),
-            resolutionTime: par.resolution.to_string(),
+            resolutionTime: resolution.resolution.to_string(),
             referenceTime: reference_time.to_string(),
         }
     }
@@ -133,7 +133,7 @@ pub async fn get_specific_nve_observations(station_id_list: Vec<&str>,
     Ok(response)
 }
 
-pub async fn reqwest_observations_using_post_to_nve_body(body: Vec<PostToNve>) -> Result<reqwest::Response, reqwest::Error> {
+pub async fn reqwest_observations_using_post_to_nve_body(body: &Vec<PostToNve>) -> Result<reqwest::Response, reqwest::Error> {
     let build = connect::build_nve_httpclient();
     let endpoint = "Observations?";
     let query_url = build.url

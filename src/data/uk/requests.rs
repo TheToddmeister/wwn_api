@@ -26,7 +26,7 @@ pub async fn request_station_observations(station_id: &str, parameter: &Paramete
     let min_date_string = min_date.format("%Y-%m-%d").to_string();
     let max_date_string = max_date.format("%Y-%m-%d").to_string();
     let uk_parameter = ParameterDefinitions::to_uk(parameter);
-    let url_string = format!("https://environment.data.gov.uk/hydrology/data/readings.json?measure={parameter}&min-date={min_date_string}&max-date={max_date_string}&station={station_id}");
+    let url_string = format!("https://environment.data.gov.uk/hydrology/data/readings.json?measure={uk_parameter}&min-date={min_date_string}&max-date={max_date_string}&station={station_id}");
     let url = url::Url::parse(&url_string).expect("Failed to parse url to string");
     let response = reqwest::get(url).await?;
     Ok(response)
@@ -89,7 +89,7 @@ mod tests {
         let start_date = DateTime::parse_from_str("2022-10-11T00:00:00", "%Y %m %dT%H:%M:%S").unwrap().with_timezone(&Utc);
         let end_date = DateTime::parse_from_str("2023-11-11T00:00:00", "%Y %m %dT%H:%M:%S").unwrap().with_timezone(&Utc);
 
-        let inter = TimeSeries::from_ukgov(&data, station_id, parameter_id, &start_date, &end_date);
+        let inter = TimeSeries::from_ukgov(&data, station_id, &parameter_id, &start_date, &end_date);
     }
 
     #[tokio::test]
