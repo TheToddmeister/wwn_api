@@ -46,7 +46,7 @@ impl Station{
     }
     pub async fn from_ukgov(item: &uk::station::Item) -> Option<Self>{
         let s = item;
-        let id = s.notation.to_string().replace('-', "_");
+        let id = s.notation.to_string();
         let loc = Location::location_from_uk(item, &id).await;
         let station_parameters = StationParameter::from_ukgov_station(item).await;
         match loc {

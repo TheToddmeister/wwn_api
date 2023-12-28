@@ -5,3 +5,4 @@ pub mod error;
 pub mod observation_data;
 pub mod queries;
 pub mod init_historic_data_calulations;
+pub mod db;

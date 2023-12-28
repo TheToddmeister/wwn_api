@@ -1,5 +1,6 @@
-use chrono::{DateTime, NaiveDateTime, Utc};
+use chrono::{DateTime, NaiveDate, NaiveDateTime, Utc};
 use serde::{Deserialize, Serialize};
+use serde_with;
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -26,8 +27,9 @@ pub struct Meta {
 #[serde(rename_all = "camelCase")]
 pub struct Item {
     pub measure: Measure,
-    pub date: String,
-    pub date_time: DateTime<Utc>,
+    #[serde(skip)]
+    pub date: NaiveDate,
+    pub date_time: NaiveDateTime,
     pub value: Option<f64>,
     pub quality: String,
     pub valid: Option<String>,

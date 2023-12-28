@@ -1,6 +1,7 @@
 use chrono::{Date, DateTime, NaiveDate, NaiveDateTime, NaiveTime, Utc};
 use phf::{phf_map, PhfHash};
 use serde::{Deserialize, Serialize};
+use strum_macros::Display;
 use tokio::sync::OnceCell;
 
 //These are not intended to stay permanently todo!
@@ -76,7 +77,7 @@ pub enum Nation {
     Uk,
 }
 
-#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[derive(Debug, Display, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub enum Datatype {
     River,
     Station,

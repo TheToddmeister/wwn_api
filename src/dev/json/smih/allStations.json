@@ -1,0 +1,5881 @@
+{
+  "updated": 1703790000000,
+  "parameter": {
+    "key": "2",
+    "name": "Vattenföring (15 min)",
+    "unit": "m³/s"
+  },
+  "period": {
+    "key": "latest-hour",
+    "from": 1703786401000,
+    "to": 1703790000000,
+    "summary": "Data från senaste timmen"
+  },
+  "link": [
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/2/station-set/all/period/latest-hour/data.json",
+      "rel": "data",
+      "type": "application/json"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/2/station-set/all/period/latest-hour/data.xml",
+      "rel": "data",
+      "type": "application/xml"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/2/station-set/all/period/latest-hour/data.csv",
+      "rel": "data",
+      "type": "text/plain"
+    },
+    {
+      "href": "https://opendata-download-hydroobs.smhi.se/api/version/latest/parameter/2/station-set/all/period/latest-hour.atom",
+      "rel": "period",
+      "type": "application/atom+xml"
+    },
+    {
+      "href": "https://opendata-catalog.smhi.se/md/ae7f2051-7693-4cc6-8528-de1b6a592cef",
+      "rel": "iso19139",
+      "type": "application/vnd.iso.19139+xml"
+    },
+    {
+      "href": "https://opendata-catalog.smhi.se/md/545f7280-7d15-11ed-a51b-432755aaeed3",
+      "rel": "iso19139",
+      "type": "application/vnd.iso.19139+xml"
+    }
+  ],
+  "station": [
+    {
+      "id": 1583,
+      "key": "1583",
+      "name": "VÄSTERSEL",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 36,
+      "from": 420898500000,
+      "to": 1703790900000,
+      "latitude": 63.4334,
+      "longitude": 18.3002,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 6.4825,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 6.4825,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 6.4825,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 6.4825,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 6.4825,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1456,
+      "key": "1456",
+      "name": "KAALASJÄRVI",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 169222500000,
+      "to": 1703790900000,
+      "latitude": 67.7664,
+      "longitude": 19.975,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 9.6406,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 9.6573,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 9.6573,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 9.6552,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 9.6343,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1697,
+      "key": "1697",
+      "name": "KÖPINGE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 88,
+      "from": 94716900000,
+      "to": 1703790900000,
+      "latitude": 55.9454,
+      "longitude": 14.136,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0312,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0312,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0312,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0312,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0312,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2422,
+      "key": "2422",
+      "name": "HÄLLERED",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 106,
+      "from": 537477300000,
+      "to": 1703790900000,
+      "latitude": 57.7881,
+      "longitude": 12.7395,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.4801,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.4806,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.4827,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.4868,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.4868,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1575,
+      "key": "1575",
+      "name": "SIMLÅNGEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 1,
+      "from": 63065700000,
+      "to": 1703790900000,
+      "latitude": 56.7157,
+      "longitude": 13.126,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 14.0613,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 14.1152,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 14.1724,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 14.2043,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 14.2489,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2309,
+      "key": "2309",
+      "name": "GREA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 399572100000,
+      "to": 1703790900000,
+      "latitude": 60.3381,
+      "longitude": 12.9891,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.2269,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.2269,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.2269,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.2269,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.2269,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2308,
+      "key": "2308",
+      "name": "VAGGE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 386432100000,
+      "to": 1703790900000,
+      "latitude": 59.7177,
+      "longitude": 12.5093,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 7.8729,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 7.8388,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 7.8123,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 7.7953,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 7.7803,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "key": "5",
+      "name": "LANNAVAARA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 1,
+      "from": 14854500000,
+      "to": 1703790900000,
+      "latitude": 68.046,
+      "longitude": 21.9878,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 42.1087,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 42.1087,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 42.1087,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 42.1087,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 42.1087,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2311,
+      "key": "2311",
+      "name": "ARNESTORP",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 378684000000,
+      "to": 1703790900000,
+      "latitude": 59.3982,
+      "longitude": 13.9544,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.5085,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.5075,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.4974,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.4974,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.5034,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2432,
+      "key": "2432",
+      "name": "SÖDERKÖPING",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 68,
+      "from": 656853300000,
+      "to": 1703790900000,
+      "latitude": 58.4804,
+      "longitude": 16.3263,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 4.7192,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 4.6408,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 4.568,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 4.549,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 4.5352,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1221,
+      "key": "1221",
+      "name": "MOHOLM",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 94112100000,
+      "to": 1703790900000,
+      "latitude": 58.6008,
+      "longitude": 14.0552,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 28.1923,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 28.1542,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 28.1008,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 28.0665,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 28.0361,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2310,
+      "key": "2310",
+      "name": "KVARNTORP",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 386345700000,
+      "to": 1703790900000,
+      "latitude": 59.5569,
+      "longitude": 13.1352,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0589,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0589,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0589,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0589,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0589,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2318,
+      "key": "2318",
+      "name": "BOASJÖBÄCK",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 82,
+      "from": 395417700000,
+      "to": 1703790900000,
+      "latitude": 56.4313,
+      "longitude": 15.2107,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.5922,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.5937,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.5937,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.5937,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.5937,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2331,
+      "key": "2331",
+      "name": "HÄLLA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 68,
+      "from": 423929700000,
+      "to": 1703790900000,
+      "latitude": 58.4037,
+      "longitude": 16.4365,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 5.3815,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 5.3815,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 5.3815,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 5.3824,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 5.3921,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2330,
+      "key": "2330",
+      "name": "NYTORP",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 67,
+      "from": 424091700000,
+      "to": 1703790900000,
+      "latitude": 58.0323,
+      "longitude": 15.6584,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 4.9717,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 4.9793,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 4.9793,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 4.9793,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 4.9793,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1480,
+      "key": "1480",
+      "name": "KÅTASELET",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 18,
+      "from": 457262100000,
+      "to": 1703790900000,
+      "latitude": 65.344,
+      "longitude": 19.8834,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 16.6051,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 16.6026,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 16.5875,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 16.6051,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 16.6051,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2328,
+      "key": "2328",
+      "name": "GÖSTAD",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 67,
+      "from": 424617300000,
+      "to": 1703790900000,
+      "latitude": 58.5925,
+      "longitude": 15.8473,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.34,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.3405,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.3425,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.3465,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.3485,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2206,
+      "key": "2206",
+      "name": "DALKARLSHYTTAN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 274450500000,
+      "to": 1703790900000,
+      "latitude": 59.59,
+      "longitude": 15.2469,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 14.0168,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 14.0168,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 14.0168,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 14.0148,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 14.003,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2205,
+      "key": "2205",
+      "name": "FELLINGSBRO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 277740900000,
+      "to": 1703790900000,
+      "latitude": 59.4305,
+      "longitude": 15.5812,
+      "value": []
+    },
+    {
+      "id": 1236,
+      "key": "1236",
+      "name": "SUNDSTORP",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 94212900000,
+      "to": 1703790900000,
+      "latitude": 58.3221,
+      "longitude": 13.0399,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 16.0952,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 16.1246,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 16.1615,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 16.1394,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 16.1615,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2203,
+      "key": "2203",
+      "name": "MOCKFJÄRD KRV",
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "region": 53,
+      "from": 1136073600000,
+      "to": 1703790000000,
+      "latitude": 60.4834,
+      "longitude": 14.8979,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 78.9538,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 78.4563,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 77.9588,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2202,
+      "key": "2202",
+      "name": "NOREKVARN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 98,
+      "from": 250503300000,
+      "to": 1703790900000,
+      "latitude": 56.5385,
+      "longitude": 13.4145,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 6.8665,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 6.9415,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 7.0155,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 7.0787,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 7.1422,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2444,
+      "key": "2444",
+      "name": "COLLINS MÖLLA 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 87,
+      "from": 682074900000,
+      "to": 1703790900000,
+      "latitude": 56.0641,
+      "longitude": 14.4739,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 17.0476,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 17.0476,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 17.0476,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 17.0366,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 17.0398,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2201,
+      "key": "2201",
+      "name": "ÅSBRO 3",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 105,
+      "from": 246870900000,
+      "to": 1703790900000,
+      "latitude": 57.2398,
+      "longitude": 12.31,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 93.2135,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 93.3575,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 93.5016,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 93.5897,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 93.7499,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2443,
+      "key": "2443",
+      "name": "GALGBACKEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 712588500000,
+      "to": 1703790900000,
+      "latitude": 58.1616,
+      "longitude": 13.941,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 11.6604,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 11.6803,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 11.6803,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 11.6827,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 11.7076,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2200,
+      "key": "2200",
+      "name": "NEDRA BÄGBY",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 119,
+      "from": 241251300000,
+      "to": 1703790900000,
+      "latitude": 56.767,
+      "longitude": 16.7498,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.6753,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.6753,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.6753,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.6753,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.6769,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2221,
+      "key": "2221",
+      "name": "ODENSVIBRON 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 271340100000,
+      "to": 1703790900000,
+      "latitude": 59.5199,
+      "longitude": 15.992,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.4357,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.4357,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.4357,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.4277,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.4237,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2342,
+      "key": "2342",
+      "name": "STENSJÖN 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 106,
+      "from": 424448100000,
+      "to": 1703790900000,
+      "latitude": 57.4949,
+      "longitude": 12.1728,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 29.642,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 29.6697,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 29.6836,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 29.7113,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 29.7252,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2341,
+      "key": "2341",
+      "name": "PEPPARFORSEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 103,
+      "from": 431882100000,
+      "to": 1703790900000,
+      "latitude": 57.0967,
+      "longitude": 12.6738,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 20.7391,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 20.8159,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 20.8651,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 20.9174,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 20.9605,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2340,
+      "key": "2340",
+      "name": "SNAPPARP",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 101,
+      "from": 425668500000,
+      "to": 1703790900000,
+      "latitude": 56.985,
+      "longitude": 13.0964,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 20.2781,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 20.4813,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 20.6886,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 20.8676,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 21.044,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2218,
+      "key": "2218",
+      "name": "BERG",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 336554100000,
+      "to": 1703790900000,
+      "latitude": 59.5945,
+      "longitude": 16.1592,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.2382,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.238,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.2362,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.2345,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.2313,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2217,
+      "key": "2217",
+      "name": "GRÄNVAD",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 277305300000,
+      "to": 1703790900000,
+      "latitude": 59.6635,
+      "longitude": 16.782,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.2557,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.243,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.2266,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.208,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.1991,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2337,
+      "key": "2337",
+      "name": "SKYE KVARN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 86,
+      "from": 422201700000,
+      "to": 1703790900000,
+      "latitude": 56.7101,
+      "longitude": 14.8947,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 5.4041,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 5.4066,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 5.4194,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 5.4232,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 5.4488,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2215,
+      "key": "2215",
+      "name": "KROKFORS KVARN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 11,
+      "from": 277056900000,
+      "to": 1703790900000,
+      "latitude": 58.7812,
+      "longitude": 11.816,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.1987,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.2011,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.2053,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.2076,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.21,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2336,
+      "key": "2336",
+      "name": "LISSBRO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 86,
+      "from": 422111700000,
+      "to": 1703790900000,
+      "latitude": 56.8229,
+      "longitude": 14.5296,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.3762,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.3853,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.3876,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.3928,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.4008,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2214,
+      "key": "2214",
+      "name": "MELLANKVARN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 276516900000,
+      "to": 1703790900000,
+      "latitude": 58.6006,
+      "longitude": 12.4684,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 17.393,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 17.36,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 17.4071,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 17.4166,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 17.4449,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2335,
+      "key": "2335",
+      "name": "DANSJÖN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 86,
+      "from": 422018100000,
+      "to": 1703790900000,
+      "latitude": 56.941,
+      "longitude": 14.575,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.7587,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.7595,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.7627,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.7635,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.7683,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2213,
+      "key": "2213",
+      "name": "EGGVENA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 276884100000,
+      "to": 1703790900000,
+      "latitude": 58.0849,
+      "longitude": 12.8837,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 7.9178,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 7.9178,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 7.9178,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 7.9153,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 7.8904,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1123,
+      "key": "1123",
+      "name": "YTTERHOLMEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 7,
+      "from": 27609300000,
+      "to": 1703790900000,
+      "latitude": 66.1679,
+      "longitude": 21.8063,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 4.9752,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 4.9635,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 4.9781,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 4.9796,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 4.9796,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2212,
+      "key": "2212",
+      "name": "SPÅNGA KVARN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 276257700000,
+      "to": 1703790900000,
+      "latitude": 58.0075,
+      "longitude": 12.7311,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 13.4193,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 13.4371,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 13.4371,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 13.4549,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 13.4727,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2211,
+      "key": "2211",
+      "name": "BOSGÅRDEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 105,
+      "from": 276354900000,
+      "to": 1703790900000,
+      "latitude": 57.8125,
+      "longitude": 13.053,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 10.093,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 10.1174,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 10.1417,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 10.1661,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 10.1905,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1243,
+      "key": "1243",
+      "name": "HALVORSBYN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 94083300000,
+      "to": 1703790900000,
+      "latitude": 58.6185,
+      "longitude": 12.3541,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 7.12,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 7.1323,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 7.12,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 7.1344,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 7.1344,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2219,
+      "key": "2219",
+      "name": "DÖMSTA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 271502100000,
+      "to": 1703790900000,
+      "latitude": 59.5373,
+      "longitude": 15.8862,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 34.9588,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 34.9123,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 35.0138,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 34.9334,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 35.1789,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2229,
+      "key": "2229",
+      "name": "KRINGLAN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 274659300000,
+      "to": 1703790900000,
+      "latitude": 59.6925,
+      "longitude": 14.791,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 4.0831,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 4.0821,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 4.0725,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 4.0715,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 4.0715,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2227,
+      "key": "2227",
+      "name": "BUSKBÄCKEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 257865300000,
+      "to": 1703790900000,
+      "latitude": 59.9038,
+      "longitude": 15.2314,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0114,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0114,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0114,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0114,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0114,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1378,
+      "key": "1378",
+      "name": "RÖÅN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 38,
+      "from": 504915300000,
+      "to": 1703790900000,
+      "latitude": 63.6415,
+      "longitude": 16.7537,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 6.1208,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 6.1208,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 6.1208,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 6.1208,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 6.1208,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2345,
+      "key": "2345",
+      "name": "VALTORP",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 428141700000,
+      "to": 1703790900000,
+      "latitude": 58.2346,
+      "longitude": 13.6314,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 5.5522,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 5.5576,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 5.5956,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 5.6227,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 5.6608,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2587,
+      "key": "2587",
+      "name": "SIBRO 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": null,
+      "from": 1340280900000,
+      "to": 1703790000000,
+      "latitude": 58.9509,
+      "longitude": 16.8819,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 10.3139,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 10.0913,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 10.0209,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 10.1198,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 10.1977,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1375,
+      "key": "1375",
+      "name": "FLÖTEMARKEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 112,
+      "from": 77282100000,
+      "to": 1703790900000,
+      "latitude": 58.7887,
+      "longitude": 11.6526,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 4.3221,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 4.3221,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 4.3277,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 4.3277,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 4.3221,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1273,
+      "key": "1273",
+      "name": "HALLBOSJÖN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 65,
+      "from": 297342900000,
+      "to": 1703790900000,
+      "latitude": 58.8589,
+      "longitude": 16.6989,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 22.4997,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 22.5455,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 22.5512,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 22.5055,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 22.4997,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2362,
+      "key": "2362",
+      "name": "FRYELE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 98,
+      "from": 454007700000,
+      "to": 1703790900000,
+      "latitude": 57.2646,
+      "longitude": 14.1281,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 14.6426,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 14.6713,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 14.6857,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 14.6857,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 14.7,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2240,
+      "key": "2240",
+      "name": "KONSTDALSSTRÖMMEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 51,
+      "from": 305721000000,
+      "to": 1703790900000,
+      "latitude": 60.8605,
+      "longitude": 16.8103,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 9.5166,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 9.5166,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 9.5166,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 9.5166,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 9.5166,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2361,
+      "key": "2361",
+      "name": "STENSÅKRA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 74,
+      "from": 455296500000,
+      "to": 1703790900000,
+      "latitude": 57.4084,
+      "longitude": 15.0878,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 9.4798,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 9.4798,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 9.4798,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 9.4798,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 9.4798,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2119,
+      "key": "2119",
+      "name": "KROKBRÄCKE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 110111,
+      "from": 77631300000,
+      "to": 1703790900000,
+      "latitude": 58.6258,
+      "longitude": 11.3572,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.5093,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.5016,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.4946,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.4921,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.4891,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2118,
+      "key": "2118",
+      "name": "VALEX",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 111,
+      "from": 77390100000,
+      "to": 1703790900000,
+      "latitude": 58.9103,
+      "longitude": 11.3661,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.3821,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.3925,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.4059,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.4195,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.4315,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2117,
+      "key": "2117",
+      "name": "FYRÅS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 102586500000,
+      "to": 1703790900000,
+      "latitude": 63.5192,
+      "longitude": 15.3886,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 11.317,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 11.317,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 11.317,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 11.317,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 11.317,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2238,
+      "key": "2238",
+      "name": "SORSELE 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 28,
+      "from": 296914500000,
+      "to": 1703790900000,
+      "latitude": 65.5418,
+      "longitude": 17.5106,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 29.5608,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 29.5237,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 29.5052,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 29.5052,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 29.5237,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2359,
+      "key": "2359",
+      "name": "SVED",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 67,
+      "from": 453465000000,
+      "to": 1703790900000,
+      "latitude": 58.0237,
+      "longitude": 14.1321,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.8688,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.8688,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.8688,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.8688,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.8688,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2237,
+      "key": "2237",
+      "name": "GRANÅKER",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 28,
+      "from": 297177300000,
+      "to": 1703790900000,
+      "latitude": 64.2396,
+      "longitude": 19.6664,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 70.3046,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 70.3046,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 70.2607,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 70.2534,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 70.2241,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2358,
+      "key": "2358",
+      "name": "TÄRENDÖ 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 467460900000,
+      "to": 1703790900000,
+      "latitude": 67.1457,
+      "longitude": 22.6466,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 162.4697,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 162.3315,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 162.3315,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 162.3315,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 162.3315,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2236,
+      "key": "2236",
+      "name": "YTTERTRÄSK NEDRE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 26,
+      "from": 299268900000,
+      "to": 1703790900000,
+      "latitude": 64.2106,
+      "longitude": 20.2669,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.2086,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.2086,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.2086,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.2086,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.2086,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2357,
+      "key": "2357",
+      "name": "ABISKO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 1,
+      "from": 461495700000,
+      "to": 1703790900000,
+      "latitude": 68.3559,
+      "longitude": 18.8208,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 21.5688,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 21.5444,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 21.4762,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 21.5103,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 21.5688,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2235,
+      "key": "2235",
+      "name": "KÅGE 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 19,
+      "from": 299592900000,
+      "to": 1703790900000,
+      "latitude": 64.8346,
+      "longitude": 20.9852,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.8404,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.8285,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.8226,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.8107,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.8107,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2356,
+      "key": "2356",
+      "name": "ALTTAJÄRVI",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 1,
+      "from": 461416500000,
+      "to": 1703790900000,
+      "latitude": 67.8135,
+      "longitude": 20.5849,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0566,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0566,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0566,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0566,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0566,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1387,
+      "key": "1387",
+      "name": "GRANSEL",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 13,
+      "from": 487001700000,
+      "to": 1703790900000,
+      "latitude": 65.8449,
+      "longitude": 20.3194,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 289.6172,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 289.7745,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 289.8531,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 290.0104,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 290.0891,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2012,
+      "key": "2012",
+      "name": "PAJALA PUMPHUS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 1,
+      "from": -10101600000,
+      "to": 1703790900000,
+      "latitude": 67.2275,
+      "longitude": 23.3401,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 119.4787,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 119.3283,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 119.2424,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 119.2424,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 119.2424,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2250,
+      "key": "2250",
+      "name": "BAGGEBOL NEDRE 3",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 64,
+      "from": 297986400000,
+      "to": 1703790900000,
+      "latitude": 58.9311,
+      "longitude": 17.2634,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.7886,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.7908,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.79,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.7926,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.7926,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1160,
+      "key": "1160",
+      "name": "KUKKASJÄRVI",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 3,
+      "from": 480665700000,
+      "to": 1703790900000,
+      "latitude": 66.1133,
+      "longitude": 23.3209,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.4762,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.4818,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.4724,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.4781,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.4724,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2129,
+      "key": "2129",
+      "name": "TÅNEMÖLLA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 8909,
+      "from": 117279000000,
+      "to": 1703790900000,
+      "latitude": 55.4497,
+      "longitude": 13.594,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 4.3665,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 4.3665,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 4.3623,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 4.3696,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 4.3675,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2128,
+      "key": "2128",
+      "name": "HEÅKRA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 96,
+      "from": 107004600000,
+      "to": 1703790900000,
+      "latitude": 55.8452,
+      "longitude": 13.6354,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 7.8206,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 7.831,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 7.8429,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 7.8564,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 7.8832,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2249,
+      "key": "2249",
+      "name": "ÅKERS KRUTBRUK",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 298120500000,
+      "to": 1703790900000,
+      "latitude": 59.264,
+      "longitude": 17.1182,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.4717,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.4633,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.478,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.479,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.4748,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2127,
+      "key": "2127",
+      "name": "BRÖDDEBACKEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 94,
+      "from": 106488900000,
+      "to": 1703790900000,
+      "latitude": 55.9953,
+      "longitude": 12.7982,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 7.3689,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 7.4674,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 7.5478,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 7.6001,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 7.6513,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2248,
+      "key": "2248",
+      "name": "HÄRNEVI",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 306065700000,
+      "to": 1703790900000,
+      "latitude": 59.733,
+      "longitude": 17.071,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.1336,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.1336,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.1336,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.1407,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.1346,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2126,
+      "key": "2126",
+      "name": "ELLINGE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 92,
+      "from": 106568100000,
+      "to": 1703790900000,
+      "latitude": 55.8091,
+      "longitude": 13.282,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 8.4585,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 8.4896,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 8.5319,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 8.5631,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 8.601,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2247,
+      "key": "2247",
+      "name": "RANSTA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 305810100000,
+      "to": 1703790900000,
+      "latitude": 59.7582,
+      "longitude": 17.3931,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.9152,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.9152,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.9152,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.9152,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.9152,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2244,
+      "key": "2244",
+      "name": "VATTHOLMA 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 306066600000,
+      "to": 1703790900000,
+      "latitude": 60.0196,
+      "longitude": 17.7307,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.5723,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.5746,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.5909,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.5816,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.5746,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2365,
+      "key": "2365",
+      "name": "HÖRSNE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 117,
+      "from": 455882400000,
+      "to": 1703790900000,
+      "latitude": 57.5585,
+      "longitude": 18.5989,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 11.5401,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 11.5401,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 11.5401,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 11.5401,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 11.5533,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 855,
+      "key": "855",
+      "name": "GETEBRO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 75,
+      "from": 94457700000,
+      "to": 1703790900000,
+      "latitude": 57.0089,
+      "longitude": 16.1625,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 15.8673,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 15.8907,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 15.8907,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 15.8907,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 15.8907,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 736,
+      "key": "736",
+      "name": "HÅLABÄCK",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 86087,
+      "from": -323100000,
+      "to": 1703790900000,
+      "latitude": 56.1203,
+      "longitude": 14.6204,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.1157,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.1157,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.1157,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.1157,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.1154,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2143,
+      "key": "2143",
+      "name": "SPÅNGA NEDRE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 88,
+      "from": 143806500000,
+      "to": 1703790900000,
+      "latitude": 56.1706,
+      "longitude": 14.0506,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 28.6723,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 28.6572,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 28.6168,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 28.6572,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 28.7109,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1171,
+      "key": "1171",
+      "name": "GRÖTSJÖN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 53,
+      "from": 561765600000,
+      "to": 1703790900000,
+      "latitude": 61.8132,
+      "longitude": 12.4455,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.4013,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.4013,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.4013,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.3998,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.3854,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2139,
+      "key": "2139",
+      "name": "KARLSLUND 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 144940500000,
+      "to": 1703790900000,
+      "latitude": 59.2684,
+      "longitude": 15.1493,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 33.3591,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 33.3634,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 33.4059,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 33.3421,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 33.3251,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1169,
+      "key": "1169",
+      "name": "LJUSNEDAL ÖVRE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 48,
+      "from": 62591400000,
+      "to": 1703790900000,
+      "latitude": 62.548,
+      "longitude": 12.6012,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.6943,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.6943,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.6943,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.6943,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.6943,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2256,
+      "key": "2256",
+      "name": "NYMÖLLA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 88,
+      "from": 302879700000,
+      "to": 1703790900000,
+      "latitude": 55.9429,
+      "longitude": 14.0927,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 10.3152,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 10.3379,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 10.3697,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 10.4083,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 10.4266,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1166,
+      "key": "1166",
+      "name": "ASSMEBRO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 103,
+      "from": 60293700000,
+      "to": 1703790900000,
+      "latitude": 57.4325,
+      "longitude": 13.1314,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 24.6585,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 24.2338,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 23.8909,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 23.8056,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 23.8056,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2153,
+      "key": "2153",
+      "name": "HAMMARBY 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 274461300000,
+      "to": 1703790900000,
+      "latitude": 59.5345,
+      "longitude": 15.114,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 13.6773,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 13.6773,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 13.6773,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 13.6801,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 13.6972,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2395,
+      "key": "2395",
+      "name": "KALLIO 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 1,
+      "from": 549296100000,
+      "to": 1703790900000,
+      "latitude": 67.225,
+      "longitude": 23.5434,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 220.5489,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 220.5489,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 220.5489,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 220.5489,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 220.5489,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2152,
+      "key": "2152",
+      "name": "MEDSTUGAN NEDRE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 136332900000,
+      "to": 1703790900000,
+      "latitude": 63.5235,
+      "longitude": 12.3944,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.6813,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.6696,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.6463,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.636,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.6489,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2273,
+      "key": "2273",
+      "name": "HASSELA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 44,
+      "from": 368457300000,
+      "to": 1703790900000,
+      "latitude": 62.0872,
+      "longitude": 16.7843,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 4.6644,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 4.6644,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 4.6644,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 4.6656,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 4.6784,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 751,
+      "key": "751",
+      "name": "VASSBOTTEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 112,
+      "from": 94292100000,
+      "to": 1703790900000,
+      "latitude": 58.8766,
+      "longitude": 11.5358,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 11.795,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 11.788,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 11.7787,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 11.8089,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 11.7764,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2146,
+      "key": "2146",
+      "name": "HALLAMÖLLA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 88089,
+      "from": 144342900000,
+      "to": 1703790900000,
+      "latitude": 55.7084,
+      "longitude": 14.0107,
+      "value": []
+    },
+    {
+      "id": 10016,
+      "key": "10016",
+      "name": "MAGNOR",
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 986696100000,
+      "to": 1703789100000,
+      "latitude": 59.9546,
+      "longitude": 12.1873,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.65,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.65,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.65,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2284,
+      "key": "2284",
+      "name": "BYSKE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 18,
+      "from": 327503700000,
+      "to": 1703790900000,
+      "latitude": 64.9559,
+      "longitude": 21.184,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 76.109,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 76.0238,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 75.9813,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 75.9813,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 75.9813,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2283,
+      "key": "2283",
+      "name": "LILLÄNGET",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 17,
+      "from": 327345300000,
+      "to": 1703790900000,
+      "latitude": 65.0398,
+      "longitude": 21.286,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 10.3189,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 10.3189,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 10.3189,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 10.3402,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 10.3508,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2159,
+      "key": "2159",
+      "name": "KILLINGI",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 157759200000,
+      "to": 1703790900000,
+      "latitude": 67.5212,
+      "longitude": 20.2713,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 14.4183,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 14.4183,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 14.4183,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 14.4183,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 14.4183,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1069,
+      "key": "1069",
+      "name": "MÖCKELN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 88,
+      "from": 394308900000,
+      "to": 1703790900000,
+      "latitude": 56.6647,
+      "longitude": 14.1214,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 13.8404,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 13.842,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 13.8356,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 13.8356,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 13.8484,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2399,
+      "key": "2399",
+      "name": "OPPLI",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 48,
+      "from": 578052900000,
+      "to": 1703790900000,
+      "latitude": 61.9622,
+      "longitude": 15.8102,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.3325,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.3328,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.3328,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.3328,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.3328,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2398,
+      "key": "2398",
+      "name": "RISNÄS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 39,
+      "from": 578225700000,
+      "to": 1703790900000,
+      "latitude": 62.696,
+      "longitude": 17.5547,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.6244,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.6241,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.6232,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.6232,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.6232,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2290,
+      "key": "2290",
+      "name": "YXERED 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 71,
+      "from": 339939000000,
+      "to": 1703790900000,
+      "latitude": 57.6497,
+      "longitude": 16.185,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.4685,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.4685,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.4685,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.4685,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.4685,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2292,
+      "key": "2292",
+      "name": "STRÖMSBORG",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 75,
+      "from": 341237700000,
+      "to": 1703790900000,
+      "latitude": 57.0982,
+      "longitude": 15.6602,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 5.0137,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 5.0186,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 5.021,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 5.021,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 5.021,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2170,
+      "key": "2170",
+      "name": "RYTTARBACKEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 68,
+      "from": 189300600000,
+      "to": 1703790900000,
+      "latitude": 58.4885,
+      "longitude": 15.9937,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0612,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0622,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0632,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0642,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0658,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2291,
+      "key": "2291",
+      "name": "SOLNEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 73,
+      "from": 339372900000,
+      "to": 1703790900000,
+      "latitude": 57.5757,
+      "longitude": 15.9214,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0652,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0651,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0648,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0649,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0654,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 654,
+      "key": "654",
+      "name": "ERSBO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 53,
+      "from": 561975300000,
+      "to": 1703790900000,
+      "latitude": 61.3096,
+      "longitude": 13.0088,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 21.9504,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 21.9599,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 22.007,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 22.0118,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 22.0306,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2289,
+      "key": "2289",
+      "name": "MELBY",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 69,
+      "from": 338544900000,
+      "to": 1703790900000,
+      "latitude": 58.0447,
+      "longitude": 16.601,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.8651,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.8651,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.8651,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.8733,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.8774,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2188,
+      "key": "2188",
+      "name": "GREDEBY",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 81,
+      "from": 200747700000,
+      "to": 1703790900000,
+      "latitude": 56.2207,
+      "longitude": 15.5213,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 6.3649,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 6.3785,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 6.3846,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 6.4089,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 6.421,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2299,
+      "key": "2299",
+      "name": "TÄRNSJÖ",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 54,
+      "from": 347148900000,
+      "to": 1703790900000,
+      "latitude": 60.1312,
+      "longitude": 16.9438,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.1233,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.1233,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.1233,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.1234,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.1241,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "key": "200",
+      "name": "RÖRVIK",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 98,
+      "from": 455386500000,
+      "to": 1703790900000,
+      "latitude": 57.2414,
+      "longitude": 14.5883,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.6739,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.6708,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.6688,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.6688,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.6729,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 20002,
+      "key": "20002",
+      "name": "EMSFORS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 74,
+      "from": 1577829600000,
+      "to": 1703791800000,
+      "latitude": 57.1431,
+      "longitude": 16.4513,
+      "value": []
+    },
+    {
+      "id": 11,
+      "key": "11",
+      "name": "MÄNNIKKÖ",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 169031700000,
+      "to": 1703790900000,
+      "latitude": 67.4234,
+      "longitude": 22.4027,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 69.29,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 69.29,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 69.29,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 69.29,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 69.29,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "key": "17",
+      "name": "RÄKTFORS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 168531300000,
+      "to": 1703790900000,
+      "latitude": 66.1704,
+      "longitude": 22.8149,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 125.6893,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 125.5491,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 125.6292,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 125.489,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 125.529,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "key": "364",
+      "name": "HILLARED",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 103,
+      "from": -87327900000,
+      "to": 1703790900000,
+      "latitude": 57.6074,
+      "longitude": 13.1409,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 19.7869,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 19.7869,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 19.7869,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 19.7901,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 19.8216,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "key": "20",
+      "name": "NIEMISEL",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 7,
+      "from": 461322900000,
+      "to": 1703790900000,
+      "latitude": 66.0216,
+      "longitude": 21.9672,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 20.2959,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 20.2959,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 20.2959,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 20.2959,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 20.2959,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "key": "257",
+      "name": "MUNKEDAL 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 11,
+      "from": 81497700000,
+      "to": 1703790900000,
+      "latitude": 58.4643,
+      "longitude": 11.6839,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 20.8563,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 20.9547,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 21.0077,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 21.0381,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 21.1064,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "key": "37",
+      "name": "STENUDDEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 13,
+      "from": 457110900000,
+      "to": 1703790900000,
+      "latitude": 66.5369,
+      "longitude": 17.6592,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 19.8756,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 19.8756,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 19.8756,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 19.8756,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 19.8756,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1809,
+      "key": "1809",
+      "name": "SKÄRSBODA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 74,
+      "from": 94716900000,
+      "to": 1703790900000,
+      "latitude": 57.578,
+      "longitude": 14.8637,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.9457,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.9457,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.9457,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.9457,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.9457,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1706,
+      "key": "1706",
+      "name": "IDAFORS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 13,
+      "from": 441756900000,
+      "to": 1703790900000,
+      "latitude": 65.8867,
+      "longitude": 20.347,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 48.0661,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 48.0081,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 47.918,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 47.9051,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 47.8408,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1835,
+      "key": "1835",
+      "name": "STORMYRA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 62063,
+      "from": 30795300000,
+      "to": 1703790900000,
+      "latitude": 59.2027,
+      "longitude": 18.3262,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0437,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0437,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0439,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0442,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0442,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "key": "186",
+      "name": "MÖRRUM",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 86,
+      "from": 94716900000,
+      "to": 1703790900000,
+      "latitude": 56.1944,
+      "longitude": 14.7491,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 31.2184,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 31.2674,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 31.2919,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 31.3196,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 31.3503,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1963,
+      "key": "1963",
+      "name": "VUODDASBÄCKEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 7,
+      "from": -42014700000,
+      "to": 1703790900000,
+      "latitude": 66.4151,
+      "longitude": 21.6961,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0967,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0976,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0971,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0973,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0984,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1962,
+      "key": "1962",
+      "name": "KÄLLSTORP 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 77,
+      "from": -72063900000,
+      "to": 1703790900000,
+      "latitude": 56.6961,
+      "longitude": 16.139,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 5.3998,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 5.3896,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 5.3845,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 5.3743,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 5.3743,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1609,
+      "key": "1609",
+      "name": "STRÖMFORS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 2,
+      "from": 28936800000,
+      "to": 1703790900000,
+      "latitude": 65.1292,
+      "longitude": 18.9528,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.2703,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.2703,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.2703,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.2703,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.2703,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1622,
+      "key": "1622",
+      "name": "BRUSAFORS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 74,
+      "from": 94716900000,
+      "to": 1703790900000,
+      "latitude": 57.6174,
+      "longitude": 15.5742,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 4.7625,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 4.7611,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 4.7611,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 4.7596,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 4.7454,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1742,
+      "key": "1742",
+      "name": "STABBY",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 61,
+      "from": 94716900000,
+      "to": 1703790900000,
+      "latitude": 59.7962,
+      "longitude": 17.5827,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.0847,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.0847,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.0847,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.0847,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.0845,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1740,
+      "key": "1740",
+      "name": "ÖVRE LANSJÄRV",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 168606900000,
+      "to": 1703790900000,
+      "latitude": 66.639,
+      "longitude": 22.2303,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 6.1178,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 6.1178,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 6.1178,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 6.1178,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 6.1178,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1635,
+      "key": "1635",
+      "name": "KLIPPAN 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 96,
+      "from": 55145700000,
+      "to": 1703790900000,
+      "latitude": 56.1438,
+      "longitude": 13.1076,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 11.7388,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 11.7388,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 11.7388,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 11.7667,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 11.7807,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1630,
+      "key": "1630",
+      "name": "GAUTRÄSK",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 28,
+      "from": 308042100000,
+      "to": 1703790900000,
+      "latitude": 65.9494,
+      "longitude": 16.2534,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.9949,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.9949,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.9949,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.9949,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.9949,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1639,
+      "key": "1639",
+      "name": "TÖRNESTORP",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": -54000000,
+      "to": 1703790900000,
+      "latitude": 58.3613,
+      "longitude": 13.9516,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 5.539,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 5.5033,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 5.4756,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 5.4244,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 5.3813,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2606,
+      "key": "2606",
+      "name": "HESTRAVIKEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": null,
+      "from": 1551886200000,
+      "to": 1703790000000,
+      "latitude": 57.4185,
+      "longitude": 13.6284,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 21.9166,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 22.1641,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 21.8161,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 21.9212,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 22.2184,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1879,
+      "key": "1879",
+      "name": "SVEDALA",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 9,
+      "from": 152464500000,
+      "to": 1703790900000,
+      "latitude": 55.5068,
+      "longitude": 13.2382,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.4944,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.4984,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.4946,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.4927,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.4971,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2614,
+      "key": "2614",
+      "name": "HEBYLUND KVARNSJÖN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": null,
+      "from": 1510146000000,
+      "to": 1703790900000,
+      "latitude": 58.9786,
+      "longitude": 16.3829,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.7447,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.7447,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.7447,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.7447,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.7447,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2611,
+      "key": "2611",
+      "name": "FORS 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": null,
+      "from": 1509631200000,
+      "to": 1703790000000,
+      "latitude": 60.1435,
+      "longitude": 18.2042,
+      "value": []
+    },
+    {
+      "id": 1762,
+      "key": "1762",
+      "name": "LIMA KRV",
+      "owner": "Extern",
+      "measuringStations": "CORE",
+      "region": 53,
+      "from": 1136073600000,
+      "to": 1703790000000,
+      "latitude": 60.7962,
+      "longitude": 13.4246,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 23.235,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 23.285,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 23.335,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1882,
+      "key": "1882",
+      "name": "LISJÖBÄCKEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 343563300000,
+      "to": 1703790900000,
+      "latitude": 60.0414,
+      "longitude": 13.1717,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.1935,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.1935,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.1935,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.1934,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.192,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1881,
+      "key": "1881",
+      "name": "ARÖDÅN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108109,
+      "from": 31140900000,
+      "to": 1703790900000,
+      "latitude": 58.2444,
+      "longitude": 11.9347,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.8192,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.8178,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.8178,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.8178,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.8178,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2619,
+      "key": "2619",
+      "name": "LOVERSBRO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": null,
+      "from": 1356002100000,
+      "to": 1703790900000,
+      "latitude": 56.5443,
+      "longitude": 16.1833,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.9035,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.9165,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.9296,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.9413,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.9466,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1780,
+      "key": "1780",
+      "name": "MERTAJÄRVI",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 1,
+      "from": 497268900000,
+      "to": 1703790900000,
+      "latitude": 68.3643,
+      "longitude": 22.1794,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.6366,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.6366,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.6366,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.6366,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.6366,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2621,
+      "key": "2621",
+      "name": "NORREFORS 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 67,
+      "from": 1136066400000,
+      "to": 1703790900000,
+      "latitude": 57.7163,
+      "longitude": 14.1208,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.6845,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.6782,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.6754,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.6642,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.6614,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2506,
+      "key": "2506",
+      "name": "TORRBÖLE 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 3,
+      "from": 1072820700000,
+      "to": 1703790900000,
+      "latitude": 63.703,
+      "longitude": 19.5942,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 10.1553,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 10.1553,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 10.1429,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 10.1398,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 10.1212,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1425,
+      "key": "1425",
+      "name": "FÄTTJAURE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 38,
+      "from": 678114900000,
+      "to": 1703790900000,
+      "latitude": 65.2877,
+      "longitude": 15.2927,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.1379,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.1279,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.1365,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.1365,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.1165,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1662,
+      "key": "1662",
+      "name": "VELEN 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 67,
+      "from": 31558500000,
+      "to": 1703790900000,
+      "latitude": 58.7131,
+      "longitude": 14.3149,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.9569,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.9589,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.9584,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.9581,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.9569,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1309,
+      "key": "1309",
+      "name": "ÄCKLINGEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 4,
+      "from": 135504900000,
+      "to": 1703790900000,
+      "latitude": 63.7387,
+      "longitude": 13.0112,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.5843,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.5941,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.599,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.5917,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.6064,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2404,
+      "key": "2404",
+      "name": "SKOGSLIDEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 47,
+      "from": 549563400000,
+      "to": 1703790900000,
+      "latitude": 61.3645,
+      "longitude": 16.9132,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 3.5129,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 3.5129,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 3.5129,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 3.5118,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 3.4966,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2525,
+      "key": "2525",
+      "name": "TORSEBRO ÖVRE",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 88,
+      "from": 1262297700000,
+      "to": 1703790000000,
+      "latitude": 56.1109,
+      "longitude": 14.1323,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 96.1035,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 96.0564,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 96.3887,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 96.2102,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 96.4111,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2402,
+      "key": "2402",
+      "name": "SAXBRO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 62063,
+      "from": 584727300000,
+      "to": 1703790900000,
+      "latitude": 59.116,
+      "longitude": 17.8047,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.1967,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.1967,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.1967,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.1997,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.2011,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1675,
+      "key": "1675",
+      "name": "SKABRAM",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 9,
+      "from": 453111300000,
+      "to": 1703790900000,
+      "latitude": 66.6017,
+      "longitude": 19.7764,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.1491,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.15,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.1491,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.1489,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.1489,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2400,
+      "key": "2400",
+      "name": "MARIEFORS",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 8,
+      "from": 564849000000,
+      "to": 1703790900000,
+      "latitude": 56.2229,
+      "longitude": 15.6798,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 8.9414,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 8.9272,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 8.9393,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 8.9576,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 8.9657,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 1673,
+      "key": "1673",
+      "name": "TÄNGVATTNET",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 28,
+      "from": 615723300000,
+      "to": 1703790900000,
+      "latitude": 65.8357,
+      "longitude": 14.8415,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.1466,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.1466,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.1466,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.1466,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.1466,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2409,
+      "key": "2409",
+      "name": "DALKARLSÅ",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 25,
+      "from": 615105000000,
+      "to": 1703790900000,
+      "latitude": 64.0373,
+      "longitude": 20.8505,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.9214,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.921,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.9161,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.9156,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.9156,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2408,
+      "key": "2408",
+      "name": "NORDMARK 2",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 108,
+      "from": 601722900000,
+      "to": 1703790900000,
+      "latitude": 59.8455,
+      "longitude": 14.0744,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 2.0422,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 2.035,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 2.0479,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 2.2445,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 2.344,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2406,
+      "key": "2406",
+      "name": "MARSTAD",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 67,
+      "from": 592308900000,
+      "to": 1703790000000,
+      "latitude": 58.4005,
+      "longitude": 15.019,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.1542,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.1544,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.1548,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.1557,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.1567,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2414,
+      "key": "2414",
+      "name": "LAISVALL",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 28,
+      "from": 615479400000,
+      "to": 1703790900000,
+      "latitude": 66.1324,
+      "longitude": 17.1558,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 10.2849,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 10.2826,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 10.2588,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 10.273,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 10.2588,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2410,
+      "key": "2410",
+      "name": "HYTTINGSHEDEN",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 53,
+      "from": 616162500000,
+      "to": 1703790900000,
+      "latitude": 60.4255,
+      "longitude": 15.2736,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 0.843,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 0.843,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 0.843,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 0.843,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 0.843,
+          "quality": "O"
+        }
+      ]
+    },
+    {
+      "id": 2417,
+      "key": "2417",
+      "name": "RYGGESBO",
+      "owner": "SMHI",
+      "measuringStations": "CORE",
+      "region": 48,
+      "from": 651328200000,
+      "to": 1703790900000,
+      "latitude": 61.4893,
+      "longitude": 15.8346,
+      "value": [
+        {
+          "date": 1703787300000,
+          "value": 1.1507,
+          "quality": "O"
+        },
+        {
+          "date": 1703788200000,
+          "value": 1.1507,
+          "quality": "O"
+        },
+        {
+          "date": 1703789100000,
+          "value": 1.1507,
+          "quality": "O"
+        },
+        {
+          "date": 1703790000000,
+          "value": 1.1507,
+          "quality": "O"
+        },
+        {
+          "date": 1703790900000,
+          "value": 1.1507,
+          "quality": "O"
+        }
+      ]
+    }
+  ]
+}

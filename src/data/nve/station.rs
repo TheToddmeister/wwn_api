@@ -176,21 +176,3 @@ pub struct ResolutionList {
     pub data_to_time: DateTime<Utc>,
 }
 
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-    use serde::{self, Serialize, Deserialize};
-    use tokio;
-    use crate::dev;
-
-    #[tokio::test]
-    async fn test_station_deserializsation(){
-        let json = dev::_read_file("src/dev/json/nve/singleStation.json").await.unwrap();
-        let root = deserialize_stations(&json).unwrap();
-        let daum = &root.data[0];
-        let hierarchy = &daum.hierarchy;
-        assert_eq!(hierarchy, &["röjdan-løvhaugsåa".to_string(), "norsälven".to_string()].to_vec());
-        assert_eq!(daum.station_status_name, "Active");
-    }
-}

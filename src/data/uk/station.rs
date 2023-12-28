@@ -35,7 +35,8 @@ pub struct Meta {
 pub struct Item {
     #[serde(rename = "@id")]
     pub id: String,
-    pub label: Value,
+    #[serde_as(deserialize_as = "OneOrMany<_, PreferMany>")]
+    pub label: Vec<String>,
     pub notation: String,
     #[serde(skip)]
     pub easting: Value,

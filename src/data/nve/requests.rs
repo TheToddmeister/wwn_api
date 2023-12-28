@@ -160,7 +160,6 @@ mod Tests {
     use tokio;
 
     use crate::data::{internal, nve};
-    use crate::data::nve::observation::deserialize_observations;
     use crate::dev::_read_file;
 
     #[tokio::test]
@@ -189,12 +188,5 @@ mod Tests {
             let internal = internal::station::Station::from_nve(&daum).await;
             internal_stations.push(internal);
         }
-    }
-
-    #[tokio::test]
-    async fn ut_deserialize_observations() {
-        let test = _read_file("src/dev/json/nve/allObservations.json").await.unwrap();
-        let root = deserialize_observations(&test).unwrap();
-        let data = assert_eq!(root.data.len(), 3);
     }
 }

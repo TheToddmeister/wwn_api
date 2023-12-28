@@ -1,6 +1,7 @@
 use std::collections::{HashMap, HashSet};
 use envy::Error;
 use itertools::Itertools;
+use surrealdb::engine::any::Any;
 use surrealdb::engine::remote::ws::Client;
 use surrealdb::Surreal;
 use tracing::log::info;
@@ -14,7 +15,7 @@ use crate::persistence::tables::Tables::{StaticRiver, StaticStation};
 use crate::util::geo::location::Location;
 
 #[tracing::instrument]
-pub async fn build_static_station_info_tables(db: &Surreal<Client>) -> Result<(), APIPersistenceError> {
+pub async fn build_static_station_info_tables(db: &Surreal<Any>) -> Result<(), APIPersistenceError> {
     let drop_table_staticrivers: Vec<String> = db.delete(StaticRiver.to_string()).await?;
     let drop_table_staticstations: Vec<String> = db.delete(StaticStation.to_string()).await?;
 

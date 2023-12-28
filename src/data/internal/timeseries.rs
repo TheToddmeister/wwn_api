@@ -95,15 +95,17 @@ impl TimeSeries {
     pub fn from_ukgov(station: &uk::observation::Root,
                       station_id: &str,
                       parameter_id: &ParameterDefinitions,
-                      start_date: &DateTime<Utc>,
-                      end_date: &DateTime<Utc>,
+                      start_date_utc: &DateTime<Utc>,
+                      end_date_utc: &DateTime<Utc>,
     ) -> Self {
         let o = &station.items;
+        let end_date = end_date_utc.naive_utc();
+        let start_date = start_date_utc.naive_utc();
         let obs = o.iter().rev()
-            .skip_while(|d| &d.date_time >= end_date)
-            .take_while(|p| &p.date_time >= start_date)
+            .skip_while(|d| &d.date_time >= &end_date)
+            .take_while(|p| &p.date_time >= &start_date)
             .map(|v| Observation {
-                datetime: v.date_time,
+                datetime: v.date_time.and_utc(),
                 value: v.value,
                 quality: v.quality.to_string(),
             }).collect::<Vec<Observation>>();

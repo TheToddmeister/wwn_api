@@ -41,7 +41,7 @@ pub async fn get_station_observations(station_id: &str, parameter: &ParameterDef
 
 #[cfg(test)]
 mod tests {
-    use chrono::{DateTime, Utc};
+    use chrono::{DateTime, NaiveDateTime, Utc};
     use serde::{self, Deserialize};
     use tokio;
 
@@ -85,10 +85,9 @@ mod tests {
         let data = serde_json::from_str::<observation::Root>(&csv).unwrap();
 
         let station_id = "052d0819-2a32-47df-9b99-c243c9c8235b";
-        let parameter_id = static_metadata::ParameterDefinitions::FLOW;
-        let start_date = DateTime::parse_from_str("2022-10-11T00:00:00", "%Y %m %dT%H:%M:%S").unwrap().with_timezone(&Utc);
-        let end_date = DateTime::parse_from_str("2023-11-11T00:00:00", "%Y %m %dT%H:%M:%S").unwrap().with_timezone(&Utc);
-
+        let parameter_id = ParameterDefinitions::FLOW;
+        let start_date = NaiveDate::from_ymd_opt(2022,10,11).unwrap().and_hms_opt(00,00,01).unwrap().and_utc();
+        let end_date = NaiveDate::from_ymd_opt(2022,10,11).unwrap().and_hms_opt(00,00,01).unwrap().and_utc();
         let inter = TimeSeries::from_ukgov(&data, station_id, &parameter_id, &start_date, &end_date);
     }
 
@@ -97,7 +96,7 @@ mod tests {
         let min_date = NaiveDate::from_ymd_opt(1993, 10, 19).unwrap();
         let max_date = NaiveDate::from_yo_opt(2022, 1).unwrap();
         let root = get_station_observations("052d0819-2a32-47df-9b99-c243c9c8235b",&ParameterDefinitions::FLOW, &min_date, &max_date).await.unwrap();
-        let obs_to_high = root.items.iter().find(|f| f.date_time>=max_date.and_hms_opt(00,00, 01).unwrap().and_utc());
-        let obs_to_low = root.items.iter().find(|f| f.date_time>=min_date.and_hms_opt(00,00, 01).unwrap().and_utc());
+        let obs_to_high = root.items.iter().find(|f| f.date_time>=max_date.and_hms_opt(00,00, 01).unwrap());
+        let obs_to_low = root.items.iter().find(|f| f.date_time>=min_date.and_hms_opt(00,00, 01).unwrap());
     }
 }

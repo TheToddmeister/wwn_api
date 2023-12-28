@@ -1,3 +1,6 @@
+use futures::future::Lazy;
+use surrealdb::engine::remote::ws::Client;
+use surrealdb::Surreal;
 use warp;
 use warp::Filter;
 
@@ -22,7 +25,7 @@ async fn main() -> surrealdb::Result<()> {
 pub async fn controller(db_config: DbConnectionConfig) -> surrealdb::Result<()> {
     let subscriber = tracing_subscriber::FmtSubscriber::new();
     tracing::subscriber::set_global_default(subscriber).unwrap();
-    let db = persistence::connection::connect_db(db_config).await?;
+    let db = persistence::connection::connect_to_local_db(db_config).await?;
     static_controller(&db).await.expect("Failed to initiate static database");
     warp_controller().await;
     Ok(())

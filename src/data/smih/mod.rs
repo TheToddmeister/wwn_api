@@ -1,6 +1,6 @@
-pub mod smih_request;
+pub mod request;
 pub mod period;
-pub mod station_recent_observations;
+pub mod station_and_recent_observations;
 pub mod observation_data;
 
 //flow24*60 - flow15 - cm - C

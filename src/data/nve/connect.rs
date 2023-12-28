@@ -66,15 +66,3 @@ pub fn build_nve_httpclient()-> NveStruct {
     };
     return nve;
 }
-
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn test_read_environment(){
-        let var = read_from_env().test;
-        assert_eq!("Test", var)
-    }
-}

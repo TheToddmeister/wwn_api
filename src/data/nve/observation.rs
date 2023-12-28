@@ -1,18 +1,6 @@
 use chrono::{DateTime, Utc};
 use serde::{self, Deserialize, Serialize};
 
-pub fn _read_and_deserialize_test_observations() -> Root {
-    let path: &str = "src/test/json/observations.json";
-    let json: String = std::fs::read_to_string(path).unwrap();
-    let root = deserialize_observations(&json).unwrap();
-    return root;
-}
-
-pub fn deserialize_observations(json: &str) -> Result<Root, Box<dyn std::error::Error>>{
-    let nve = serde_json::from_str::<Root>(&json)?;
-    Ok(nve)
-}
-
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Root {
@@ -55,9 +43,7 @@ pub struct Observation {
 mod tests {
     use serde::{self};
     use tokio;
-
-    use crate::data::nve::observation::{Daum, deserialize_observations, Observation, Root};
-
+    use crate::data::nve;
     use super::*;
 
     fn read_test_observation()->String{
@@ -69,11 +55,9 @@ mod tests {
     #[tokio::test]
     async fn test_observation_deserializsation(){
         let a=false;
-        let path: &str = "dev/json/nve/singleObservation.json";
+        let path: &str = "src/dev/json/nve/singleObservation.json";
         let json: String = std::fs::read_to_string(path).unwrap();
-        let root = deserialize_observations(&json).unwrap();
+        let root = serde_json::from_str::<Root>(&json).unwrap();
         let daum = &root.data[0];
-        
     }
-
 }

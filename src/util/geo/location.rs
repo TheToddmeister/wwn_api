@@ -20,17 +20,18 @@ impl Location {
     pub async fn location_from_uk(station: &uk::station::Item, id: &str) -> Option<Self> {
         let s = station;
         let latlong =  [s.lat.first(), s.long.first()];
+        let name = s.label.first().unwrap_or(&"Unnknown".to_string()).to_owned(); //Fixme!
         match latlong {
             [Some(x), Some(y)] =>{
                 let loc = Location {
-                    location_id: id.to_string(),
+                    location_id: id.to_owned(),
                     label: STATION,
-                    name: s.label.to_string(),
+                    name: name.to_owned(),
                     position: Vec::from(
                         [
                             Position {
-                                name: s.label.to_string(),
-                                description: "".to_string(),
+                                name,
+                                description: "".to_owned(),
                                 coordinate: Coordinates {
                                     latitude: *x,
                                     longitude: *y,
@@ -39,7 +40,7 @@ impl Location {
                 };
                 Some(loc)
             },
-            _ => None
+            _ => None //Todo
         }
         
     }
