@@ -3,6 +3,7 @@ use futures::future::join_all;
 use futures::StreamExt;
 use itertools::Itertools;
 use serde::Deserialize;
+use surrealdb::engine::any::Any;
 use surrealdb::engine::remote::ws::Client;
 use surrealdb::Surreal;
 use tokio::join;
@@ -20,9 +21,10 @@ use crate::data::nve::requests::PostToNve;
 use crate::persistence::init_static_data_db;
 use crate::static_metadata::get_minimum_historic_data_date;
 use crate::static_metadata::Origin;
+use crate::static_metadata::Datatype::{Location};
 use crate::static_controller::MinimalStation;
 
-pub async fn get_historic_observation_data(min_historic_date: &DateTime<Utc>, max_historic_data: &DateTime<Utc>, all_minimal_stations: &Vec<MinimalStation>) -> Result<(), persistence::error::APIPersistenceError> {
+pub async fn init_historic_observation_data(db: &Surreal<Any>, min_historic_date: &DateTime<Utc>, max_historic_data: &DateTime<Utc>, all_minimal_stations: &Vec<MinimalStation>) -> Result<(), persistence::error::APIPersistenceError> {
     //Todo! This is ugly af and should be broken down to fetch on individual origins
     let mut internal_timeseries = vec![];
     for (key, group) in &all_minimal_stations.iter().group_by(|o| &o.origin) {
@@ -33,6 +35,7 @@ pub async fn get_historic_observation_data(min_historic_date: &DateTime<Utc>, ma
             Origin::SMIH => {}
         }
     }
+    db.create(())
     Ok(())
 }
 
@@ -41,12 +44,12 @@ pub async fn get_nve_observation_data_as_internal_observation(stations: Vec<&Min
                                                               max_historic_data: &DateTime<Utc>) -> Result<Vec<internal::timeseries::TimeSeries>, APIError> {
     let mut nve_requests = vec![];
     for n in &stations {
-        for p in &n.station_parameter {
+        for p in &n.station_parameters {
             match &p.historic_stable_resolution_in_minutes {
                 Nve(Some(nor)) => {
                     let nve_query_body = PostToNve::build_nve_observation_postquery_body(min_historic_date,
                                                                                          &max_historic_data,
-                                                                                         &n.station_id,
+                                                                                         &n.location_id,
                                                                                          &p.internal_parameter_id, &nor);
                     nve_requests.push(nve_query_body);
                 }
@@ -72,15 +75,15 @@ pub async fn get_ukgov_observation_data_as_internal_observations(stations: Vec<&
                                                                  max_historic_date: &DateTime<Utc>) -> Result<Vec<TimeSeries>, APIError> {
     let mut uk_internal_timeseries = vec![];
     for n in &stations {
-        for p in &n.station_parameter {
+        for p in &n.station_parameters {
             match &p.historic_stable_resolution_in_minutes {
                 UkGov(pars) => {
-                    let uk_root = uk::requests::get_station_observations(&n.station_id,
+                    let uk_root = uk::requests::get_station_observations(&n.location_id,
                                                                          &p.internal_parameter_id,
                                                                          &min_historic_date.date_naive(),
                                                                          &max_historic_date.date_naive()).await?;
                     let internal_uk_timeseries = TimeSeries::from_ukgov(&uk_root,
-                                                                        &n.station_id,
+                                                                        &n.location_id,
                                                                         &p.internal_parameter_id,
                                                                         min_historic_date,
                                                                         max_historic_date);

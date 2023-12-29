@@ -6,12 +6,14 @@ use surrealdb::engine::remote::ws::Client;
 use surrealdb::Surreal;
 use tracing::log::info;
 
-use crate::data::{internal, nve, uk};
+use crate::data::{internal, nve, smih, uk};
 use crate::data::internal::river::River;
 use crate::data::internal::station::Station;
 use crate::persistence::error::APIPersistenceError;
 use crate::persistence::tables;
 use crate::persistence::tables::Tables::{StaticRiver, StaticStation};
+use crate::static_metadata::ParameterDefinitions;
+use crate::static_metadata::ParameterDefinitions::{FLOW, RAINFALL, TEMPERATURE, WATERLEVEL};
 use crate::util::geo::location::Location;
 
 #[tracing::instrument]
@@ -50,7 +52,6 @@ pub async fn build_static_station_info_tables(db: &Surreal<Any>) -> Result<(), A
             rivers.insert(ir);
         }
     }
-
     info!("Successfully persisted UKGOV");
     Ok(())
 }

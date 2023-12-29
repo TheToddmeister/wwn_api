@@ -51,7 +51,7 @@ impl ParameterDefinitions {
             Self::RAINFALL => "rainfall",
         }
     }
-    pub fn from_smih(s: &str) -> Option<Self> {
+    pub fn from_smih_name(s: &str) -> Option<Self> {
         match s {
             "Vattenföring (15 min)" => Some(Self::FLOW),
             "Vattenstånd" => Some(Self::WATERLEVEL),
@@ -59,11 +59,11 @@ impl ParameterDefinitions {
             _ => None,
         }
     }
-    pub fn to_smih(self) -> Option<&'static str> {
+    pub fn to_smih_id(self) -> Option<i32> {
        let s= match self {
-            Self::FLOW => "Vattenföring (15 min)",
-            Self::WATERLEVEL => "Vattenstånd",
-            Self::TEMPERATURE => "Vattendragstemperatur",
+            Self::FLOW => 2,
+            Self::WATERLEVEL => 3,
+            Self::TEMPERATURE => 4,
             Self::RAINFALL => return None,
         };
         Some(s)
@@ -79,8 +79,9 @@ pub enum Nation {
 
 #[derive(Debug, Display, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub enum Datatype {
-    River,
-    Station,
+    StaticRiver,
+    StaticStation,
+    HistoricObservationMetadata,
     Location,
     User,
 }

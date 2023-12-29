@@ -78,6 +78,9 @@ mod integration_testing {
         let db = connect_to_in_memory_embedded_db().await.unwrap();
         let a:Option<TestRecord> = db.create(("Nothing", "0")).content(TestRecord{something:"nothing".to_string()}).await.unwrap();
         let b = a.unwrap();
-        assert_eq!(b.something, "nothing")
+        assert_eq!(b.something, "nothing");
+        let db2 = connect_to_in_memory_embedded_db().await.unwrap();
+        let empty: Vec<TestRecord> = db2.select("Nothing").await.unwrap();
+        assert!(empty.is_empty())
     }
 }

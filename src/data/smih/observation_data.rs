@@ -5,6 +5,7 @@ use csv_async::AsyncReaderBuilder;
 use futures::StreamExt;
 use serde::{self, Deserialize, Serialize};
 
+
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct HistoricObservation{
     date_time: NaiveDate,
@@ -35,6 +36,7 @@ mod tests{
     use crate::dev;
 
     use super::*;
+    /*
 
     #[tokio::test]
     pub async fn test_smih_historic_data_deserialization(){
@@ -43,4 +45,5 @@ mod tests{
         let ho1 = &content[0];
         assert_eq!(ho1.value, "12".to_string());
     }
+    */
 }

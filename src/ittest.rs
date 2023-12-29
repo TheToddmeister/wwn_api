@@ -25,12 +25,13 @@ mod data_storage_with_db {
         let uk_station = uk_station_result.unwrap();
         assert_eq!(&uk_station.origin, &UKGOV);
         assert_eq!(&uk_station.location.name, "North Street");
-    }
 
+    }
+    #[tokio::test]
     pub async fn test_itt_build_static_stations_and_store_does_not_throw(){
         dev::create_mocked_allStation_endpoints().await;
         let db = connect_to_in_memory_embedded_db().await.unwrap();
         static_controller::static_controller(&db).await.unwrap();
-
+        let w = db.query("select")
     }
 }
