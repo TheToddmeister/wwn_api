@@ -13,13 +13,13 @@ use crate::static_metadata::ParameterDefinitions;
 pub struct TimeSeries {
     pub station_id: String,
     pub parameter_id: ParameterDefinitions,
-    pub latest_observations: Vec<Observation>,
+    pub observations: Vec<Observation>,
     pub last_update_request: DateTime<Utc>,
 }
 
 impl TimeSeries {
     pub async fn get_newest_observation(&self) -> Option<ValidatedObservation> {
-        self.latest_observations.iter().find(|o| o.value.is_some())
+        self.observations.iter().find(|o| o.value.is_some())
             .and_then(ValidatedObservation::from_observation)
     }
     pub async fn find_min_x_minutes_older_than_newest_max_2x(&self, minutes_diff: i64) -> Option<ValidatedObservation> {
@@ -27,7 +27,7 @@ impl TimeSeries {
         let diff = Duration::minutes(minutes_diff);
         let min_date = newest - diff;
         let max_date = newest - diff * 2;
-        self.latest_observations.iter()
+        self.observations.iter()
             .skip_while(|q| q.datetime >= min_date)
             .take_while(|w| w.datetime <= max_date)
             .find(|p| p.datetime <= max_date && p.value.is_some())
@@ -78,7 +78,7 @@ impl TimeSeries {
                 station_id: daum.station_id.to_string(),
                 last_update_request: Utc::now(),
                 parameter_id,
-                latest_observations: obs,
+                observations: obs,
             })
         }
         None
@@ -113,7 +113,7 @@ impl TimeSeries {
             station_id: station_id.to_string(),
             last_update_request: Utc::now(),
             parameter_id: parameter_id.to_owned(),
-            latest_observations: obs,
+            observations: obs,
         }
     }
 }

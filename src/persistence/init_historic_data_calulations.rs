@@ -21,21 +21,21 @@ use crate::data::nve::requests::PostToNve;
 use crate::persistence::init_static_data_db;
 use crate::static_metadata::get_minimum_historic_data_date;
 use crate::static_metadata::Origin;
-use crate::static_metadata::Datatype::{Location};
+use crate::static_metadata::Datatype::{Location, HistoricObservationMetadata};
 use crate::static_controller::MinimalStation;
 
 pub async fn init_historic_observation_data(db: &Surreal<Any>, min_historic_date: &DateTime<Utc>, max_historic_data: &DateTime<Utc>, all_minimal_stations: &Vec<MinimalStation>) -> Result<(), persistence::error::APIPersistenceError> {
-    //Todo! This is ugly af and should be broken down to fetch on individual origins
     let mut internal_timeseries = vec![];
     for (key, group) in &all_minimal_stations.iter().group_by(|o| &o.origin) {
         let minimal_stations_from_origin: Vec<&MinimalStation> = group.collect_vec();
         match key {
-            Origin::NVE => { internal_timeseries.push(get_nve_observation_data_as_internal_observation(minimal_stations_from_origin, min_historic_date, max_historic_data).await?); },
-            Origin::UKGOV => { internal_timeseries.push(get_ukgov_observation_data_as_internal_observations(minimal_stations_from_origin, min_historic_date, max_historic_data).await?); }
+            Origin::NVE => { internal_timeseries.append(&mut get_nve_observation_data_as_internal_observation(minimal_stations_from_origin, min_historic_date, max_historic_data).await?); },
+            Origin::UKGOV => { internal_timeseries.append(&mut get_ukgov_observation_data_as_internal_observations(minimal_stations_from_origin, min_historic_date, max_historic_data).await?); }
             Origin::SMIH => {}
         }
     }
-    db.create(())
+    let observations: Vec<TimeSeries> = db.create(HistoricObservationMetadata.to_string())
+        .content(internal_timeseries).await?;
     Ok(())
 }
 

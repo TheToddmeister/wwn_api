@@ -35,8 +35,8 @@ pub async fn static_controller(db: &Surreal<Any>) -> Result<(), persistence::err
     let min_historic_date = get_minimum_historic_data_date().await;
     let max_historic_data = util::time::get_first_moment_of_year(Utc::now().year() - 2).await.expect("Failed to calulate max historic data.");
     init_static_data_db::build_static_station_info_tables(db).await?;
-    let stations: Vec<MinimalStation>  = db.query("select location.location_id, origin, status, station_parameters from StaticRiver").await?.take(0)?;
-    init_historic_data_calulations::init_historic_observation_data(min_historic_date, &max_historic_data, &stations).await?;
+    let stations: Vec<MinimalStation>  = db.query("select location.location_id, origin, status, station_parameters from StaticStation").await?.take(0)?;
+    init_historic_data_calulations::init_historic_observation_data(&db, min_historic_date, &max_historic_data, &stations).await?;
     Ok(())
 }
 

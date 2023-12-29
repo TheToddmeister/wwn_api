@@ -11,6 +11,8 @@ use surrealdb::opt::auth::Root;
 use surrealdb::Surreal;
 use tokio::sync::OnceCell;
 use warp::hyper::client::connect::Connect;
+use crate::dev;
+use crate::dev::DevProfiles::{AutoTest, DevTest, Prod, Dev};
 
 pub struct Db{
     session: Session,
@@ -29,28 +31,27 @@ pub struct Login{
     DBUSER: String,
 }
 
+pub async fn connect_to_db()->Surreal<Any>{
+    let db_profile = dev::DevConfig::read_dev_profile().await;
+    let db = match db_profile {
+        AutoTest=> {connect_to_automatic_testing_in_memory_embedded_db().await?},
+        DevTest=> {connect_to_local_dev_db().await}
+        Prod=> {todo!()}
+        Dev=> {todo!()}
+    };
+}
 
-pub async fn connect_to_local_db(db_parameters: DbConnectionConfig) -> surrealdb::Result<Surreal<Any>> {
-    let address = db_parameters.address;
-    let port = db_parameters.port;
-    let namespace = db_parameters.default_namespace;
-    let db_name = db_parameters.default_db;
-    let path = format!("{address}:{port}");
+pub async fn connect_to_local_dev_db() -> surrealdb::Result<Surreal<Any>> {
     let db = connect("ws://127.0.0.1:8000").await?;
-    // Signin as a namespace, database, or root user
-    let root = envy::from_env::<Login>();
-    // todo() Read from env
     db.signin(Root {
         username: "test",
         password: "test",
     }).await?;
-
-    // Select a specific namespace / database
-    db.use_ns(namespace).use_db(db_name).await?;
+    db.use_ns("test").use_db("test").await?;
     Ok(db)
 }
 
-pub async fn connect_to_in_memory_embedded_db() -> surrealdb::Result<Surreal<Any>>{
+pub async fn connect_to_automatic_testing_in_memory_embedded_db() -> surrealdb::Result<Surreal<Any>>{
     let db = connect("mem://").await?;
     db.use_ns("test").use_db("test").await?;
     Ok(db)
@@ -75,11 +76,11 @@ mod integration_testing {
 
     #[tokio::test]
     async fn test_embedded_in_memory_db(){
-        let db = connect_to_in_memory_embedded_db().await.unwrap();
+        let db = connect_to_automatic_testing_in_memory_embedded_db().await.unwrap();
         let a:Option<TestRecord> = db.create(("Nothing", "0")).content(TestRecord{something:"nothing".to_string()}).await.unwrap();
         let b = a.unwrap();
         assert_eq!(b.something, "nothing");
-        let db2 = connect_to_in_memory_embedded_db().await.unwrap();
+        let db2 = connect_to_automatic_testing_in_memory_embedded_db().await.unwrap();
         let empty: Vec<TestRecord> = db2.select("Nothing").await.unwrap();
         assert!(empty.is_empty())
     }

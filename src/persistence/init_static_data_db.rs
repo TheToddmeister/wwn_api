@@ -39,7 +39,6 @@ pub async fn build_static_station_info_tables(db: &Surreal<Any>) -> Result<(), A
     }
     info!("Successfully persisted NVE");
     for item in &future_ukgov.await?.items {
-        let id = item.notation.to_string().replace('-', "_");
         let internal_station = Station::from_ukgov(item).await;
 
         if let Some(i) = internal_station.as_ref().map(|a| &a.location) {
