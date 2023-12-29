@@ -12,7 +12,7 @@ use surrealdb::Surreal;
 use tokio::sync::OnceCell;
 use warp::hyper::client::connect::Connect;
 use crate::dev;
-use crate::dev::DevProfiles::{AutoTest, DevTest, Prod, Dev};
+use crate::dev::DevProfiles::{AutoTest, DevTest, Prod, Dev, StaticTest};
 
 pub struct Db{
     session: Session,
@@ -30,14 +30,24 @@ pub struct Login{
     DBPASSWORD: String,
     DBUSER: String,
 }
-
+/*
+Connect to db routes to different surreal db implementations based on the current environment.
+AutoTest is connects to an embedded closed/inaccessible(harder to access) environment intended for github actions and other testrunners.
+The db environment does not persist after the test has been run.
+DevTest connects to an external in memory local db session and is intended for active development.
+The db enironment is persisted beyond the test and must be manually reset between tests.
+StaticTest is a static in memory db intended for read testing
+Dev is a local persisted database intended to simulate a production setting.
+Prod is prod.
+ */
 pub async fn connect_to_db()->Surreal<Any>{
     let db_profile = dev::DevConfig::read_dev_profile().await;
     let db = match db_profile {
         AutoTest=> {connect_to_automatic_testing_in_memory_embedded_db().await?},
-        DevTest=> {connect_to_local_dev_db().await}
-        Prod=> {todo!()}
-        Dev=> {todo!()}
+        DevTest=> {connect_to_local_dev_db().await},
+        StaticTest=>{todo!()},
+        Prod=> {todo!()},
+        Dev=> {todo!()},
     };
 }
 

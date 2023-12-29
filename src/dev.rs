@@ -7,6 +7,7 @@ use crate::dev::DevProfiles::{AutoTest, DevTest};
 pub enum DevProfiles{
     AutoTest,
     DevTest,
+    StaticTest,
     Dev,
     Prod,
 }
