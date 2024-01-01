@@ -6,20 +6,27 @@ use reqwest;
 
 use crate::data::api_error::{APIError, handle_http_response_not_200};
 use crate::data::uk::{observation, station};
+use crate::dev::_read_file;
 use crate::static_metadata::{Origin, ParameterDefinitions};
 
 pub async fn request_station_info() -> Result<reqwest::Response, reqwest::Error> {
-    let url_string = "http://environment.data.gov.uk/hydrology/id/stations?status.label=Active&_limit=200000";
+    let url_string = "https://environment.data.gov.uk/hydrology/id/stations?status.label=Active&_limit=200000";
     let url = url::Url::parse(&url_string).expect("Failed to parse url to string");
     let response = reqwest::get(url).await?;
     Ok(response)
 }
-
+#[cfg(not(test))]
 pub async fn get_station_info() -> Result<station::Root, APIError> {
     let response = request_station_info().await?;
     handle_http_response_not_200(Origin::UKGOV, &response).await?;
     let root = response.json::<station::Root>().await?;
     Ok(root)
+}
+#[cfg(test)]
+pub async fn get_station_info() -> Result<station::Root, APIError> {
+    let content = _read_file("src/dev/json/ukgov/stationInformation.json").await.unwrap();
+    let data = serde_json::from_str::<station::Root>(&content).unwrap();
+    Ok(data)
 }
 
 pub async fn request_station_observations(station_id: &str, parameter: &ParameterDefinitions, min_date: &NaiveDate, max_date: &NaiveDate) -> Result<reqwest::Response, reqwest::Error> {
@@ -31,13 +38,21 @@ pub async fn request_station_observations(station_id: &str, parameter: &Paramete
     let response = reqwest::get(url).await?;
     Ok(response)
 }
-
-pub async fn get_station_observations(station_id: &str, parameter: &ParameterDefinitions, min_date: &NaiveDate, max_date:&NaiveDate) -> Result<observation::Root, APIError> {
+#[cfg(not(test))]
+pub async fn get_observations_from_station(station_id: &str, parameter: &ParameterDefinitions, min_date: &NaiveDate, max_date: &NaiveDate) -> Result<observation::Root, APIError> {
     let response = request_station_observations(station_id, parameter, min_date, max_date).await?;
     handle_http_response_not_200(Origin::UKGOV, &response).await?;
     let root = response.json::<observation::Root>().await?;
     Ok(root)
 }
+
+#[cfg(test)]
+pub async fn get_observations_from_station(station_id: &str, parameter: &ParameterDefinitions, min_date: &NaiveDate, max_date: &NaiveDate) -> Result<observation::Root, APIError> {
+    let content = _read_file("src/dev/json/ukgov/ulting/ultingObservation.json").await.unwrap();
+    let data = serde_json::from_str::<observation::Root>(&content).unwrap();
+    Ok(data)
+}
+
 
 #[cfg(test)]
 mod tests {
@@ -86,8 +101,8 @@ mod tests {
 
         let station_id = "052d0819-2a32-47df-9b99-c243c9c8235b";
         let parameter_id = ParameterDefinitions::FLOW;
-        let start_date = NaiveDate::from_ymd_opt(2022,10,11).unwrap().and_hms_opt(00,00,01).unwrap().and_utc();
-        let end_date = NaiveDate::from_ymd_opt(2022,10,11).unwrap().and_hms_opt(00,00,01).unwrap().and_utc();
+        let start_date = NaiveDate::from_ymd_opt(2022, 10, 11).unwrap().and_hms_opt(00, 00, 01).unwrap().and_utc();
+        let end_date = NaiveDate::from_ymd_opt(2022, 10, 11).unwrap().and_hms_opt(00, 00, 01).unwrap().and_utc();
         let inter = TimeSeries::from_ukgov(&data, station_id, &parameter_id, &start_date, &end_date);
     }
 
@@ -95,8 +110,6 @@ mod tests {
     async fn test_get_station_observation() {
         let min_date = NaiveDate::from_ymd_opt(1993, 10, 19).unwrap();
         let max_date = NaiveDate::from_yo_opt(2022, 1).unwrap();
-        let root = get_station_observations("052d0819-2a32-47df-9b99-c243c9c8235b",&ParameterDefinitions::FLOW, &min_date, &max_date).await.unwrap();
-        let obs_to_high = root.items.iter().find(|f| f.date_time>=max_date.and_hms_opt(00,00, 01).unwrap());
-        let obs_to_low = root.items.iter().find(|f| f.date_time>=min_date.and_hms_opt(00,00, 01).unwrap());
+        let root = get_observations_from_station("052d0819-2a32-47df-9b99-c243c9c8235b", &ParameterDefinitions::FLOW, &min_date, &max_date).await.unwrap();
     }
 }

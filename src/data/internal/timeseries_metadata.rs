@@ -31,14 +31,14 @@ pub struct TimeSeriesMetaData {
 }
 
 impl TimeSeriesMetaData {
-    pub async fn from_internal_parameter(internal_parameter: internal::timeseries::TimeSeries) ->Self{
+    pub async fn from_internal_timeseries(internal_parameter: &internal::timeseries::TimeSeries) ->Self{
         let p = &internal_parameter;
         let calculation_date = Utc::now();
         let max_date = p.observations.iter().map(|q| q.datetime).into_iter().max();
         let min_date =  p.observations.iter().map(|q| q.datetime).into_iter().min();
 
         let calculations = util::analytics::historic_statistics::calculate_daily_metadata(&p.observations).await;
-        Self {
+        TimeSeriesMetaData {
             min_date,
             max_date,
             calculation_date,

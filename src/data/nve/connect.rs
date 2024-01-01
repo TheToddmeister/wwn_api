@@ -4,6 +4,7 @@ use envy;
 use reqwest::{self, Client, header::HeaderMap};
 use reqwest::header::HeaderValue;
 use serde::{Deserialize, Serialize};
+use tracing_subscriber::fmt::format;
 use url;
 
 pub struct NveStruct {
@@ -11,6 +12,7 @@ pub struct NveStruct {
     pub url:  url::Url,
     pub header: HeaderMap
 }
+const  NVE_ROOT_URL:&'static str = "https://hydapi.nve.no";
 
 #[derive(Deserialize, Serialize)]
 struct APIConfig {
@@ -39,10 +41,9 @@ fn build_client() -> Client {
 }
 
 fn build_base_nve_url() -> url::Url {
-    let base_nve_url =  url::Url::parse("https://hydapi.nve.no/api/v1/").expect("Failed to parse Url");
+    let base_nve_url =  url::Url::parse(&format!("{NVE_ROOT_URL}/api/v1/")).expect("Failed to parse Url");
     return base_nve_url;
 }
-
 
 fn buid_nve_headers() -> HeaderMap {
     let key = HeaderValue::from_maybe_shared(nve_key()).unwrap();

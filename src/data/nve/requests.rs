@@ -1,6 +1,7 @@
 use std;
 
 use chrono::{DateTime, Duration, Utc};
+use mockall::automock;
 use reqwest::{self};
 use serde::{Deserialize, Serialize};
 use crate::data::internal::parameter::NveObservationResolution;
@@ -9,6 +10,7 @@ use crate::data::nve::connect;
 use crate::data::nve::observation;
 use crate::data::nve::observation::Root;
 use crate::data::nve::station;
+use crate::dev::_read_file;
 use crate::static_metadata;
 use crate::static_metadata::ParameterDefinitions;
 
@@ -62,10 +64,16 @@ pub async fn reqwest_all_stations() -> Result<reqwest::Response, reqwest::Error>
         .send().await?;
     Ok(response)
 }
-
+#[cfg(not(test))]
 pub async fn get_all_stations() -> Result<station::Root, reqwest::Error> {
     let response = reqwest_all_stations().await?;
     let data = response.json::<station::Root>().await?;
+    return Ok(data);
+}
+#[cfg(test)]
+pub async fn get_all_stations() -> Result<station::Root, reqwest::Error> {
+    let content = _read_file("src/dev/json/nve/allStations.json").await.unwrap();
+    let data = serde_json::from_str::<station::Root>(&content).unwrap();
     return Ok(data);
 }
 
@@ -79,12 +87,19 @@ pub async fn request_latest_nve_observations() -> Result<reqwest::Response, reqw
         .send().await?;
     Ok(response)
 }
-
+#[cfg(not(test))]
 pub async fn get_latest_nve_observations() -> Result<observation::Root, reqwest::Error> {
     let response = request_latest_nve_observations().await?;
     let data = response.json::<observation::Root>().await?;
     Ok(data)
 }
+#[cfg(test)]
+pub async fn get_latest_nve_observations() -> Result<observation::Root, reqwest::Error> {
+    let content = _read_file("src/dev/json/nve/allObservations.json").await.unwrap();
+    let data = serde_json::from_str::<observation::Root>(&content).unwrap();
+    return Ok(data);
+}
+
 
 
 pub async fn get_specific_nve_observations_and_parameters(parameters: &str, stations: &str) -> Result<reqwest::Response, reqwest::Error> {
@@ -133,7 +148,7 @@ pub async fn get_specific_nve_observations(station_id_list: Vec<&str>,
     Ok(response)
 }
 
-pub async fn reqwest_observations_using_post_to_nve_body(body: &Vec<PostToNve>) -> Result<reqwest::Response, reqwest::Error> {
+pub async fn reqwest_observations_using_post_to_nve_body(body: &[PostToNve]) -> Result<reqwest::Response, reqwest::Error> {
     let build = connect::build_nve_httpclient();
     let endpoint = "Observations?";
     let query_url = build.url
@@ -147,7 +162,14 @@ pub async fn reqwest_observations_using_post_to_nve_body(body: &Vec<PostToNve>) 
         .await?;
     Ok(response)
 }
-pub async fn get_observations_using_post_to_nve_body(body: &Vec<PostToNve>) -> Result<observation::Root, reqwest::Error>{
+#[cfg(test)]
+pub async fn get_observations_using_post_to_nve_body(body: &[PostToNve]) -> Result<observation::Root, reqwest::Error>{
+    let data = _read_file("src/dev/json/nve/observationGroup.json").await.unwrap();
+    let root = serde_json::from_str(&data).unwrap();
+    Ok(root)
+}
+#[cfg(not(test))]
+pub async fn get_observations_using_post_to_nve_body(body: &[PostToNve]) -> Result<observation::Root, reqwest::Error>{
     let response = reqwest_observations_using_post_to_nve_body(body).await?;
     let root = response.json::<observation::Root>().await?;
     Ok(root)

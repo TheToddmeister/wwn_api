@@ -1,18 +1,15 @@
-use futures::future::Lazy;
 use serde::{Deserialize, Serialize};
 use surrealdb;
 use surrealdb::dbs::Session;
 use surrealdb::engine::any::Any;
 use surrealdb::engine::any::connect;
-use surrealdb::engine::remote::ws::{Client, Ws, Wss};
 use surrealdb::kvs::Datastore;
-use surrealdb::opt::auth;
 use surrealdb::opt::auth::Root;
 use surrealdb::Surreal;
-use tokio::sync::OnceCell;
 use warp::hyper::client::connect::Connect;
+
 use crate::dev;
-use crate::dev::DevProfiles::{AutoTest, DevTest, Prod, Dev, StaticTest};
+use crate::dev::DevProfiles::{AutoTest, DevTest};
 
 pub struct Db{
     session: Session,
@@ -40,16 +37,25 @@ StaticTest is a static in memory db intended for read testing
 Dev is a local persisted database intended to simulate a production setting.
 Prod is prod.
  */
-pub async fn connect_to_db()->Surreal<Any>{
-    let db_profile = dev::DevConfig::read_dev_profile().await;
-    let db = match db_profile {
-        AutoTest=> {connect_to_automatic_testing_in_memory_embedded_db().await?},
-        DevTest=> {connect_to_local_dev_db().await},
-        StaticTest=>{todo!()},
-        Prod=> {todo!()},
-        Dev=> {todo!()},
+pub async fn connect_to_db()->surrealdb::Result<Surreal<Any>>{
+    let dev_profile = &dev::DEV_PROFILE.dev_profile;
+    let db = match dev_profile {
+        AutoTest=> {return  Ok(connect_to_automatic_testing_in_memory_embedded_db().await?)},
+        DevTest=> {connect_to_local_dev_db().await?},
     };
+    Ok(db)
 }
+pub async fn connect_to_static_local_db_built_from_file() -> surrealdb::Result<Surreal<Any>> {
+    let db = connect("ws://127.0.0.1:8080").await?;
+    db.signin(Root {
+        username: "test",
+        password: "test",
+    }).await?;
+    db.use_ns("test").use_db("test").await?;
+    db.import("src/dev/sql/db_copies/newest.surql").await?;
+    Ok(db)
+}
+
 
 pub async fn connect_to_local_dev_db() -> surrealdb::Result<Surreal<Any>> {
     let db = connect("ws://127.0.0.1:8000").await?;
@@ -68,11 +74,10 @@ pub async fn connect_to_automatic_testing_in_memory_embedded_db() -> surrealdb::
 }
 #[cfg(test)]
 mod integration_testing {
-    use super::*;
     use serde::{Deserialize, Serialize};
-    use surrealdb::engine::local::{Db, Mem};
     use surrealdb::sql::Thing;
-    use surrealdb::Surreal;
+
+    use super::*;
 
     #[derive(Debug, Deserialize)]
     struct Record {

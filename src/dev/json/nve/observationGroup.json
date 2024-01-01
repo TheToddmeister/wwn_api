@@ -1,0 +1,5157 @@
+{
+  "currentLink": "https://hydapi.nve.no/api/v1/observations?",
+  "apiVersion": "1.0",
+  "license": "https://data.norge.no/nlod/en",
+  "createdAt": "2024-01-01T11:54:49.3161317Z",
+  "queryTime": "00:00:00.0616112",
+  "itemCount": 6,
+  "data": [
+    {
+      "stationId": "12.209.0",
+      "stationName": "Urula",
+      "parameter": 1000,
+      "parameterName": "Vannstand",
+      "parameterNameEng": "Stage",
+      "serieVersionNo": 1,
+      "method": "Mean",
+      "unit": "m",
+      "observationCount": 169,
+      "observations": [
+        {
+          "time": "2000-01-01T00:00:00Z",
+          "value": 218.9161,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T01:00:00Z",
+          "value": 218.9096,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T02:00:00Z",
+          "value": 218.9075,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T03:00:00Z",
+          "value": 218.9268,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T04:00:00Z",
+          "value": 218.9384,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T05:00:00Z",
+          "value": 218.9369,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T06:00:00Z",
+          "value": 218.9353,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T07:00:00Z",
+          "value": 218.9337,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T08:00:00Z",
+          "value": 218.9321,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T09:00:00Z",
+          "value": 218.931,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T10:00:00Z",
+          "value": 218.9299,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T11:00:00Z",
+          "value": 218.9289,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T12:00:00Z",
+          "value": 218.9277,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T13:00:00Z",
+          "value": 218.9254,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T14:00:00Z",
+          "value": 218.9226,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T15:00:00Z",
+          "value": 218.9195,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T16:00:00Z",
+          "value": 218.9159,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T17:00:00Z",
+          "value": 218.9122,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T18:00:00Z",
+          "value": 218.9084,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T19:00:00Z",
+          "value": 218.9041,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T20:00:00Z",
+          "value": 218.8996,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T21:00:00Z",
+          "value": 218.895,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T22:00:00Z",
+          "value": 218.8894,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-01T23:00:00Z",
+          "value": 218.8829,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T00:00:00Z",
+          "value": 218.8764,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T01:00:00Z",
+          "value": 218.8693,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T02:00:00Z",
+          "value": 218.8629,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T03:00:00Z",
+          "value": 218.8622,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T04:00:00Z",
+          "value": 218.8619,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T05:00:00Z",
+          "value": 218.8615,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T06:00:00Z",
+          "value": 218.8629,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T07:00:00Z",
+          "value": 218.8685,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T08:00:00Z",
+          "value": 218.8737,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T09:00:00Z",
+          "value": 218.8755,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T10:00:00Z",
+          "value": 218.8768,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T11:00:00Z",
+          "value": 218.8781,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T12:00:00Z",
+          "value": 218.8794,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T13:00:00Z",
+          "value": 218.8769,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T14:00:00Z",
+          "value": 218.8698,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T15:00:00Z",
+          "value": 218.8698,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T16:00:00Z",
+          "value": 218.8733,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T17:00:00Z",
+          "value": 218.8767,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T18:00:00Z",
+          "value": 218.88,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T19:00:00Z",
+          "value": 218.8794,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T20:00:00Z",
+          "value": 218.8763,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T21:00:00Z",
+          "value": 218.8732,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T22:00:00Z",
+          "value": 218.8701,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-02T23:00:00Z",
+          "value": 218.8669,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T00:00:00Z",
+          "value": 218.8634,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T01:00:00Z",
+          "value": 218.8598,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T02:00:00Z",
+          "value": 218.8562,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T03:00:00Z",
+          "value": 218.8526,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T04:00:00Z",
+          "value": 218.849,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T05:00:00Z",
+          "value": 218.8455,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T06:00:00Z",
+          "value": 218.842,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T07:00:00Z",
+          "value": 218.8386,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T08:00:00Z",
+          "value": 218.838,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T09:00:00Z",
+          "value": 218.8393,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T10:00:00Z",
+          "value": 218.8405,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T11:00:00Z",
+          "value": 218.8418,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T12:00:00Z",
+          "value": 218.8422,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T13:00:00Z",
+          "value": 218.8421,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T14:00:00Z",
+          "value": 218.8421,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T15:00:00Z",
+          "value": 218.8421,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T16:00:00Z",
+          "value": 218.8411,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T17:00:00Z",
+          "value": 218.8389,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T18:00:00Z",
+          "value": 218.8385,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T19:00:00Z",
+          "value": 218.8407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T20:00:00Z",
+          "value": 218.8428,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T21:00:00Z",
+          "value": 218.8422,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T22:00:00Z",
+          "value": 218.8359,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-03T23:00:00Z",
+          "value": 218.8293,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T00:00:00Z",
+          "value": 218.8232,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T01:00:00Z",
+          "value": 218.8219,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T02:00:00Z",
+          "value": 218.8217,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T03:00:00Z",
+          "value": 218.8215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T04:00:00Z",
+          "value": 218.8213,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T05:00:00Z",
+          "value": 218.8211,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T06:00:00Z",
+          "value": 218.8209,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T07:00:00Z",
+          "value": 218.8206,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T08:00:00Z",
+          "value": 218.8204,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T09:00:00Z",
+          "value": 218.8202,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T10:00:00Z",
+          "value": 218.8194,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T11:00:00Z",
+          "value": 218.8184,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T12:00:00Z",
+          "value": 218.8173,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T13:00:00Z",
+          "value": 218.8162,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T14:00:00Z",
+          "value": 218.8152,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T15:00:00Z",
+          "value": 218.8141,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T16:00:00Z",
+          "value": 218.813,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T17:00:00Z",
+          "value": 218.8117,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T18:00:00Z",
+          "value": 218.8092,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T19:00:00Z",
+          "value": 218.8066,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T20:00:00Z",
+          "value": 218.8039,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T21:00:00Z",
+          "value": 218.8012,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T22:00:00Z",
+          "value": 218.7985,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-04T23:00:00Z",
+          "value": 218.7965,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T00:00:00Z",
+          "value": 218.7948,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T01:00:00Z",
+          "value": 218.793,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T02:00:00Z",
+          "value": 218.7912,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T03:00:00Z",
+          "value": 218.7894,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T04:00:00Z",
+          "value": 218.7876,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T05:00:00Z",
+          "value": 218.7858,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T06:00:00Z",
+          "value": 218.784,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T07:00:00Z",
+          "value": 218.7822,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T08:00:00Z",
+          "value": 218.7804,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T09:00:00Z",
+          "value": 218.7787,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T10:00:00Z",
+          "value": 218.7773,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T11:00:00Z",
+          "value": 218.7759,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T12:00:00Z",
+          "value": 218.7745,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T13:00:00Z",
+          "value": 218.7731,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T14:00:00Z",
+          "value": 218.7717,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T15:00:00Z",
+          "value": 218.7703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T16:00:00Z",
+          "value": 218.7688,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T17:00:00Z",
+          "value": 218.7674,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T18:00:00Z",
+          "value": 218.766,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T19:00:00Z",
+          "value": 218.7645,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T20:00:00Z",
+          "value": 218.7627,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T21:00:00Z",
+          "value": 218.7609,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T22:00:00Z",
+          "value": 218.759,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-05T23:00:00Z",
+          "value": 218.7572,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T00:00:00Z",
+          "value": 218.7556,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T01:00:00Z",
+          "value": 218.7544,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T02:00:00Z",
+          "value": 218.7532,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T03:00:00Z",
+          "value": 218.752,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T04:00:00Z",
+          "value": 218.7509,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T05:00:00Z",
+          "value": 218.7497,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T06:00:00Z",
+          "value": 218.7508,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T07:00:00Z",
+          "value": 218.7533,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T08:00:00Z",
+          "value": 218.7558,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T09:00:00Z",
+          "value": 218.7583,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T10:00:00Z",
+          "value": 218.7609,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T11:00:00Z",
+          "value": 218.7637,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T12:00:00Z",
+          "value": 218.769,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T13:00:00Z",
+          "value": 218.7748,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T14:00:00Z",
+          "value": 218.7805,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T15:00:00Z",
+          "value": 218.7864,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T16:00:00Z",
+          "value": 218.7924,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T17:00:00Z",
+          "value": 218.7985,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T18:00:00Z",
+          "value": 218.8044,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T19:00:00Z",
+          "value": 218.8095,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T20:00:00Z",
+          "value": 218.8131,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T21:00:00Z",
+          "value": 218.8167,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T22:00:00Z",
+          "value": 218.819,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-06T23:00:00Z",
+          "value": 218.8207,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T00:00:00Z",
+          "value": 218.8223,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T01:00:00Z",
+          "value": 218.8239,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T02:00:00Z",
+          "value": 218.8255,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T03:00:00Z",
+          "value": 218.8243,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T04:00:00Z",
+          "value": 218.8214,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T05:00:00Z",
+          "value": 218.8144,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T06:00:00Z",
+          "value": 218.8063,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T07:00:00Z",
+          "value": 218.798,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T08:00:00Z",
+          "value": 218.7896,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T09:00:00Z",
+          "value": 218.7812,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T10:00:00Z",
+          "value": 218.7688,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T11:00:00Z",
+          "value": 218.7576,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T12:00:00Z",
+          "value": 218.7584,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T13:00:00Z",
+          "value": 218.7606,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T14:00:00Z",
+          "value": 218.7674,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T15:00:00Z",
+          "value": 218.7752,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T16:00:00Z",
+          "value": 218.7836,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T17:00:00Z",
+          "value": 218.7838,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T18:00:00Z",
+          "value": 218.7824,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T19:00:00Z",
+          "value": 218.7806,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T20:00:00Z",
+          "value": 218.7758,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T21:00:00Z",
+          "value": 218.7703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T22:00:00Z",
+          "value": 218.7647,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-07T23:00:00Z",
+          "value": 218.7597,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2000-01-08T00:00:00Z",
+          "value": 218.7567,
+          "correction": 0,
+          "quality": 2
+        }
+      ]
+    },
+    {
+      "stationId": "6.10.0",
+      "stationName": "Gryta",
+      "parameter": 1001,
+      "parameterName": "Vannføring",
+      "parameterNameEng": "Discharge",
+      "serieVersionNo": 1,
+      "method": "Mean",
+      "unit": "m³/s",
+      "observationCount": 169,
+      "observations": [
+        {
+          "time": "2001-01-01T00:00:00Z",
+          "value": 0.0009594559,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T01:00:00Z",
+          "value": 0.003720989,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T02:00:00Z",
+          "value": 0.002927082,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T03:00:00Z",
+          "value": 0.001805761,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T04:00:00Z",
+          "value": 0.001007225,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T05:00:00Z",
+          "value": 0.0004804295,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T06:00:00Z",
+          "value": 0.0001909123,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T07:00:00Z",
+          "value": 0.02081137,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T08:00:00Z",
+          "value": 0.1407969,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T09:00:00Z",
+          "value": 0.1373479,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T10:00:00Z",
+          "value": 0.02445649,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T11:00:00Z",
+          "value": 0.0179898,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T12:00:00Z",
+          "value": 0.02427373,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T13:00:00Z",
+          "value": 0.1189229,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T14:00:00Z",
+          "value": 0.1399993,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T15:00:00Z",
+          "value": 0.1303455,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T16:00:00Z",
+          "value": 0.1186906,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T17:00:00Z",
+          "value": 0.1089048,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T18:00:00Z",
+          "value": 0.1064236,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T19:00:00Z",
+          "value": 0.1051433,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T20:00:00Z",
+          "value": 0.1038785,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T21:00:00Z",
+          "value": 0.1026289,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T22:00:00Z",
+          "value": 0.1013943,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T23:00:00Z",
+          "value": 0.1001746,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T00:00:00Z",
+          "value": 0.09896951,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T01:00:00Z",
+          "value": 0.09777895,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T02:00:00Z",
+          "value": 0.09660271,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T03:00:00Z",
+          "value": 0.09544062,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T04:00:00Z",
+          "value": 0.09330666,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T05:00:00Z",
+          "value": 0.08634035,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T06:00:00Z",
+          "value": 0.0834269,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T07:00:00Z",
+          "value": 0.07701394,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T08:00:00Z",
+          "value": 0.07435375,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T09:00:00Z",
+          "value": 0.068462,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T10:00:00Z",
+          "value": 0.06603841,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T11:00:00Z",
+          "value": 0.06063719,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T12:00:00Z",
+          "value": 0.05950517,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T13:00:00Z",
+          "value": 0.05547281,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T14:00:00Z",
+          "value": 0.05507302,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T15:00:00Z",
+          "value": 0.05540754,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T16:00:00Z",
+          "value": 0.0557441,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T17:00:00Z",
+          "value": 0.0560827,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T18:00:00Z",
+          "value": 0.05571389,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T19:00:00Z",
+          "value": 0.05248337,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T20:00:00Z",
+          "value": 0.05639278,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T21:00:00Z",
+          "value": 0.05673533,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T22:00:00Z",
+          "value": 0.05271871,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T23:00:00Z",
+          "value": 0.05230764,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T00:00:00Z",
+          "value": 0.05262537,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T01:00:00Z",
+          "value": 0.05294503,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T02:00:00Z",
+          "value": 0.05326663,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T03:00:00Z",
+          "value": 0.05359018,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T04:00:00Z",
+          "value": 0.0539157,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T05:00:00Z",
+          "value": 0.05500154,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T06:00:00Z",
+          "value": 0.05915042,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T07:00:00Z",
+          "value": 0.05567176,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T08:00:00Z",
+          "value": 0.05600992,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T09:00:00Z",
+          "value": 0.06101179,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T10:00:00Z",
+          "value": 0.06216405,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T11:00:00Z",
+          "value": 0.06254165,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T12:00:00Z",
+          "value": 0.06197864,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T13:00:00Z",
+          "value": 0.06142069,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T14:00:00Z",
+          "value": 0.06168203,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T15:00:00Z",
+          "value": 0.06596839,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T16:00:00Z",
+          "value": 0.06617421,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T17:00:00Z",
+          "value": 0.06557849,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T18:00:00Z",
+          "value": 0.06498814,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T19:00:00Z",
+          "value": 0.06522904,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T20:00:00Z",
+          "value": 0.06955288,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T21:00:00Z",
+          "value": 0.0697379,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T22:00:00Z",
+          "value": 0.0691101,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T23:00:00Z",
+          "value": 0.06933141,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T00:00:00Z",
+          "value": 0.07288662,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T01:00:00Z",
+          "value": 0.0689171,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T02:00:00Z",
+          "value": 0.07158025,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T03:00:00Z",
+          "value": 0.06686837,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T04:00:00Z",
+          "value": 0.06546023,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T05:00:00Z",
+          "value": 0.06487095,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T06:00:00Z",
+          "value": 0.06428696,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T07:00:00Z",
+          "value": 0.06370823,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T08:00:00Z",
+          "value": 0.06313471,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T09:00:00Z",
+          "value": 0.06256636,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T10:00:00Z",
+          "value": 0.06200312,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T11:00:00Z",
+          "value": 0.06144496,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T12:00:00Z",
+          "value": 0.0616536,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T13:00:00Z",
+          "value": 0.05890807,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T14:00:00Z",
+          "value": 0.06354258,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T15:00:00Z",
+          "value": 0.06450867,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T16:00:00Z",
+          "value": 0.06086531,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T17:00:00Z",
+          "value": 0.06179069,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T18:00:00Z",
+          "value": 0.06670166,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T19:00:00Z",
+          "value": 0.06368387,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T20:00:00Z",
+          "value": 0.06383348,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T21:00:00Z",
+          "value": 0.06480398,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T22:00:00Z",
+          "value": 0.06578925,
+          "correction": 1,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T23:00:00Z",
+          "value": 0.06678949,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T00:00:00Z",
+          "value": 0.06780494,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T01:00:00Z",
+          "value": 0.06883583,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T02:00:00Z",
+          "value": 0.06988239,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T03:00:00Z",
+          "value": 0.07094487,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T04:00:00Z",
+          "value": 0.0720235,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T05:00:00Z",
+          "value": 0.07311853,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T06:00:00Z",
+          "value": 0.07423021,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T07:00:00Z",
+          "value": 0.07535879,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T08:00:00Z",
+          "value": 0.07650452,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T09:00:00Z",
+          "value": 0.07766768,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T10:00:00Z",
+          "value": 0.07884852,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T11:00:00Z",
+          "value": 0.08107389,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T12:00:00Z",
+          "value": 0.08723351,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T13:00:00Z",
+          "value": 0.08826026,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T14:00:00Z",
+          "value": 0.08826043,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T15:00:00Z",
+          "value": 0.0882606,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T16:00:00Z",
+          "value": 0.08826077,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T17:00:00Z",
+          "value": 0.08826094,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T18:00:00Z",
+          "value": 0.08826111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T19:00:00Z",
+          "value": 0.08826128,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T20:00:00Z",
+          "value": 0.08826146,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T21:00:00Z",
+          "value": 0.08826163,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T22:00:00Z",
+          "value": 0.08826181,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T23:00:00Z",
+          "value": 0.08826198,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T00:00:00Z",
+          "value": 0.08826215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T01:00:00Z",
+          "value": 0.08826232,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T02:00:00Z",
+          "value": 0.08826249,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T03:00:00Z",
+          "value": 0.08826266,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T04:00:00Z",
+          "value": 0.08934983,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T05:00:00Z",
+          "value": 0.09702051,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T06:00:00Z",
+          "value": 0.1049987,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T07:00:00Z",
+          "value": 0.1073585,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T08:00:00Z",
+          "value": 0.1158999,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T09:00:00Z",
+          "value": 0.1260991,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T10:00:00Z",
+          "value": 0.1354107,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T11:00:00Z",
+          "value": 0.1381555,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T12:00:00Z",
+          "value": 0.1465862,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T13:00:00Z",
+          "value": 0.149463,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T14:00:00Z",
+          "value": 0.1582942,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T15:00:00Z",
+          "value": 0.1613054,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T16:00:00Z",
+          "value": 0.1705429,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T17:00:00Z",
+          "value": 0.1720822,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T18:00:00Z",
+          "value": 0.1720819,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T19:00:00Z",
+          "value": 0.1720815,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T20:00:00Z",
+          "value": 0.1720812,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T21:00:00Z",
+          "value": 0.1720809,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T22:00:00Z",
+          "value": 0.1720806,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T23:00:00Z",
+          "value": 0.1705407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T00:00:00Z",
+          "value": 0.1613027,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T01:00:00Z",
+          "value": 0.1597628,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T02:00:00Z",
+          "value": 0.1597625,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T03:00:00Z",
+          "value": 0.1597622,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T04:00:00Z",
+          "value": 0.1597619,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T05:00:00Z",
+          "value": 0.1582898,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T06:00:00Z",
+          "value": 0.1494583,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T07:00:00Z",
+          "value": 0.1479862,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T08:00:00Z",
+          "value": 0.1479859,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T09:00:00Z",
+          "value": 0.1479856,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T10:00:00Z",
+          "value": 0.1479854,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T11:00:00Z",
+          "value": 0.1479851,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T12:00:00Z",
+          "value": 0.14658,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T13:00:00Z",
+          "value": 0.1381493,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T14:00:00Z",
+          "value": 0.1367442,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T15:00:00Z",
+          "value": 0.1367442,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T16:00:00Z",
+          "value": 0.1367442,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T17:00:00Z",
+          "value": 0.1367442,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T18:00:00Z",
+          "value": 0.1367442,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T19:00:00Z",
+          "value": 0.1367441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T20:00:00Z",
+          "value": 0.1367441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T21:00:00Z",
+          "value": 0.1381492,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T22:00:00Z",
+          "value": 0.1451747,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T23:00:00Z",
+          "value": 0.1381492,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-08T00:00:00Z",
+          "value": 0.1367441,
+          "correction": 0,
+          "quality": 2
+        }
+      ]
+    },
+    {
+      "stationId": "2.13.0",
+      "stationName": "Nedre Sjodalsvatn",
+      "parameter": 1000,
+      "parameterName": "Vannstand",
+      "parameterNameEng": "Stage",
+      "serieVersionNo": 1,
+      "method": "Mean",
+      "unit": "m",
+      "observationCount": 169,
+      "observations": [
+        {
+          "time": "2001-01-01T00:00:00Z",
+          "value": 939.87,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T01:00:00Z",
+          "value": 939.87,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T02:00:00Z",
+          "value": 939.87,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T03:00:00Z",
+          "value": 939.8688,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T04:00:00Z",
+          "value": 939.8625,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T05:00:00Z",
+          "value": 939.8675,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T06:00:00Z",
+          "value": 939.8625,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T07:00:00Z",
+          "value": 939.8675,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T08:00:00Z",
+          "value": 939.8613,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T09:00:00Z",
+          "value": 939.8613,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T10:00:00Z",
+          "value": 939.8675,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T11:00:00Z",
+          "value": 939.8625,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T12:00:00Z",
+          "value": 939.8688,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T13:00:00Z",
+          "value": 939.87,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T14:00:00Z",
+          "value": 939.8688,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T15:00:00Z",
+          "value": 939.8625,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T16:00:00Z",
+          "value": 939.87,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T17:00:00Z",
+          "value": 939.8763,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T18:00:00Z",
+          "value": 939.8638,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T19:00:00Z",
+          "value": 939.8688,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T20:00:00Z",
+          "value": 939.87,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T21:00:00Z",
+          "value": 939.8688,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T22:00:00Z",
+          "value": 939.8613,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T23:00:00Z",
+          "value": 939.8613,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T00:00:00Z",
+          "value": 939.8675,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T01:00:00Z",
+          "value": 939.8613,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T02:00:00Z",
+          "value": 939.8613,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T03:00:00Z",
+          "value": 939.8675,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T04:00:00Z",
+          "value": 939.8613,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T05:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T06:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T07:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T08:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T09:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T10:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T11:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T12:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T13:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T14:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T15:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T16:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T17:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T18:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T19:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T20:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T21:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T22:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T23:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T00:00:00Z",
+          "value": 939.8525,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T01:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T02:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T03:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T04:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T05:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T06:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T07:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T08:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T09:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T10:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T11:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T12:00:00Z",
+          "value": 939.8525,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T13:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T14:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T15:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T16:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T17:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T18:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T19:00:00Z",
+          "value": 939.8525,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T20:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T21:00:00Z",
+          "value": 939.86,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T22:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T23:00:00Z",
+          "value": 939.8525,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T00:00:00Z",
+          "value": 939.8575,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T01:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T02:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T03:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T04:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T05:00:00Z",
+          "value": 939.8588,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T06:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T07:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T08:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T09:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T10:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T11:00:00Z",
+          "value": 939.8575,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T12:00:00Z",
+          "value": 939.8513,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T13:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T14:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T15:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T16:00:00Z",
+          "value": 939.8425,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T17:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T18:00:00Z",
+          "value": 939.8425,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T19:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T20:00:00Z",
+          "value": 939.8425,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T21:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T22:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T23:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T00:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T01:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T02:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T03:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T04:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T05:00:00Z",
+          "value": 939.8425,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T06:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T07:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T08:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T09:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T10:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T11:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T12:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T13:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T14:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T15:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T16:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T17:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T18:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T19:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T20:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T21:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T22:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T23:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T00:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T01:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T02:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T03:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T04:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T05:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T06:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T07:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T08:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T09:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T10:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T11:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T12:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T13:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T14:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T15:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T16:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T17:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T18:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T19:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T20:00:00Z",
+          "value": 939.8425,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T21:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T22:00:00Z",
+          "value": 939.8425,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T23:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T00:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T01:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T02:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T03:00:00Z",
+          "value": 939.85,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T04:00:00Z",
+          "value": 939.8488,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T05:00:00Z",
+          "value": 939.8425,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T06:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T07:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T08:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T09:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T10:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T11:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T12:00:00Z",
+          "value": 939.8475,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T13:00:00Z",
+          "value": 939.8412,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T14:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T15:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T16:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T17:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T18:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T19:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T20:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T21:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T22:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T23:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-08T00:00:00Z",
+          "value": 939.84,
+          "correction": 0,
+          "quality": 2
+        }
+      ]
+    },
+    {
+      "stationId": "2.13.0",
+      "stationName": "Nedre Sjodalsvatn",
+      "parameter": 1001,
+      "parameterName": "Vannføring",
+      "parameterNameEng": "Discharge",
+      "serieVersionNo": 1,
+      "method": "Mean",
+      "unit": "m³/s",
+      "observationCount": 169,
+      "observations": [
+        {
+          "time": "2001-01-01T00:00:00Z",
+          "value": 4.127765,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T01:00:00Z",
+          "value": 4.127765,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T02:00:00Z",
+          "value": 4.127765,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T03:00:00Z",
+          "value": 4.113059,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T04:00:00Z",
+          "value": 4.039525,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T05:00:00Z",
+          "value": 4.098351,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T06:00:00Z",
+          "value": 4.039525,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T07:00:00Z",
+          "value": 4.098351,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T08:00:00Z",
+          "value": 4.024818,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T09:00:00Z",
+          "value": 4.024818,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T10:00:00Z",
+          "value": 4.098351,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T11:00:00Z",
+          "value": 4.039525,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T12:00:00Z",
+          "value": 4.113059,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T13:00:00Z",
+          "value": 4.127765,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T14:00:00Z",
+          "value": 4.113059,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T15:00:00Z",
+          "value": 4.039525,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T16:00:00Z",
+          "value": 4.128015,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T17:00:00Z",
+          "value": 4.202796,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T18:00:00Z",
+          "value": 4.054481,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T19:00:00Z",
+          "value": 4.113059,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T20:00:00Z",
+          "value": 4.127765,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T21:00:00Z",
+          "value": 4.113059,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T22:00:00Z",
+          "value": 4.024818,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T23:00:00Z",
+          "value": 4.024818,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T00:00:00Z",
+          "value": 4.098351,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T01:00:00Z",
+          "value": 4.024818,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T02:00:00Z",
+          "value": 4.024818,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T03:00:00Z",
+          "value": 4.098351,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T04:00:00Z",
+          "value": 4.024818,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T05:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T06:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T07:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T08:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T09:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T10:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T11:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T12:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T13:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T14:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T15:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T16:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T17:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T18:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T19:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T20:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T21:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T22:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T23:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T00:00:00Z",
+          "value": 3.923361,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T01:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T02:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T03:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T04:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T05:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T06:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T07:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T08:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T09:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T10:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T11:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T12:00:00Z",
+          "value": 3.923361,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T13:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T14:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T15:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T16:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T17:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T18:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T19:00:00Z",
+          "value": 3.923361,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T20:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T21:00:00Z",
+          "value": 4.010111,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T22:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T23:00:00Z",
+          "value": 3.923361,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T00:00:00Z",
+          "value": 3.981194,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T01:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T02:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T03:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T04:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T05:00:00Z",
+          "value": 3.995653,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T06:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T07:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T08:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T09:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T10:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T11:00:00Z",
+          "value": 3.981194,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T12:00:00Z",
+          "value": 3.908902,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T13:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T14:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T15:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T16:00:00Z",
+          "value": 3.809692,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T17:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T18:00:00Z",
+          "value": 3.809692,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T19:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T20:00:00Z",
+          "value": 3.809692,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T21:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T22:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T23:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T00:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T01:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T02:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T03:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T04:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T05:00:00Z",
+          "value": 3.809692,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T06:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T07:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T08:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T09:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T10:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T11:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T12:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T13:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T14:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T15:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T16:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T17:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T18:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T19:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T20:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T21:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T22:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T23:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T00:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T01:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T02:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T03:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T04:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T05:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T06:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T07:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T08:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T09:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T10:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T11:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T12:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T13:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T14:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T15:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T16:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T17:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T18:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T19:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T20:00:00Z",
+          "value": 3.809692,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T21:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T22:00:00Z",
+          "value": 3.809692,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T23:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T00:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T01:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T02:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T03:00:00Z",
+          "value": 3.894444,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T04:00:00Z",
+          "value": 3.880319,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T05:00:00Z",
+          "value": 3.809692,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T06:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T07:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T08:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T09:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T10:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T11:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T12:00:00Z",
+          "value": 3.866193,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T13:00:00Z",
+          "value": 3.795567,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T14:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T15:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T16:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T17:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T18:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T19:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T20:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T21:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T22:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T23:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-08T00:00:00Z",
+          "value": 3.781441,
+          "correction": 0,
+          "quality": 2
+        }
+      ]
+    },
+    {
+      "stationId": "2.13.0",
+      "stationName": "Nedre Sjodalsvatn",
+      "parameter": 1003,
+      "parameterName": "Vanntemperatur",
+      "parameterNameEng": "Water temperature",
+      "serieVersionNo": 1,
+      "method": "Mean",
+      "unit": "°C",
+      "observationCount": 0,
+      "observations": []
+    },
+    {
+      "stationId": "2.13.0",
+      "stationName": "Nedre Sjodalsvatn",
+      "parameter": 1004,
+      "parameterName": "Magasinvolum",
+      "parameterNameEng": "Reservoir volume",
+      "serieVersionNo": 0,
+      "method": "Mean",
+      "unit": "millioner m³",
+      "observationCount": 169,
+      "observations": [
+        {
+          "time": "2001-01-01T00:00:00Z",
+          "value": 2.261987,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T01:00:00Z",
+          "value": 2.261987,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T02:00:00Z",
+          "value": 2.261987,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T03:00:00Z",
+          "value": 2.258734,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T04:00:00Z",
+          "value": 2.242468,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T05:00:00Z",
+          "value": 2.255481,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T06:00:00Z",
+          "value": 2.242468,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T07:00:00Z",
+          "value": 2.255481,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T08:00:00Z",
+          "value": 2.239215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T09:00:00Z",
+          "value": 2.239215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T10:00:00Z",
+          "value": 2.255481,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T11:00:00Z",
+          "value": 2.242468,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T12:00:00Z",
+          "value": 2.258734,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T13:00:00Z",
+          "value": 2.261987,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T14:00:00Z",
+          "value": 2.258734,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T15:00:00Z",
+          "value": 2.242468,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T16:00:00Z",
+          "value": 2.261987,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T17:00:00Z",
+          "value": 2.278253,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T18:00:00Z",
+          "value": 2.245721,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T19:00:00Z",
+          "value": 2.258734,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T20:00:00Z",
+          "value": 2.261987,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T21:00:00Z",
+          "value": 2.258734,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T22:00:00Z",
+          "value": 2.239215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-01T23:00:00Z",
+          "value": 2.239215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T00:00:00Z",
+          "value": 2.255481,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T01:00:00Z",
+          "value": 2.239215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T02:00:00Z",
+          "value": 2.239215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T03:00:00Z",
+          "value": 2.255481,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T04:00:00Z",
+          "value": 2.239215,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T05:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T06:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T07:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T08:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T09:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T10:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T11:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T12:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T13:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T14:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T15:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T16:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T17:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T18:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T19:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T20:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T21:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T22:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-02T23:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T00:00:00Z",
+          "value": 2.216443,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T01:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T02:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T03:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T04:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T05:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T06:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T07:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T08:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T09:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T10:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T11:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T12:00:00Z",
+          "value": 2.216443,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T13:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T14:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T15:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T16:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T17:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T18:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T19:00:00Z",
+          "value": 2.216443,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T20:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T21:00:00Z",
+          "value": 2.235962,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T22:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-03T23:00:00Z",
+          "value": 2.216443,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T00:00:00Z",
+          "value": 2.229455,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T01:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T02:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T03:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T04:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T05:00:00Z",
+          "value": 2.232709,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T06:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T07:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T08:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T09:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T10:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T11:00:00Z",
+          "value": 2.229455,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T12:00:00Z",
+          "value": 2.213189,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T13:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T14:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T15:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T16:00:00Z",
+          "value": 2.190536,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T17:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T18:00:00Z",
+          "value": 2.190536,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T19:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T20:00:00Z",
+          "value": 2.190536,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T21:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T22:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-04T23:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T00:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T01:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T02:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T03:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T04:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T05:00:00Z",
+          "value": 2.190536,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T06:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T07:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T08:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T09:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T10:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T11:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T12:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T13:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T14:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T15:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T16:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T17:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T18:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T19:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T20:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T21:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T22:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-05T23:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T00:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T01:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T02:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T03:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T04:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T05:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T06:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T07:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T08:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T09:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T10:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T11:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T12:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T13:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T14:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T15:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T16:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T17:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T18:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T19:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T20:00:00Z",
+          "value": 2.190536,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T21:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T22:00:00Z",
+          "value": 2.190536,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-06T23:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T00:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T01:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T02:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T03:00:00Z",
+          "value": 2.209936,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T04:00:00Z",
+          "value": 2.206703,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T05:00:00Z",
+          "value": 2.190536,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T06:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T07:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T08:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T09:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T10:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T11:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T12:00:00Z",
+          "value": 2.20347,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T13:00:00Z",
+          "value": 2.187303,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T14:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T15:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T16:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T17:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T18:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T19:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T20:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T21:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T22:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-07T23:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        },
+        {
+          "time": "2001-01-08T00:00:00Z",
+          "value": 2.18407,
+          "correction": 0,
+          "quality": 2
+        }
+      ]
+    }
+  ]
+}
