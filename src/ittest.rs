@@ -1,12 +1,11 @@
 #[cfg(test)]
 mod data_storage_with_db {
-    use crate::dev;
     use crate::data::internal;
-    use crate::persistence::connection::{connect_to_automatic_testing_in_memory_embedded_db, connect_to_db, connect_to_local_dev_db};
-    use crate::persistence::init_static_data_db::build_static_station_info_tables;
-    use crate::persistence::tables::Tables::StaticStation;
+    use crate::db::config::connection::{connect_to_db, connect_to_local_dev_db};
+    use crate::db::persistence::init_static_data_db::build_static_station_info_tables;
+    use crate::db::tables::Tables::StaticStation;
     use crate::static_controller;
-    use crate::static_controller::MinimalStation;
+    use crate::static_controller::StationInfo;
     use crate::static_metadata::Datatype::HistoricObservationMetadata;
     use crate::static_metadata::Origin::{NVE, UKGOV};
 
@@ -31,7 +30,7 @@ mod data_storage_with_db {
     /// Require running db with content
     pub async fn test_read_station_identity(){
         let db = connect_to_local_dev_db().await.unwrap();
-        let stations: Vec<MinimalStation>  = db.query("select location.location_id as loc, origin, status, station_parameters from StaticStation;;").await.unwrap().take(0).unwrap();
+        let stations: Vec<StationInfo>  = db.query("select location.location_id as loc, origin, status, station_parameters from StaticStation;;").await.unwrap().take(0).unwrap();
         dbg!(stations);
     }
 

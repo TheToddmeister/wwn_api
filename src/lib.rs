@@ -5,5 +5,5 @@ pub mod static_metadata;
 pub mod util;
 pub mod api;
 
-pub mod persistence;
 mod ittest;
+pub mod db;

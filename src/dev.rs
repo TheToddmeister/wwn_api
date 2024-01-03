@@ -1,14 +1,11 @@
-use serde::{Deserialize, Serialize};
-use tokio;
-use once_cell::sync::{Lazy, OnceCell};
-use tracing::log::info;
 use mockall::*;
 use mockall::predicate::*;
+use once_cell::sync::Lazy;
+use serde::{Deserialize, Serialize};
 use surrealdb::{engine, Surreal};
+use tokio;
+use tracing::log::info;
 
-enum InitStaticDbError{
-    t
-}
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub enum DevProfiles{
@@ -27,35 +24,19 @@ pub static DEV_PROFILE:Lazy<DevConfig> = Lazy::new(|| {
     info!("¤ DEV_PROFILE initated with profile {profile:#?}");
     profile
 });
-
+#[cfg(test)]
 pub async fn _read_file(path: &str) -> Result<String, tokio::io::Error> {
     let json: String = tokio::fs::read_to_string(path).await?;
     Ok(json)
 }
-
+#[cfg(test)]
 pub async fn _build_static_database(db: Surreal<engine::any::Any>){
-    db.import("dev/sql/db_copies/second.surql").await.unwrap();
+    db.import("dev/sql/db_copies/newest.surql").await.unwrap();
 }
-async fn _export_static_database(db: Surreal<engine::any::Any>){
-    tokio::fs::remove_file("src/dev/sql/db_copies/previous.surql").await.unwrap();
-    tokio::fs::rename("dev/sql/db_copies/second.surql", "src/dev/sql/db_copies/previous.surql").await.unwrap();
-    db.export("src/dev/sql/db_copies/newest.surql").await.unwrap();
-}
-
 #[cfg(test)]
 mod tests{
     use serde::Deserialize;
-    use crate::dev::_export_static_database;
-    use crate::persistence::connection::connect_to_local_dev_db;
-    use crate::static_controller;
 
-    #[tokio::test]
-    #[ignore]
-    async fn export_static_test_database_to_file(){
-        let db = connect_to_local_dev_db().await.unwrap();
-        static_controller::static_controller(&db).await.unwrap();
-        _export_static_database(db).await;
-    }
     #[tokio::test]
     async fn test_read_env_variables(){
         #[derive(Debug, Deserialize)]

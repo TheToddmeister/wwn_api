@@ -27,20 +27,22 @@ csv-async = { version = "1.2.6", features = ["tokio"] }
 url = "2.4.1"
 warp = "0.3.6"
 futures = { version = "0.3.30", features = ["futures-executor"] }
-surrealdb = { version = "1.0.2", features = ["kv-mem"] }
 itertools = "0.12.0"
 ordered-float = "4.2.0"
 phf = { features = ["serde", "macros"], version = "0.11.2", default-features = false }
-derive_builder = { version = "0.12.0", features = ["clippy"]}
 serde_with = { version = "3.4.0", features = ["chrono", "json", ] }
 serde_string_enum = "0.2.1"
 
 strum = { version = "0.25.0", features = ["derive", "strum_macros"] }
-strum_macros = "0.25.3"
 mockito = "1.2.0"
 once_cell = "1.19.0"
 mockall = "0.12.1"
+
 surreal-id = "0.2.1"
+surrealdb_extra = { version = "0.6.0", features = ["query"] }
+surrealdb = { version = "1.0.2", features = ["kv-mem"] }
+builder-pattern = "0.4.2"
+
 
 
 [dev-dependencies]

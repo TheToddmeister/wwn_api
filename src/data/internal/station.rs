@@ -1,13 +1,19 @@
-use chrono::{DateTime, Duration, Utc};
-use itertools::Itertools;
+use builder_pattern::Builder;
+use chrono::{DateTime, Utc};
+use itertools::{concat, Itertools};
+use mockall::predicate::ge;
 use serde::{Deserialize, Serialize};
+use strum::Display;
+use surrealdb::engine::any::Any;
+use surrealdb::Surreal;
+use surrealdb_extra::query::statement::StatementBuilder;
 
-use crate::static_metadata::{Origin, Nation, Regulation, ParameterDefinitions};
-use crate::util::geo::location::Location;
-use crate::data::nve;
-use crate::data::smih;
-use crate::data::uk;
 use crate::data::internal::parameter::StationParameter;
+use crate::data::nve;
+use crate::data::uk;
+use crate::static_metadata::{Nation, Origin, ParameterDefinitions, Regulation};
+use crate::util::geo::location::Location;
+use crate::util::geo::position::Position;
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Station {
@@ -21,11 +27,11 @@ pub struct Station {
     pub measuring_authority_id: Option<String>,
     pub station_type: Option<String>,
     pub regulation_status: Regulation,
-    pub station_parameters: Vec<StationParameter>
+    pub station_parameters: Vec<StationParameter>,
 }
 
-impl Station{
-    pub async fn from_nve(daum: &nve::station::Daum) -> Self{
+impl Station {
+    pub async fn from_nve(daum: &nve::station::Daum) -> Self {
         let d = daum;
         let location = Location::location_from_nve(d).await;
         let parameters = StationParameter::from_nve_station(d).await;
@@ -40,19 +46,18 @@ impl Station{
             measuring_authority_id: Some(d.owner.to_string()),
             station_type: Some(d.station_type_name.to_string()),
             regulation_status: d.catchment_reg_type_name.clone(),
-            station_parameters: parameters
+            station_parameters: parameters,
         }
-
     }
-    pub async fn from_ukgov(item: &uk::station::Item) -> Option<Self>{
+    pub async fn from_ukgov(item: &uk::station::Item) -> Option<Self> {
         let s = item;
         let id = s.notation.to_string();
         let loc = Location::location_from_uk(item, &id).await;
         let station_parameters = StationParameter::from_ukgov_station(item).await;
         match loc {
             Some(location) => {
-                let status = [s.status.is_empty(), s.status.iter().any(|v|v.label == "Active")].iter()
-                    .any(|a| a==&true);
+                let status = [s.status.is_empty(), s.status.iter().any(|v| v.label == "Active")].iter()
+                    .any(|a| a == &true);
 
                 let station = Self {
                     location,
@@ -68,10 +73,9 @@ impl Station{
                     station_parameters,
                 };
                 Some(station)
-            },
+            }
             None => None,
         }
-
     }
 }
 
@@ -79,8 +83,11 @@ impl Station{
 #[cfg(test)]
 mod Tests {
     use tokio;
+
     use crate::dev;
+
     use super::*;
+
     #[tokio::test]
     async fn nve_build_internal_station() {
         let test = dev::_read_file("src/dev/json/nve/gryta/6.10.0station.json").await.unwrap();
@@ -98,6 +105,5 @@ mod Tests {
         let internal_station = Station::from_ukgov(item).await.unwrap();
         let parameters = internal_station.station_parameters;
     }
-
 }
 
